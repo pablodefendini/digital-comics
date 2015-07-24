@@ -1,0 +1,95 @@
+// -----------------------------------------------------------------------------
+// Table of contents
+// --------------------------------------
+// 1.0 imports
+// 2.0 variables
+// 3.0 typography
+// 4.0 layout
+// 5.0 general
+// 6.0 animation
+// 7.0 modules
+// -----------------------------------------------------------------------------
+
+
+// 1.0 imports
+// -----------------------------------------------------------------------------
+// defines any imported .scss files. Compass imports go first, then all others. 
+// Separated by a line break for easier readability
+// -----------------------------------------------------------------------------
+@import 'compass/reset';
+@import 'compass/css3/transition';
+@import 'compass/css3/flexbox';
+@import 'compass/css3/images';
+
+// 2.0 variables
+// -----------------------------------------------------------------------------
+// all variables used in this file
+// -----------------------------------------------------------------------------
+//$main-color: #04638D; 
+
+// 3.0 typography
+// -----------------------------------------------------------------------------
+// all typographic rules, including colors, text-transforms, and bottom margins
+// -----------------------------------------------------------------------------
+body {
+	font-size: 18px;
+	text-align: center;
+}
+
+// 4.0 layout
+// -----------------------------------------------------------------------------
+// all layout rules, including floats, flexbox, position, overflow, z-index, 
+// widths, heights, margins, padding, etc.
+// -----------------------------------------------------------------------------
+.site-header {
+	width: 100%;
+	height: 3em;
+	padding: 1em 0em;
+}
+
+.page {
+	width: 100%;
+	margin: 0 auto;
+}
+.row {
+	@media (min-width: 760px) {
+		@include display-flex;
+	}
+	.panel {
+		border: 1px solid black;
+		margin: .25em;
+		width: 100%;
+		height: 200px;
+	}
+}
+
+#panel-2 {
+	@media (min-width: 760px) {
+		max-width: 50%;
+	}
+}
+
+#groot {
+	width: 427px;
+    float: right;
+    position: relative;
+    top: -66px;
+}
+
+// 5.0 style
+// -----------------------------------------------------------------------------
+// global color, decoration, and any other styles that don't fit comfortably 
+// in any of the other categories
+// -----------------------------------------------------------------------------
+
+
+// 6.0 animation
+// -----------------------------------------------------------------------------
+// transitions, transforms, animations, etc.
+// -----------------------------------------------------------------------------
+
+// 7.0 modules
+// -----------------------------------------------------------------------------
+// module level styles that don't fit either of the categories above, including
+// background, borders, pseudo element content etc.
+// -----------------------------------------------------------------------------
