@@ -50,30 +50,24 @@ body {
   text-align: center; }
 
 .site-header {
-  width: 100%;
+  width: 90%;
+  margin: 0 auto;
   height: 3em;
-  padding: 1em 0em; }
+  padding: 1em 0em;
+  border: 1px solid white; }
 
 .page {
   width: 100%;
   margin: 0 auto; }
 
-@media (min-width: 760px) {
-  .row {
-    display: -webkit-flex;
-    display: flex; } }
-.row .panel {
-  border: 1px solid black;
-  margin: .25em;
-  width: 100%;
-  height: 200px; }
+.panel {
+  min-height: 100px; }
 
-@media (min-width: 760px) {
-  #panel-2 {
-    max-width: 50%; } }
+.strip {
+  -webkit-display: flex; }
 
-#groot {
-  width: 427px;
-  float: right;
-  position: relative;
-  top: -66px; }
+body {
+  background-color: black; }
+
+.panel {
+  background-color: white; }
