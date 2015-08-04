@@ -46,7 +46,6 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   display: block; }
 
 body {
-  font-size: 18px;
   text-align: center; }
 
 .site-header {
@@ -54,20 +53,19 @@ body {
   margin: 0 auto;
   height: 3em;
   padding: 1em 0em;
-  border: 1px solid white; }
+  border: 1px solid black; }
 
-.page {
-  width: 100%;
+.comic-page__strip, .comic-page__full {
+  width: 95%;
+  max-width: 840px;
   margin: 0 auto; }
 
 .panel {
-  min-height: 100px; }
-
-.strip {
-  -webkit-display: flex; }
+  box-sizing: border-box; }
 
 body {
-  background-color: black; }
+  background-color: white; }
 
 .panel {
-  background-color: white; }
+  border: 1px solid black;
+  background-color: #b3b3b3; }

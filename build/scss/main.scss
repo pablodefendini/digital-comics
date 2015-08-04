@@ -17,23 +17,20 @@
 // Separated by a line break for easier readability
 // -----------------------------------------------------------------------------
 @import 'compass/reset';
-@import 'compass/css3/transition';
 @import 'compass/css3/flexbox';
-@import 'compass/css3/images';
 
 // 2.0 variables
 // -----------------------------------------------------------------------------
 // all variables used in this file
 // -----------------------------------------------------------------------------
-$background-color: black;
-$panel-background-color: white;
+$background-color: white;
+$main-color: black;
 
 // 3.0 typography
 // -----------------------------------------------------------------------------
 // all typographic rules, including colors, text-transforms, and bottom margins
 // -----------------------------------------------------------------------------
 body {
-	font-size: 18px;
 	text-align: center;
 }
 
@@ -47,40 +44,33 @@ body {
 	margin: 0 auto;
 	height: 3em;
 	padding: 1em 0em;
-	border: 1px solid $panel-background-color;
+	border: 1px solid $main-color;
 }
 
-.page {
-	width: 100%;
-	margin: 0 auto;
+.comic-page {
+	&__strip, &__full {
+		width: 95%;
+		max-width: 840px;
+		margin: 0 auto;
+	}
 }
 
 .panel {
-	min-height: 100px;
-}
-
-.strip {
-	-webkit-display: flex;
-}
-
-.full {
-
-}
-
-.fluid {
-
+	box-sizing: border-box;
 }
 
 // 5.0 style
 // -----------------------------------------------------------------------------
-// global color, decoration, and any other styles that don't fit comfortably 
-// in any of the other categories
+// global colors, decorations like shadows, gradients, etc., 
+// and any other styles that don't fit comfortably in any of 
+// the other categories
 // -----------------------------------------------------------------------------
 body {
 	background-color: $background-color;
 }
 .panel {
-	background-color: $panel-background-color;
+	border: 1px solid $main-color;
+	background-color: lighten($main-color, 70%);
 }
 
 // 6.0 animation
