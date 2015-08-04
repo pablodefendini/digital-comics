@@ -33,6 +33,14 @@ $main-color: black;
 body {
 	text-align: center;
 }
+.site-header {
+	.title {
+		font-size: 1.5em;
+	}
+	.subtitle {
+		font-size: 1.2em;
+	}
+}
 
 // 4.0 layout
 // -----------------------------------------------------------------------------
@@ -40,22 +48,20 @@ body {
 // widths, heights, margins, padding, etc.
 // -----------------------------------------------------------------------------
 .site-header {
-	width: 90%;
+	width: 95%;
 	margin: 0 auto;
-	height: 3em;
-	padding: 1em 0em;
-	border: 1px solid $main-color;
+	box-sizing: border-box;
 }
 
 .comic-page {
 	&__strip, &__full {
 		width: 95%;
-		max-width: 840px;
 		margin: 0 auto;
 	}
 }
 
 .panel {
+	min-height: 200px; // I'm not sure if we need this, once panels actually include stuff in them (or when we start to assign heights to panels for layout purposes)
 	box-sizing: border-box;
 }
 
@@ -68,6 +74,11 @@ body {
 body {
 	background-color: $background-color;
 }
+
+.site-header {
+	border: 1px solid $main-color;
+}
+
 .panel {
 	border: 1px solid $main-color;
 	background-color: lighten($main-color, 70%);

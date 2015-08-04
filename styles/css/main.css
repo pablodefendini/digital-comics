@@ -48,23 +48,29 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
 body {
   text-align: center; }
 
+.site-header .title {
+  font-size: 1.5em; }
+.site-header .subtitle {
+  font-size: 1.2em; }
+
 .site-header {
-  width: 90%;
+  width: 95%;
   margin: 0 auto;
-  height: 3em;
-  padding: 1em 0em;
-  border: 1px solid black; }
+  box-sizing: border-box; }
 
 .comic-page__strip, .comic-page__full {
   width: 95%;
-  max-width: 840px;
   margin: 0 auto; }
 
 .panel {
+  min-height: 200px;
   box-sizing: border-box; }
 
 body {
   background-color: white; }
+
+.site-header {
+  border: 1px solid black; }
 
 .panel {
   border: 1px solid black;
