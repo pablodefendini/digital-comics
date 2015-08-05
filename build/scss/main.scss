@@ -23,8 +23,8 @@
 // -----------------------------------------------------------------------------
 // all variables used in this file
 // -----------------------------------------------------------------------------
-$background-color: white;
-$main-color: black;
+$color-background: white;
+$color-main: black;
 
 // 3.0 typography
 // -----------------------------------------------------------------------------
@@ -37,10 +37,16 @@ body {
 .site-header {
 	.title {
 		font-size: 1.5em;
+		line-height: 2em;
 	}
 	.subtitle {
 		font-size: 1.2em;
+		line-height: 1.2em;
 	}
+}
+
+.grid-title {
+	font-size: 1.2em;
 }
 
 // 4.0 layout
@@ -51,26 +57,31 @@ body {
 .site-header {
 	width: 95%;
 	margin: 0 auto;
+	padding-top: .5em;
 	box-sizing: border-box;
 }
 
-// general styles for all of the strip, full, and fluid layouts.
+.grid-title {
+	padding: 1em;
+}
+
+// these are the general styles for all 
+// all three types of layouts.
 .comic-page {
 	&__strip, &__full {
-		width: 95%;
+		width: 98%;
 		margin: 1em auto 2em;
 		max-width: 800px;
 		justify-content: center;
 		box-sizing: border-box;
 		.row {
 			box-sizing: border-box;
-			.panel {
-				flex-grow: 1;
-			}
 			@media (min-width: 700px) {
 				@include display-flex;
 				flex-wrap: no-wrap;
-				justify-content: center;
+			}
+			.panel {
+				flex-grow: 1;
 			}
 		}
 	}
@@ -95,6 +106,16 @@ body {
 	}
 }
 
+// general margin and box-model baseline for panels.
+.panel {
+	box-sizing: border-box;
+	margin: .3em;
+}
+
+// these alter the height measurements for each panel,
+// depending on the number of rows in a layout,
+// in order to preserve the general overall 
+// proprotions of the page.
 .one-row {
 	.panel {
 		min-height: 200px;
@@ -115,15 +136,73 @@ body {
 		min-height: 220px;
 	}
 }
-.panel {
-	box-sizing: border-box;
-	margin: .3em;
-}
 
 // specific styles for individual layouts
-.kirby-1 .row {
-	flex-direction: column;
+// Kirby 1
+.kirby-1 {
+	.row {
+		flex-direction: column;
+	}
 }
+
+// Aja 1
+#aja-1-panel-1 {
+	min-height: 220px;
+}
+#aja-1-panel-2, #aja-1-panel-3, #aja-1-panel-4 {
+	min-height: 220px;
+}
+#aja-1-panel-5 {
+	min-height: 400px;
+}
+
+// Aja 2
+#aja-2-panel-1 {
+	min-height: 200px;
+}
+#aja-2-panel-2 {
+	flex-grow: 3;
+}
+#aja-2-panel-3 {
+	flex-grow: 3;
+}
+#aja-2-panel-4 {
+	flex-grow: 1;
+}
+#aja-2-panel-5 {
+	flex-grow: 1;
+}
+#aja-2-panel-6 {
+	min-height: 210px;
+	align-self: flex-start;
+	flex-grow: 2;
+}
+#aja-2-panel-7 {
+	min-height: 80px;
+	align-self: flex-end;
+	margin-left: -18.25%;
+	flex-grow: 2;
+}
+#aja-2-panel-8 {
+	min-height: 300px;
+	flex-grow: 10;
+}
+#aja-2-panel-9 {
+	min-height: 80px;
+	flex-grow: 2;
+	align-self: flex-start;
+}
+#aja-2-panel-10 {
+	min-height: 210px;
+	align-self: flex-end;
+	margin-left: -18.25%;
+	flex-grow: 2;
+}
+#aja-2-panel-11 {
+	min-height: 200px;
+}
+
+// Aja 3
 
 // 5.0 style
 // -----------------------------------------------------------------------------
@@ -132,22 +211,19 @@ body {
 // the other categories
 // -----------------------------------------------------------------------------
 body {
-	background-color: $background-color;
-}
-
-.site-header {
-	border: 1px solid $main-color;
+	background-color: $color-background;
 }
 
 .comic-page {
 	&__strip, &__full {
-		border: 1px solid red;
+		background-color: lighten($color-main, 70%);
 	}
 }
 
 .panel {
-	border: 1px solid $main-color;
-	background-color: lighten($main-color, 70%);
+	color: $color-background;
+	border: 1px solid $color-main;
+	background-color: lighten($color-main, 50%);
 }
 
 // 6.0 animation

@@ -171,6 +171,17 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
+	"\/img\/crash.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 8366,
+		"inputAbbreviatedPath": "\/img\/crash.png",
+		"outputAbbreviatedPath": "\/img\/crash.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/img\/groot.png": {
 		"fileType": 32768,
 		"ignore": 0,

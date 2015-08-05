@@ -50,31 +50,39 @@ body {
   font-family: "Helvetica Neue", "Helvetica", sans-serif; }
 
 .site-header .title {
-  font-size: 1.5em; }
+  font-size: 1.5em;
+  line-height: 2em; }
 .site-header .subtitle {
+  font-size: 1.2em;
+  line-height: 1.2em; }
+
+.grid-title {
   font-size: 1.2em; }
 
 .site-header {
   width: 95%;
   margin: 0 auto;
+  padding-top: .5em;
   box-sizing: border-box; }
 
+.grid-title {
+  padding: 1em; }
+
 .comic-page__strip, .comic-page__full {
-  width: 95%;
+  width: 98%;
   margin: 1em auto 2em;
   max-width: 800px;
   justify-content: center;
   box-sizing: border-box; }
   .comic-page__strip .row, .comic-page__full .row {
     box-sizing: border-box; }
-    .comic-page__strip .row .panel, .comic-page__full .row .panel {
-      flex-grow: 1; }
     @media (min-width: 700px) {
       .comic-page__strip .row, .comic-page__full .row {
         display: -webkit-flex;
         display: flex;
-        flex-wrap: no-wrap;
-        justify-content: center; } }
+        flex-wrap: no-wrap; } }
+    .comic-page__strip .row .panel, .comic-page__full .row .panel {
+      flex-grow: 1; }
 .comic-page__strip .row {
   display: -webkit-flex;
   display: flex;
@@ -92,6 +100,10 @@ body {
     .comic-page__strip .panel {
       min-width: 100px; } }
 
+.panel {
+  box-sizing: border-box;
+  margin: .3em; }
+
 .one-row .panel {
   min-height: 200px; }
 
@@ -104,22 +116,69 @@ body {
 .four-row .panel {
   min-height: 220px; }
 
-.panel {
-  box-sizing: border-box;
-  margin: .3em; }
-
 .kirby-1 .row {
   flex-direction: column; }
+
+#aja-1-panel-1 {
+  min-height: 220px; }
+
+#aja-1-panel-2, #aja-1-panel-3, #aja-1-panel-4 {
+  min-height: 220px; }
+
+#aja-1-panel-5 {
+  min-height: 400px; }
+
+#aja-2-panel-1 {
+  min-height: 200px; }
+
+#aja-2-panel-2 {
+  flex-grow: 3; }
+
+#aja-2-panel-3 {
+  flex-grow: 3; }
+
+#aja-2-panel-4 {
+  flex-grow: 1; }
+
+#aja-2-panel-5 {
+  flex-grow: 1; }
+
+#aja-2-panel-6 {
+  min-height: 210px;
+  align-self: flex-start;
+  flex-grow: 2; }
+
+#aja-2-panel-7 {
+  min-height: 80px;
+  align-self: flex-end;
+  margin-left: -18.25%;
+  flex-grow: 2; }
+
+#aja-2-panel-8 {
+  min-height: 300px;
+  flex-grow: 10; }
+
+#aja-2-panel-9 {
+  min-height: 80px;
+  flex-grow: 2;
+  align-self: flex-start; }
+
+#aja-2-panel-10 {
+  min-height: 210px;
+  align-self: flex-end;
+  margin-left: -18.25%;
+  flex-grow: 2; }
+
+#aja-2-panel-11 {
+  min-height: 200px; }
 
 body {
   background-color: white; }
 
-.site-header {
-  border: 1px solid black; }
-
 .comic-page__strip, .comic-page__full {
-  border: 1px solid red; }
+  background-color: #b3b3b3; }
 
 .panel {
+  color: white;
   border: 1px solid black;
-  background-color: #b3b3b3; }
+  background-color: gray; }
