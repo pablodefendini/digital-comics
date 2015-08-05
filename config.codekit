@@ -40,15 +40,6 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/build\/partials\/_page.kit": {
-		"fileType": 2048,
-		"ignore": 1,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/build\/partials\/_page.kit",
-		"outputAbbreviatedPath": "\/app\/_page.html",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
 	"\/build\/partials\/_site-header.kit": {
 		"fileType": 2048,
 		"ignore": 1,

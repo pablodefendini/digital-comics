@@ -54,6 +54,7 @@ body {
 	box-sizing: border-box;
 }
 
+// general styles for all of the strip, full, and fluid layouts.
 .comic-page {
 	&__strip, &__full {
 		width: 95%;
@@ -66,24 +67,61 @@ body {
 			.panel {
 				flex-grow: 1;
 			}
-			@media (min-width: 600px) {
+			@media (min-width: 700px) {
 				@include display-flex;
 				flex-wrap: no-wrap;
 				justify-content: center;
 			}
 		}
 	}
+	&__strip {
+		.row {
+			@include display-flex;
+			flex-direction: column;
+			justify-content: center;
+			align-items: center;
+			@media (min-width: 700px) {
+				flex-direction: row;
+				flex-wrap: no-wrap;
+			}
+		}
+		.panel {
+			max-width: 320px;
+			min-width: 300px;
+			@media (min-width: 700px) {
+				min-width: 100px;
+			}
+		}
+	}
 }
 
+.one-row {
+	.panel {
+		min-height: 200px;
+	}
+}
+.two-row {
+	.panel {
+		min-height: 440px;
+	}
+}
+.three-row {
+	.panel {
+		min-height: 290px;
+	}
+}
+.four-row {
+	.panel {
+		min-height: 220px;
+	}
+}
 .panel {
-	min-height: 200px; // I'm not sure if we will need this once panels actually include stuff in them (or when we start to assign heights to panels for layout purposes)
 	box-sizing: border-box;
 	margin: .3em;
 }
 
-.kirby-1 .row {
-	flex-direction: column;
-}
+// specific styles for individual layouts
+
 
 // 5.0 style
 // -----------------------------------------------------------------------------
