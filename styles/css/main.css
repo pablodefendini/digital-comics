@@ -108,6 +108,9 @@ body {
   box-sizing: border-box;
   margin: .3em; }
 
+.kirby-1 .row {
+  flex-direction: column; }
+
 body {
   background-color: white; }
 

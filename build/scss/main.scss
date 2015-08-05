@@ -121,7 +121,9 @@ body {
 }
 
 // specific styles for individual layouts
-
+.kirby-1 .row {
+	flex-direction: column;
+}
 
 // 5.0 style
 // -----------------------------------------------------------------------------
