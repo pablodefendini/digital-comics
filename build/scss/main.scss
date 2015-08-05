@@ -56,13 +56,32 @@ body {
 .comic-page {
 	&__strip, &__full {
 		width: 95%;
-		margin: 0 auto;
+		margin: 1em auto 2em;
+		max-width: 800px;
+		justify-content: center;
+		box-sizing: border-box;
+	.row {
+		box-sizing: border-box;
+		.panel {
+			flex-grow: 1;
+		}
+		@media (min-width: 600px) {
+			@include display-flex;
+			flex-wrap: no-wrap;
+			justify-content: center;
+			}
+		}
 	}
 }
 
 .panel {
-	min-height: 200px; // I'm not sure if we need this, once panels actually include stuff in them (or when we start to assign heights to panels for layout purposes)
+	min-height: 200px; // I'm not sure if we will need this once panels actually include stuff in them (or when we start to assign heights to panels for layout purposes)
 	box-sizing: border-box;
+	margin: .3em;
+}
+
+.kirby-1 .row {
+	flex-direction: column;
 }
 
 // 5.0 style
@@ -77,6 +96,12 @@ body {
 
 .site-header {
 	border: 1px solid $main-color;
+}
+
+.comic-page {
+	&__strip, &__full {
+		border: 1px solid red;
+	}
 }
 
 .panel {
