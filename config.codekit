@@ -67,6 +67,78 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
+	"\/build\/partials\/layouts\/_layout__full--aja-1.kit": {
+		"fileType": 2048,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/build\/partials\/layouts\/_layout__full--aja-1.kit",
+		"outputAbbreviatedPath": "\/app\/_layout__full--aja-1.html",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/build\/partials\/layouts\/_layout__full--aja-2.kit": {
+		"fileType": 2048,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/build\/partials\/layouts\/_layout__full--aja-2.kit",
+		"outputAbbreviatedPath": "\/app\/_layout__full--aja-2.html",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/build\/partials\/layouts\/_layout__full--aja-3.kit": {
+		"fileType": 2048,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/build\/partials\/layouts\/_layout__full--aja-3.kit",
+		"outputAbbreviatedPath": "\/app\/_layout__full--aja-3.html",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/build\/partials\/layouts\/_layout__full--kirby-1.kit": {
+		"fileType": 2048,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/build\/partials\/layouts\/_layout__full--kirby-1.kit",
+		"outputAbbreviatedPath": "\/app\/_layout__full--kirby-1.html",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/build\/partials\/layouts\/_layout__full--kirby-2.kit": {
+		"fileType": 2048,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/build\/partials\/layouts\/_layout__full--kirby-2.kit",
+		"outputAbbreviatedPath": "\/app\/_layout__full--kirby-2.html",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/build\/partials\/layouts\/_layout__full--kirby-3.kit": {
+		"fileType": 2048,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/build\/partials\/layouts\/_layout__full--kirby-3.kit",
+		"outputAbbreviatedPath": "\/app\/_layout__full--kirby-3.html",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/build\/partials\/layouts\/_layout__strip--3-panel.kit": {
+		"fileType": 2048,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/build\/partials\/layouts\/_layout__strip--3-panel.kit",
+		"outputAbbreviatedPath": "\/app\/_layout__strip--3-panel.html",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/build\/partials\/layouts\/_layout__strip--4-panel.kit": {
+		"fileType": 2048,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/build\/partials\/layouts\/_layout__strip--4-panel.kit",
+		"outputAbbreviatedPath": "\/app\/_layout__strip--4-panel.html",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
 	"\/build\/scss\/_print.sass": {
 		"createSourceMap": 0,
 		"debugStyle": 0,
