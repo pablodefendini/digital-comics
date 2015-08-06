@@ -65,6 +65,9 @@ body {
   padding-top: .5em;
   box-sizing: border-box; }
 
+footer {
+  padding-bottom: 1000px; }
+
 .grid-title {
   padding: 1em; }
 
@@ -173,6 +176,59 @@ body {
 
 #aja-2-panel-11 {
   min-height: 200px; }
+
+#aja-3-row-3 {
+  margin-top: -104px;
+  min-height: 250px; }
+
+#aja-3-row-4 {
+  margin-top: -90px;
+  min-height: 470px; }
+
+#aja-3-panel-1 {
+  min-height: 150px; }
+
+#aja-3-panel-2 {
+  max-height: 100px;
+  margin-top: -100px; }
+
+#aja-3-panel-3 {
+  max-height: 100px;
+  margin-top: -60px;
+  z-index: 2; }
+
+#aja-3-panel-4 {
+  max-height: 100px;
+  margin-top: 5px;
+  z-index: 2; }
+
+#aja-3-panel-5 {
+  min-height: 150px;
+  height: 150px;
+  flex-grow: 1.5; }
+
+#aja-3-panel-6 {
+  z-index: 1;
+  padding-top: 100px; }
+
+#aja-3-panel-7 {
+  width: 100%; }
+
+#aja-3-panel-8 {
+  position: relative;
+  margin-left: -540px;
+  width: 150px;
+  height: 200px; }
+
+#aja-3-panel-9 {
+  position: relative;
+  margin-left: -340px;
+  width: 150px;
+  height: 200px; }
+
+#aja-3-panel-10 {
+  flex-grow: 1;
+  align-self: flex-end; }
 
 body {
   background-color: white; }
