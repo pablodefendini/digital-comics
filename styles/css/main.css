@@ -129,7 +129,7 @@ body {
   min-height: 400px; }
 
 #aja-2-panel-1 {
-  height: 200px; }
+  min-height: 150px; }
 
 #aja-2-panel-2 {
   flex-grow: 3; }
@@ -145,7 +145,7 @@ body {
 
 #aja-2-column-1 {
   flex-grow: 1;
-  height: 300px; }
+  min-height: 300px; }
 
 #aja-2-panel-6 {
   flex-grow: 2;
@@ -157,11 +157,11 @@ body {
 
 #aja-2-panel-8 {
   flex-grow: 5;
-  height: 300px; }
+  min-height: 300px; }
 
 #aja-2-column-2 {
   flex-grow: 1;
-  height: 300px; }
+  min-height: 300px; }
 
 #aja-2-panel-9 {
   flex-grow: 2; }
@@ -172,7 +172,7 @@ body {
   min-height: 75px; }
 
 #aja-2-panel-11 {
-  height: 200px; }
+  min-height: 200px; }
 
 body {
   background-color: white; }
