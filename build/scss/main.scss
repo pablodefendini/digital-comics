@@ -209,6 +209,13 @@ footer {
 }
 
 // Aja 3
+.aja-3 {
+	.panel {
+		margin: 0;
+		border: .4em solid lighten($color-main, 70%);
+		box-shadow: .3em -1 0 lighten($color-main, 70%);
+	}
+}
 #aja-3-row-1 {
 } 
 #aja-3-row-2 {
@@ -218,8 +225,13 @@ footer {
 	min-height: 250px;
 }
 #aja-3-row-4 {
-	margin-top: -90px;
+	margin-top: -100px;
 	min-height: 470px;
+	border: .4em solid lighten($color-main, 70%);
+	box-sizing: border-box;
+	background-color: lighten($color-main, 50%);
+	color: $color-background;
+	text-align: center;
 }
 #aja-3-panel-1 {
 	min-height: 150px;
@@ -247,23 +259,21 @@ footer {
 	z-index: 1;
 	padding-top: 100px;
 }
-#aja-3-panel-7 {
-	width: 100%;
-}
 #aja-3-panel-8 {
 	position: relative;
-	margin-left: -540px;
-	width: 150px;
+	left: 10px;
+	top: 15px;
 	height: 200px;
+	transform: rotate(-10deg);
 }
 #aja-3-panel-9 {
 	position: relative;
-	margin-left: -340px;
-	width: 150px;
+	top: 120px;
+	left:10px;
 	height: 200px;
+	transform: rotate(10deg);
 }
 #aja-3-panel-10 {
-	flex-grow: 1;
 	align-self: flex-end;
 }
 
