@@ -17,6 +17,7 @@
 // Separated by a line break for easier readability
 // -----------------------------------------------------------------------------
 @import 'compass/reset';
+@import "compass/css3/transform";
 @import 'compass/css3/flexbox';
 
 // 2.0 variables
@@ -76,28 +77,28 @@ footer {
 		width: 98%;
 		margin: 1em auto 2em;
 		max-width: 800px;
-		justify-content: center;
+		@include justify-content(center);
 		box-sizing: border-box;
 		.row {
 			box-sizing: border-box;
 			@media (min-width: 700px) {
 				@include display-flex;
-				flex-wrap: no-wrap;
+				@include flex-wrap(no-wrap);
 			}
 			.panel {
-				flex-grow: 1;
+				@include flex-grow(1);
 			}
 		}
 	}
 	&__strip {
 		.row {
 			@include display-flex;
-			flex-direction: column;
-			justify-content: center;
-			align-items: center;
+			@include flex-direction(column);
+			@include justify-content(center);
+			@include align-items(center);
 			@media (min-width: 700px) {
-				flex-direction: row;
-				flex-wrap: no-wrap;
+				@include flex-direction(row);
+				@include flex-wrap(no-wrap);
 			}
 		}
 		.panel {
@@ -145,7 +146,7 @@ footer {
 // Kirby 1
 .kirby-1 {
 	.row {
-		flex-direction: column;
+		@include flex-direction(column);
 	}
 }
 
@@ -165,43 +166,43 @@ footer {
 	min-height: 150px;
 }
 #aja-2-panel-2 {
-	flex-grow: 3;
+	@include flex-grow(3);
 }
 #aja-2-panel-3 {
-	flex-grow: 3;
+	@include flex-grow(3);
 }
 #aja-2-panel-4 {
-	flex-grow: 1;
+	@include flex-grow(1);
 }
 #aja-2-panel-5 {
-	flex-grow: 1;
+	@include flex-grow(1);
 }
 #aja-2-column-1 {
-	flex-grow: 1;
+	@include flex-grow(1);
 	min-height: 300px;
 }
 #aja-2-panel-6 {
-	flex-grow: 2;
+	@include flex-grow(2);
 	min-height: 75px;
 }
 #aja-2-panel-7 {
-	flex-grow: 2;
-	align-self: flex-end;
+	@include flex-grow(2);
+	@include align-self(flex-end);
 }
 #aja-2-panel-8 {
-	flex-grow: 5;
+	@include flex-grow(5);
 	min-height: 300px;
 }
 #aja-2-column-2 {
-	flex-grow: 1;
+	@include flex-grow(1);
 	min-height: 300px;
 }
 #aja-2-panel-9 {
-	flex-grow: 2;
+	@include flex-grow(2);
 }
 #aja-2-panel-10 {
-	flex-grow: 2;
-	align-self: flex-end;
+	@include flex-grow(2);
+	@include align-self(flex-end);
 	min-height: 75px;
 }
 #aja-2-panel-11 {
@@ -253,7 +254,7 @@ footer {
 #aja-3-panel-5 {
 	min-height: 150px;
 	height: 150px;
-	flex-grow: 1.5;
+	@include flex-grow(1.5);
 }
 #aja-3-panel-6 {
 	z-index: 1;
@@ -264,17 +265,17 @@ footer {
 	left: 10px;
 	top: 15px;
 	height: 200px;
-	transform: rotate(-10deg);
+	@include rotate(-10deg);
 }
 #aja-3-panel-9 {
 	position: relative;
 	top: 120px;
 	left:10px;
 	height: 200px;
-	transform: rotate(10deg);
+	@include rotate(10deg);
 }
 #aja-3-panel-10 {
-	align-self: flex-end;
+	@include align-self(flex-end);
 }
 
 // 5.0 style

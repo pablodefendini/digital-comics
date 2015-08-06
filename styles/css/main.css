@@ -75,6 +75,7 @@ footer {
   width: 98%;
   margin: 1em auto 2em;
   max-width: 800px;
+  -webkit-justify-content: center;
   justify-content: center;
   box-sizing: border-box; }
   .comic-page__strip .row, .comic-page__full .row {
@@ -83,18 +84,25 @@ footer {
       .comic-page__strip .row, .comic-page__full .row {
         display: -webkit-flex;
         display: flex;
+        -webkit-flex-wrap: no-wrap;
         flex-wrap: no-wrap; } }
     .comic-page__strip .row .panel, .comic-page__full .row .panel {
+      -webkit-flex-grow: 1;
       flex-grow: 1; }
 .comic-page__strip .row {
   display: -webkit-flex;
   display: flex;
+  -webkit-flex-direction: column;
   flex-direction: column;
+  -webkit-justify-content: center;
   justify-content: center;
+  -webkit-align-items: center;
   align-items: center; }
   @media (min-width: 700px) {
     .comic-page__strip .row {
+      -webkit-flex-direction: row;
       flex-direction: row;
+      -webkit-flex-wrap: no-wrap;
       flex-wrap: no-wrap; } }
 .comic-page__strip .panel {
   max-width: 320px;
@@ -120,6 +128,7 @@ footer {
   min-height: 220px; }
 
 .kirby-1 .row {
+  -webkit-flex-direction: column;
   flex-direction: column; }
 
 #aja-1-panel-1 {
@@ -135,42 +144,55 @@ footer {
   min-height: 150px; }
 
 #aja-2-panel-2 {
+  -webkit-flex-grow: 3;
   flex-grow: 3; }
 
 #aja-2-panel-3 {
+  -webkit-flex-grow: 3;
   flex-grow: 3; }
 
 #aja-2-panel-4 {
+  -webkit-flex-grow: 1;
   flex-grow: 1; }
 
 #aja-2-panel-5 {
+  -webkit-flex-grow: 1;
   flex-grow: 1; }
 
 #aja-2-column-1 {
+  -webkit-flex-grow: 1;
   flex-grow: 1;
   min-height: 300px; }
 
 #aja-2-panel-6 {
+  -webkit-flex-grow: 2;
   flex-grow: 2;
   min-height: 75px; }
 
 #aja-2-panel-7 {
+  -webkit-flex-grow: 2;
   flex-grow: 2;
+  -webkit-align-self: flex-end;
   align-self: flex-end; }
 
 #aja-2-panel-8 {
+  -webkit-flex-grow: 5;
   flex-grow: 5;
   min-height: 300px; }
 
 #aja-2-column-2 {
+  -webkit-flex-grow: 1;
   flex-grow: 1;
   min-height: 300px; }
 
 #aja-2-panel-9 {
+  -webkit-flex-grow: 2;
   flex-grow: 2; }
 
 #aja-2-panel-10 {
+  -webkit-flex-grow: 2;
   flex-grow: 2;
+  -webkit-align-self: flex-end;
   align-self: flex-end;
   min-height: 75px; }
 
@@ -215,6 +237,7 @@ footer {
 #aja-3-panel-5 {
   min-height: 150px;
   height: 150px;
+  -webkit-flex-grow: 1.5;
   flex-grow: 1.5; }
 
 #aja-3-panel-6 {
@@ -226,6 +249,9 @@ footer {
   left: 10px;
   top: 15px;
   height: 200px;
+  -moz-transform: rotate(-10deg);
+  -ms-transform: rotate(-10deg);
+  -webkit-transform: rotate(-10deg);
   transform: rotate(-10deg); }
 
 #aja-3-panel-9 {
@@ -233,9 +259,13 @@ footer {
   top: 120px;
   left: 10px;
   height: 200px;
+  -moz-transform: rotate(10deg);
+  -ms-transform: rotate(10deg);
+  -webkit-transform: rotate(10deg);
   transform: rotate(10deg); }
 
 #aja-3-panel-10 {
+  -webkit-align-self: flex-end;
   align-self: flex-end; }
 
 body {
