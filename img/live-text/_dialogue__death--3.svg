@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="115px" height="90px" viewBox="0 0 115 90" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <!-- Generator: Sketch 3.3.3 (12072) - http://www.bohemiancoding.com/sketch -->
+    <title>_dialogue__death--3</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="_dialogue__death--3" sketch:type="MSArtboardGroup">
+            <path d="M18.0474196,90 C21.6400066,82.4938353 27.4352157,69.5666612 32.8914825,53.8293605 L33.2455112,52.8084827 L32.1773904,52.5530166 C12.6303776,47.8905145 0,38.1354595 0,27.7017919 C0,12.4270919 25.7948155,0 57.4994971,0 C89.2051845,0 115,12.4270919 115,27.7017919 C115,42.9764919 89.2051845,55.4035838 57.4994971,55.4035838 C52.5571755,55.4035838 47.644021,55.0968272 42.8958117,54.4931777 L42.2118925,54.4053921 L41.8830078,55.0001644 C36.8551963,64.0647707 28.8664171,76.9939175 18.0474196,90" id="word-balloon" stroke="#000000" fill="#D8BFA9" sketch:type="MSShapeGroup"></path>
+            <text id="Yeah?-What-kind-of-d" sketch:type="MSTextLayer" font-family="CCMonologous" font-size="10" font-weight="normal" sketch:alignment="middle" fill="#000000">
+                <tspan x="40.97" y="20">Yeah?</tspan>
+                <tspan x="16.455" y="31">What </tspan>
+                <tspan x="49.885" y="31" font-style="italic" font-weight="bold">kind</tspan>
+                <tspan x="81.905" y="31"> of </tspan>
+                <tspan x="41.31" y="42">deal?</tspan>
+            </text>
+        </g>
+    </g>
+</svg>

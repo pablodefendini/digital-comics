@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="170px" height="84px" viewBox="0 0 170 84" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <!-- Generator: Sketch 3.3.3 (12072) - http://www.bohemiancoding.com/sketch -->
+    <title>_dialogue__manhattan--1</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="_dialogue__manhattan--1" sketch:type="MSArtboardGroup">
+            <path d="M0,65.2404727 C0,48.0746412 12.3785282,32.2783635 32.3060218,24.0156635 L32.8406225,23.793936 L32.5541572,23.2813846 C25.2624053,10.2386528 21.7723705,3.37335145 20.1584815,0 C29.3173012,10.232465 34.8388188,17.926924 37.3988501,21.7426991 L37.6096643,22.0572427 C45.6095101,19.5006734 53.7233367,18.2631247 62.0822727,18.2631247 C79.6787056,18.2631247 96.5226627,23.9568799 108.294974,33.8861455 L108.997015,34.477075 L109.11604,33.5551012 C110.742033,21.0032637 123.792342,11.5380789 139.473291,11.5380789 C156.305144,11.5380789 170,22.5718567 170,36.1353903 C170,49.6978925 156.305144,60.7316703 139.473291,60.7316703 C134.080884,60.7316703 128.773207,59.5755936 124.12319,57.3892576 L123.212351,56.961272 L123.419131,57.9636864 C123.913384,60.3696873 124.164545,62.8179711 124.164545,65.2404727 C124.164545,72.1346501 122.227879,78.7802866 118.406997,85 L5.75754879,85 C1.93666673,78.7802866 0,72.1336189 0,65.2404727 Z" id="word-balloon" stroke="#000000" fill="#FFFFFF" sketch:type="MSShapeGroup"></path>
+            <text id="Well,-I-don’t--care-" sketch:type="MSTextLayer" font-family="CCSoliloquous" font-size="10" font-weight="normal" sketch:alignment="middle" fill="#000000">
+                <tspan x="28.0061" y="39.0851777">Well, I don’t </tspan>
+                <tspan x="20.0011" y="51.0851777" font-weight="bold">care</tspan>
+                <tspan x="46.3511" y="51.0851777"> what the </tspan>
+                <tspan x="9.0061" y="63.0851777">judge says, Laika…</tspan>
+                <tspan x="11.4161" y="75.0851777">this is </tspan>
+                <tspan x="50.6061" y="75.0851777" font-weight="bold">some</tspan>
+                <tspan x="82.4561" y="75.0851777"> ship.</tspan>
+            </text>
+            <text id="How-did-you—" sketch:type="MSTextLayer" font-family="CCSoliloquous" font-size="10" font-weight="normal" sketch:alignment="middle" fill="#000000">
+                <tspan x="116.384317" y="33.79">How did</tspan>
+                <tspan x="126.104317" y="45.79">you—</tspan>
+            </text>
+        </g>
+    </g>
+</svg>

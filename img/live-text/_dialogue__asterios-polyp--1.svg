@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="121px" height="110px" viewBox="0 0 121 110" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <!-- Generator: Sketch 3.3.3 (12072) - http://www.bohemiancoding.com/sketch -->
+    <title>_dialogue__asterios-polyp--1</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="_dialogue__asterios-polyp--1" sketch:type="MSArtboardGroup">
+            <path d="M101.122099,13.824 C118.680099,30.666 114.999099,52.606 114.960099,52.822 C114.918099,53.211 113.123099,72.994 101.420099,85.597 C99.0300991,88.171 96.8410991,90.356 94.9100991,92.284 C88.9700991,98.215 84.9600991,102.219 83.3840991,109.109 C80.0500991,103.734 73.3340991,97.257 59.8120991,93.221 C51.8280991,90.838 44.9010991,89.803 38.7890991,88.891 C25.9010991,86.966 16.5890991,85.575 7.3430991,72.877 C-5.9929009,54.562 2.8930991,34.866 2.9840991,34.672 C3.1000991,34.363 5.7570991,26.407 13.3050991,18.273 C23.3870991,7.408 36.9680991,1.372 53.6710991,0.334 C53.8200991,0.32 56.4500991,0 60.5430991,0 C70.3160991,0 88.5820991,1.796 101.122099,13.824 Z" id="word-balloon" stroke="#6D4762" stroke-width="2" fill="#FFFFFF" sketch:type="MSShapeGroup"></path>
+            <text id="everybody&quot;-class=&quot;dialogue__asterios-polyp" sketch:type="MSTextLayer" font-family="Bradley Hand" font-size="14" font-style="expanded" font-weight="bold" sketch:alignment="middle" line-spacing="16" fill="#6D4762">
+                <tspan x="24" y="35">Everybody, </tspan>
+                <tspan x="39.267" y="51">gather </tspan>
+                <tspan x="36.397" y="67">’round.</tspan>
+            </text>
+        </g>
+    </g>
+</svg>

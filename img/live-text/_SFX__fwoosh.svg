@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="166px" height="74px" viewBox="0 0 166 74" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <!-- Generator: Sketch 3.3.3 (12072) - http://www.bohemiancoding.com/sketch -->
+    <title>_SFX__fwoosh</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="_SFX__fwoosh" sketch:type="MSArtboardGroup" stroke="#9012FE" font-weight="normal" font-family="CCBiffBamBoom" fill="#F8E81C">
+            <text id="W" sketch:type="MSTextLayer" transform="translate(21.534555, 54.057296) rotate(-15.000000) translate(-21.534555, -54.057296) " font-size="41.8499985">
+                <tspan x="5.53455453" y="67.5572962">W</tspan>
+            </text>
+            <text id="H-Copy" sketch:type="MSTextLayer" transform="translate(44.917546, 41.438389) rotate(-10.000000) translate(-44.917546, -41.438389) " font-size="44.7599983">
+                <tspan x="31.4175461" y="55.9383891">H</tspan>
+            </text>
+            <text id="O" sketch:type="MSTextLayer" font-size="53.2216">
+                <tspan x="53.5" y="52">O</tspan>
+            </text>
+            <text id="O" sketch:type="MSTextLayer" font-size="62.0900002">
+                <tspan x="80.5" y="52">O</tspan>
+            </text>
+            <text id="S" sketch:type="MSTextLayer" font-size="47.9781">
+                <tspan x="104.5" y="56">S</tspan>
+            </text>
+            <text id="H" sketch:type="MSTextLayer" font-size="39.7558">
+                <tspan x="125.9686" y="55">H</tspan>
+            </text>
+            <text id="!" sketch:type="MSTextLayer" font-size="34.032">
+                <tspan x="144.4686" y="61.6252829">!</tspan>
+            </text>
+        </g>
+    </g>
+</svg>

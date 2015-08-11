@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="113px" height="134px" viewBox="0 0 113 134" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <!-- Generator: Sketch 3.3.3 (12072) - http://www.bohemiancoding.com/sketch -->
+    <title>_dialogue__death--2</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="_dialogue__death--2" sketch:type="MSArtboardGroup">
+            <path d="M58.7828939,134 C56.6633136,125.686135 53.7036922,111.588407 52.7597698,94.8205109 L52.7098268,93.9384643 L51.8308303,93.878393 C22.7670093,91.8960408 0,71.3156208 0,47.0257993 C0,21.0950307 25.3460651,0 56.5004994,0 C87.6549337,0 113,21.0950307 113,47.0257993 C113,70.5747417 91.8641286,90.6165226 63.8351263,93.644115 L63.1129507,93.7222077 L62.9641206,94.4340523 C60.8635186,104.504001 58.6230763,118.903086 58.7828939,134" id="word-balloon" stroke="#000000" fill="#D8BFA9" sketch:type="MSShapeGroup"></path>
+            <text id="-" sketch:type="MSTextLayer" font-family="CCMonologous" font-size="10" font-weight="normal" fill="#000000">
+                <tspan x="109.2211" y="38.9492797"> </tspan>
+            </text>
+            <text id="-" sketch:type="MSTextLayer" font-family="CCMonologous" font-size="10" font-weight="normal" fill="#000000">
+                <tspan x="40.0221" y="62.9492797"> </tspan>
+            </text>
+            <text id="Woman.--Not-girl.-Um" sketch:type="MSTextLayer" font-family="CCMonologous" font-size="10" font-style="italic" font-weight="bold" sketch:alignment="middle" fill="#000000">
+                <tspan x="29.26" y="29.615">Woman.</tspan>
+                <tspan x="85.74" y="29.615" font-weight="normal"> </tspan>
+                <tspan x="16.88" y="40.615" font-weight="normal">Not </tspan>
+                <tspan x="42.94" y="40.615">girl</tspan>
+                <tspan x="72.28" y="40.615" font-weight="normal">. Um,</tspan>
+                <tspan x="19.265" y="51.615">yes</tspan>
+                <tspan x="43.075" y="51.615" font-weight="normal">. Kind of.</tspan>
+                <tspan x="25.915" y="62.615" font-weight="normal">We made a </tspan>
+                <tspan x="39.68" y="73.615">deal</tspan>
+                <tspan x="72.79" y="73.615" font-weight="normal">.</tspan>
+            </text>
+        </g>
+    </g>
+</svg>

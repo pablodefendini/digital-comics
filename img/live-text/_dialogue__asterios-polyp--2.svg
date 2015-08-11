@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="214px" height="85px" viewBox="0 0 214 85" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <!-- Generator: Sketch 3.3.3 (12072) - http://www.bohemiancoding.com/sketch -->
+    <title>_dialogue__asterios-polyp--2</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="_dialogue__asterios-polyp--2" sketch:type="MSArtboardGroup">
+            <path d="M216,-8 L216,59.321 C212.654,61.11 201.057,66.734 187.519,66.734 C185.595,66.734 183.683,66.619 181.836,66.394 C177.366,65.849 171.943,65.561 166.155,65.561 C147.615,65.561 124.161,68.558 116.478,75.138 C112.697,78.376 108.193,81.908 104.225,84.926 C105.805,81.023 106.225,76.525 103.3,72.316 C100.379,68.112 96.284,66.397 89.169,66.397 C84.116,66.397 77.589,67.224 68.555,68.368 C61.303,69.286 52.279,70.429 41.32,71.466 C38.085,71.773 34.959,71.928 32.027,71.928 C3.168,71.928 -1.528,57.352 -2,55.534 L-2,-8 L216,-8" id="word-balloon" stroke="#6D4762" stroke-width="2" fill="#FFFFFF" sketch:type="MSShapeGroup"></path>
+            <text id="Good.-Here’s-what-I’" sketch:type="MSTextLayer" font-family="Bradley Hand" font-size="14" font-style="expanded" font-weight="bold" sketch:alignment="middle" line-spacing="16" fill="#6D4762">
+                <tspan x="15.2709102" y="19.921">Good. Here’s what I’d like you </tspan>
+                <tspan x="26.5339102" y="35.921">to remember: as a sculptor, </tspan>
+                <tspan x="9.60791016" y="51.921">you’re not just making forms...</tspan>
+            </text>
+        </g>
+    </g>
+</svg>
