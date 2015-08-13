@@ -147,6 +147,13 @@ footer {
 .four-row .panel {
   min-height: 220px; }
 
+@media (min-width: 300px) {
+  .four-panel-strip .row {
+    -webkit-flex-direction: row;
+    flex-direction: row;
+    -webkit-flex-wrap: wrap;
+    flex-wrap: wrap; } }
+
 .kirby-1 .row {
   -webkit-flex-direction: column;
   flex-direction: column; }

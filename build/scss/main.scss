@@ -118,7 +118,7 @@ footer {
 	margin: .3em;
 }
 
-// these alter the height measurements for each panel,
+// these alter the default height measurements for each panel,
 // depending on the number of rows in a layout,
 // in order to preserve the general overall 
 // proprotions of the page.
@@ -144,6 +144,16 @@ footer {
 }
 
 // specific styles for individual layouts
+// 4-panel strip
+.four-panel-strip {
+	.row {
+		@media (min-width: 300px) {
+			@include flex-direction(row);
+			@include flex-wrap(wrap);
+		}
+	}
+}
+
 // Kirby 1
 .kirby-1 {
 	.row {
