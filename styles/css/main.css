@@ -158,6 +158,13 @@ footer {
   -webkit-flex-direction: column;
   flex-direction: column; }
 
+@media (min-width: 570px) {
+  .kirby-2 .row {
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-wrap: no-wrap;
+    flex-wrap: no-wrap; } }
+
 #aja-1-panel-1 {
   min-height: 220px; }
 

@@ -19,26 +19,20 @@
 			<h1 class="title">A system of grids for digital comic layouts</h1>
 			<h2 class="subtitle">Written in HTML and CSS</h2>
 		</header>
-        		<h3 class="grid-title">3-panel strip layout</h3>
-		<p>This resembles a comic strip. It's composed of three panles of equal height. It's reflowable, so that the row of panels collapses to a column at small sizes.</p>
-		<section class="comic-page__strip one-row">
+        <!-- @ import '../build/partials/layouts/layout__strip--3-panel' -->
+        <!-- @ import '../build/partials/layouts/layout__strip--4-panel' -->
+        <!-- @ import '../build/partials/layouts/layout__full--kirby-1' -->
+        		<section class="comic-page__full two-row kirby-2">
+			<h3 class="grid-title">Jack Kirby Layout #2</h3>
 			<div class="row">
 				<div class="panel">Panel 1</div>
 				<div class="panel">Panel 2</div>
-				<div class="panel">Panel 3</div>
 			</div>
-		</section>        		<h3 class="grid-title">four-panel strip layout</h3>
-		<p>This layout is also intended for comic strips. It's composed of four panels of equal height. It's reflowable, and the row of panels collapses into two rows of two panels, and then into one column of four panels.</p>
-		<section class="comic-page__strip one-row four-panel-strip">
 			<div class="row">
-				<div class="panel">Panel 1</div>
-				<div class="panel">Panel 2</div>
 				<div class="panel">Panel 3</div>
 				<div class="panel">Panel 4</div>
 			</div>
-		</section>        <!-- @ import '../build/partials/layouts/layout__full--kirby-1' -->
-        <!-- @ import '../build/partials/layouts/layout__full--kirby-2' -->
-        <!-- @ import '../build/partials/layouts/layout__full--kirby-3' -->
+		</section>        <!-- @ import '../build/partials/layouts/layout__full--kirby-3' -->
         <!-- @ import '../build/partials/layouts/layout__full--aja-1' -->
         <!-- @ import '../build/partials/layouts/layout__full--aja-2' -->
         <!-- @ import '../build/partials/layouts/layout__full--aja-3' -->

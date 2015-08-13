@@ -161,6 +161,16 @@ footer {
 	}
 }
 
+// Kirby 2
+.kirby-2 {
+	.row {
+		@media (min-width: 570px) {
+			@include display-flex;
+			@include flex-wrap(no-wrap);
+		}
+	}
+}
+
 // Aja 1
 #aja-1-panel-1 {
 	min-height: 220px;
