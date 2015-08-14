@@ -45,25 +45,21 @@ a img {
 article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
   display: block; }
 
-#panel-1 {
-  max-height: 150px;
-  width: 50%;
-  margin-top: 10px; }
+.live-text .caption {
+  font-family: CCSoliloquous, "Helvetica Neue", "Helvetica", sans-serif;
+  font-size: .8em; }
 
-.st0 {
-  fill: #FFFFFF; }
+.live-text .caption {
+  margin: .5em .5em;
+  padding: .4em;
+  width: auto; }
+.live-text svg {
+  max-width: 100%; }
 
-.st1 {
-  fill: #6D4762; }
-
-.st2 {
-  fill: none; }
-
-.st3 {
-  font-family: 'BradleyHandITCTT-Bold'; }
-
-.st4 {
-  font-size: 38px; }
+.live-text .caption {
+  color: black;
+  border: 1px solid black;
+  background-color: white; }
 
 body {
   text-align: center;
@@ -262,8 +258,7 @@ footer {
     flex-wrap: no-wrap; } }
 .aja-3 .panel {
   margin: 0;
-  border: 0.4em solid #b3b3b3;
-  box-shadow: 0.3em -1 0 #b3b3b3; }
+  border: 0.4em solid #4d4d4d; }
 
 @media (min-width: 520px) {
   #aja-3-row-3 {
@@ -274,10 +269,9 @@ footer {
   #aja-3-row-4 {
     margin-top: -100px;
     min-height: 470px;
-    border: 0.4em solid #b3b3b3;
+    border: 0.4em solid #4d4d4d;
     box-sizing: border-box;
     background-color: gray;
-    color: white;
     text-align: center; } }
 
 @media (min-width: 520px) {
@@ -298,7 +292,6 @@ footer {
 @media (min-width: 520px) {
   #aja-3-panel-4 {
     max-height: 100px;
-    margin-top: 5px;
     z-index: 2; } }
 
 @media (min-width: 520px) {
@@ -350,13 +343,17 @@ footer {
   -webkit-align-self: flex-end;
   align-self: flex-end; }
 
-body {
-  background-color: white; }
+@media (min-width: 530px) {
+  .live-text .row {
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-wrap: no-wrap;
+    flex-wrap: no-wrap; } }
 
-.comic-page__strip, .comic-page__full {
-  background-color: #b3b3b3; }
+body {
+  color: white;
+  background-color: #4d4d4d; }
 
 .panel {
-  color: white;
   border: 1px solid black;
   background-color: gray; }

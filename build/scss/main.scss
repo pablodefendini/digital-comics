@@ -19,7 +19,7 @@
 @import 'compass/reset';
 @import "compass/css3/transform";
 @import 'compass/css3/flexbox';
-@import 'panel-styles';
+@import 'word-balloon-styles';
 
 // 2.0 variables
 // -----------------------------------------------------------------------------
@@ -267,8 +267,8 @@ footer {
 	}
 	.panel {
 		margin: 0;
-		border: .4em solid lighten($color-main, 70%);
-		box-shadow: .3em -1 0 lighten($color-main, 70%);
+		border: .4em solid lighten($color-main, 30%);
+		//box-shadow: .3em -1 0 lighten($color-main, 70%);
 	}
 }
 #aja-3-row-1 {
@@ -285,10 +285,10 @@ footer {
 	@media (min-width: 520px) {
 		margin-top: -100px;
 		min-height: 470px;
-		border: .4em solid lighten($color-main, 70%);
+		border: .4em solid lighten($color-main, 30%);
 		box-sizing: border-box;
 		background-color: lighten($color-main, 50%);
-		color: $color-background;
+		//color: $color-background;
 		text-align: center;
 	}
 }
@@ -313,7 +313,7 @@ footer {
 #aja-3-panel-4 {
 	@media (min-width: 520px) {
 		max-height: 100px;
-		margin-top: 5px;
+		//margin-top: 5px;
 		z-index: 2;
 	}
 }
@@ -354,6 +354,17 @@ footer {
 	@include align-self(flex-end);
 }
 
+// Live text sample page
+
+.live-text {
+	.row {
+		@media (min-width: 530px) {
+			@include display-flex;
+			@include flex-wrap(no-wrap);
+		}
+	}
+}
+
 // 5.0 style
 // -----------------------------------------------------------------------------
 // global colors, decorations like shadows, gradients, etc., 
@@ -361,17 +372,18 @@ footer {
 // the other categories
 // -----------------------------------------------------------------------------
 body {
-	background-color: $color-background;
+	color: white;
+	background-color: lighten($color-main, 30%);
 }
 
 .comic-page {
 	&__strip, &__full {
-		background-color: lighten($color-main, 70%);
+		//background-color: lighten($color-main, 70%);
 	}
 }
 
 .panel {
-	color: $color-background;
+	// color: $color-background;
 	border: 1px solid $color-main;
 	background-color: lighten($color-main, 50%);
 }
