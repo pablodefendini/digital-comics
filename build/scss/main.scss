@@ -171,7 +171,25 @@ footer {
 	}
 }
 
+// Kirby 3
+.kirby-3 {
+	.row {
+		@media (min-width: 500px) {
+			@include display-flex;
+			@include flex-wrap(no-wrap);
+		}
+	}
+}
+
 // Aja 1
+.aja-1 {
+	.row {
+		@media (min-width: 500px) {
+			@include display-flex;
+			@include flex-wrap(no-wrap);
+		}
+	}
+}
 #aja-1-panel-1 {
 	min-height: 220px;
 }
@@ -183,6 +201,15 @@ footer {
 }
 
 // Aja 2
+.aja-2 {
+	.row {
+		@media (min-width: 520px) {
+			@include display-flex;
+			@include flex-wrap(no-wrap);
+		}
+	}
+}
+
 #aja-2-panel-1 {
 	min-height: 150px;
 }
@@ -232,6 +259,12 @@ footer {
 
 // Aja 3
 .aja-3 {
+	.row {
+		@media (min-width: 520px) {
+			@include display-flex;
+			@include flex-wrap(no-wrap);
+		}
+	}
 	.panel {
 		margin: 0;
 		border: .4em solid lighten($color-main, 70%);
@@ -243,57 +276,79 @@ footer {
 #aja-3-row-2 {
 }
 #aja-3-row-3 {
-	margin-top: -104px;
-	min-height: 250px;
+	@media (min-width: 520px) {
+		margin-top: -104px;
+		min-height: 250px;
+	}
 }
 #aja-3-row-4 {
-	margin-top: -100px;
-	min-height: 470px;
-	border: .4em solid lighten($color-main, 70%);
-	box-sizing: border-box;
-	background-color: lighten($color-main, 50%);
-	color: $color-background;
-	text-align: center;
+	@media (min-width: 520px) {
+		margin-top: -100px;
+		min-height: 470px;
+		border: .4em solid lighten($color-main, 70%);
+		box-sizing: border-box;
+		background-color: lighten($color-main, 50%);
+		color: $color-background;
+		text-align: center;
+	}
 }
 #aja-3-panel-1 {
-	min-height: 150px;
+	@media (min-width: 520px) {
+		min-height: 150px;
+	}
 }
 #aja-3-panel-2 {
-	max-height: 100px;
-	margin-top: -100px;
+	@media (min-width: 520px) {
+		max-height: 100px;
+		margin-top: -100px;
+	}
 }
 #aja-3-panel-3 {
-	max-height: 100px;
-	margin-top: -60px;
-	z-index: 2;
+	@media (min-width: 520px) {
+		max-height: 100px;
+		margin-top: -60px;
+		z-index: 2;
+	}
 }
 #aja-3-panel-4 {
-	max-height: 100px;
-	margin-top: 5px;
-	z-index: 2;
+	@media (min-width: 520px) {
+		max-height: 100px;
+		margin-top: 5px;
+		z-index: 2;
+	}
 }
 #aja-3-panel-5 {
-	min-height: 150px;
-	height: 150px;
-	@include flex-grow(1.5);
+	@media (min-width: 520px) {
+		min-height: 150px;
+		height: 150px;
+		@include flex-grow(1.5);
+	}
 }
 #aja-3-panel-6 {
 	z-index: 1;
 	padding-top: 100px;
 }
 #aja-3-panel-8 {
-	position: relative;
-	left: 10px;
-	top: 15px;
-	height: 200px;
-	@include rotate(-10deg);
+	margin-top: 200px;
+	@include rotate(-2deg);
+	@media (min-width: 520px) {
+		position: relative;
+		margin-top: 0;
+		left: -40px;
+		top: 15px;
+		height: 200px;
+		@include rotate(-10deg);
+	}
 }
 #aja-3-panel-9 {
-	position: relative;
-	top: 120px;
-	left:10px;
-	height: 200px;
-	@include rotate(10deg);
+	@include rotate(2deg);
+	@media (min-width: 520px) {
+		position: relative;
+		top: 120px;
+		left:10px;
+		height: 200px;
+		@include rotate(10deg);
+	}
 }
 #aja-3-panel-10 {
 	@include align-self(flex-end);
