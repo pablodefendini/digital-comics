@@ -1,3 +1,28 @@
-#dialogue-asterios-polyp-1 {
-	
+#live-text__panel-2 {
+	background-image: url('../../img/artwork/background-asterios-polyp.gif');
+	background-size: cover;
+	background-position: right bottom;
+}
+#live-text__panel-3 {
+	background-color: yellow;
+	background-image: url('../../img/artwork/background-kitty.gif');
+	background-size: cover;
+	background-position: right 40px;
+	background-repeat: no-repeat;
+}
+
+#live-text__panel-6 {
+	background-color: purple;
+	background-image: url('../../img/artwork/background-thing.gif');
+	background-size: cover;
+	background-position: 110px 55px;
+	background-repeat: no-repeat;
+}
+
+#live-text__panel-7 {
+	background-color: brown;
+	background-image: url('../../img/artwork/background-yuri.gif'), url('../../img/artwork/background-laika.gif');
+	background-size: 200px, 240px;
+    background-position: 0px bottom, 260px bottom;
+	background-repeat: no-repeat;
 }
