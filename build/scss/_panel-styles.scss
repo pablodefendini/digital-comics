@@ -2,13 +2,31 @@
 	background-image: url('../../img/artwork/background-asterios-polyp.gif');
 	background-size: cover;
 	background-position: right bottom;
+	@media (min-width: 680px) {
+		background-position: -360px bottom;
+	}
 }
 #live-text__panel-3 {
 	background-color: yellow;
 	background-image: url('../../img/artwork/background-kitty.gif');
-	background-size: cover;
-	background-position: right 40px;
+	background-size: 220px;
+	background-position: 80% 40px;
 	background-repeat: no-repeat;
+	@media (min-width: 680px) {
+		background-position: 20px 130px;
+	}
+}
+
+#live-text__panel-4 {
+	background-color: green;
+	background-image: url('../../img/artwork/background-psylocke.gif');
+	background-size: 500px;
+	background-position: left 40px;
+	background-repeat: no-repeat;
+	@media (min-width: 680px) {
+		background-size: 360px;
+		background-position: left bottom;
+	}
 }
 
 #live-text__panel-6 {

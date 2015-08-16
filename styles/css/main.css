@@ -56,22 +56,83 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
 .live-text svg {
   max-width: 100%; }
 
+.row-two .panel {
+  height: 290px; }
+  @media (min-width: 680px) {
+    .row-two .panel {
+      height: 400px; } }
+
+@media (min-width: 680px) {
+  #live-text__panel-2 {
+    max-width: calc(100% / 3); } }
+#live-text__panel-2 svg {
+  position: absolute;
+  right: -30px; }
+  @media (min-width: 680px) {
+    #live-text__panel-2 svg {
+      position: relative;
+      top: 10px; } }
+
+@media (min-width: 680px) {
+  #live-text__panel-3 {
+    max-width: calc(100% / 3); } }
+#live-text__panel-3 svg {
+  margin-left: 10px; }
+
+@media (min-width: 680px) {
+  #live-text__panel-4 {
+    max-width: calc(100% / 3); } }
+#live-text__panel-4 svg {
+  margin-right: -120px; }
+  @media (min-width: 680px) {
+    #live-text__panel-4 svg {
+      margin-right: -110px;
+      margin-top: 20px; } }
+
 .live-text .caption {
   color: black;
   border: 1px solid black;
   background-color: white; }
 
+#live-text__panel-2 .caption {
+  color: white;
+  background-color: purple;
+  border: 1px solid purple; }
+
+#live-text__panel-3 .caption {
+  background-color: orange; }
+
+#live-text__panel-4 .caption {
+  background-color: yellow; }
+
 #live-text__panel-2 {
   background-image: url("../../img/artwork/background-asterios-polyp.gif");
   background-size: cover;
   background-position: right bottom; }
+  @media (min-width: 680px) {
+    #live-text__panel-2 {
+      background-position: -360px bottom; } }
 
 #live-text__panel-3 {
   background-color: yellow;
   background-image: url("../../img/artwork/background-kitty.gif");
-  background-size: cover;
-  background-position: right 40px;
+  background-size: 220px;
+  background-position: 80% 40px;
   background-repeat: no-repeat; }
+  @media (min-width: 680px) {
+    #live-text__panel-3 {
+      background-position: 20px 130px; } }
+
+#live-text__panel-4 {
+  background-color: green;
+  background-image: url("../../img/artwork/background-psylocke.gif");
+  background-size: 500px;
+  background-position: left 40px;
+  background-repeat: no-repeat; }
+  @media (min-width: 680px) {
+    #live-text__panel-4 {
+      background-size: 360px;
+      background-position: left bottom; } }
 
 #live-text__panel-6 {
   background-color: purple;
@@ -369,7 +430,7 @@ footer {
   -webkit-align-self: flex-end;
   align-self: flex-end; }
 
-@media (min-width: 530px) {
+@media (min-width: 680px) {
   .live-text .row {
     display: -webkit-flex;
     display: flex;

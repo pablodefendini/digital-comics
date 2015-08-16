@@ -359,7 +359,7 @@ footer {
 
 .live-text {
 	.row {
-		@media (min-width: 530px) {
+		@media (min-width: 680px) {
 			@include display-flex;
 			@include flex-wrap(no-wrap);
 		}
