@@ -45,6 +45,24 @@ a img {
 article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
   display: block; }
 
+@font-face {
+  font-family: 'CCSoliloquous';
+  src: url("../fonts/CCSoliloquous-Regular.ttf") format("truetype"); }
+@font-face {
+  font-family: 'CCMonologous';
+  src: url("../fonts/CCMonologousRegular.ttf") format("truetype"); }
+@font-face {
+  font-family: 'Bradley Hand';
+  src: url("../fonts/FOOO.ttf") format("truetype"); }
+@font-face {
+  font-family: 'CCBiffBamBoom';
+  src: url("../fonts/CCBiffBamBoom.ttf") format("truetype"); }
+@font-face {
+  font-family: 'CCShiver';
+  src: url("../fonts/CCShiver.ttf") format("truetype"); }
+@font-face {
+  font-family: 'CCShiverOpen';
+  src: url("../fonts/CCShiverOpen.ttf") format("truetype"); }
 .live-text .caption {
   font-family: CCSoliloquous, "Helvetica Neue", "Helvetica", sans-serif;
   font-size: .8em;
@@ -68,8 +86,8 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   #live-text__panel-1 svg {
     height: 84px;
     position: absolute;
-    bottom: 20px;
-    right: 100px; }
+    bottom: 10px;
+    right: 120px; }
 
 @media (min-width: 680px) {
   #live-text__panel-2 {

@@ -16,6 +16,7 @@
 // defines any imported .scss files. Compass imports go first, then all others. 
 // Separated by a line break for easier readability
 // -----------------------------------------------------------------------------
+
 // 2.0 variables
 // -----------------------------------------------------------------------------
 // all variables used in this file
@@ -64,8 +65,8 @@ $color-main: black;
 	svg {
 		height: 84px;
 		position: absolute;
-		bottom: 20px;
-		right: 100px;
+		bottom: 10px;
+		right: 120px;
 
 	}
 }
