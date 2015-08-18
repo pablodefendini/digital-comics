@@ -47,7 +47,8 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
 
 .live-text .caption {
   font-family: CCSoliloquous, "Helvetica Neue", "Helvetica", sans-serif;
-  font-size: .8em; }
+  font-size: .8em;
+  line-height: 1.3em; }
 
 .live-text .caption {
   margin: .5em .5em;
@@ -88,6 +89,38 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
     #live-text__panel-4 svg {
       margin-right: -110px;
       margin-top: 20px; } }
+
+#live-text__panel-5 svg {
+  position: relative;
+  top: 150px; }
+  @media (min-width: 680px) {
+    #live-text__panel-5 svg {
+      top: 160px;
+      left: -50px; } }
+
+#live-text__panel-6 {
+  position: relative; }
+  #live-text__panel-6 .caption {
+    position: absolute;
+    bottom: 0px;
+    right: 0px; }
+  #live-text__panel-6 svg {
+    margin-top: 10px; }
+
+#live-text__panel-7 {
+  position: relative; }
+  @media (min-width: 680px) {
+    #live-text__panel-7 .caption {
+      position: absolute;
+      right: 10px;
+      top: 10px;
+      max-width: 150px; } }
+  #live-text__panel-7 svg {
+    height: 84px;
+    position: absolute;
+    bottom: 0; }
+  #live-text__panel-7--1 {
+    left: 17%; }
 
 .live-text .caption {
   color: black;
@@ -139,6 +172,13 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   background-image: url("../../img/artwork/background-thing.gif");
   background-size: cover;
   background-position: 110px 55px;
+  background-repeat: no-repeat; }
+
+#live-text__panel-5 {
+  background-color: white;
+  background-image: url("../../img/artwork/background-plane.gif");
+  background-size: cover;
+  background-position: right bottom;
   background-repeat: no-repeat; }
 
 #live-text__panel-7 {

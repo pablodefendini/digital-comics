@@ -31,6 +31,7 @@ $color-main: black;
 	.caption {
 		font-family: CCSoliloquous, "Helvetica Neue", "Helvetica", sans-serif;
 		font-size: .8em;
+		line-height: 1.3em;
 	}
 }
 
@@ -92,6 +93,52 @@ $color-main: black;
 		}
 	}
 }
+
+#live-text__panel-5 {
+	svg {
+		position: relative;
+		top: 150px;
+		@media (min-width: 680px) {
+		    top: 160px;
+		    left: -50px;
+		}
+	}
+}
+
+#live-text__panel-6 {
+	position: relative;
+	.caption {
+		position: absolute;
+		bottom: 0px;
+		right: 0px;
+	}
+	svg {
+	//	position: absolute;
+		margin-top: 10px;
+	//	margin-left: 10px;
+	}
+}
+
+#live-text__panel-7 {
+	position: relative;
+	.caption {
+		@media (min-width: 680px) {
+			position: absolute;
+			right: 10px;
+			top: 10px;
+			max-width: 150px;
+		}
+	}
+	svg {
+		height: 84px;
+		position: absolute;
+		bottom: 0;
+	}
+	&--1 {
+		left: 17%;
+	}
+}
+
 // -----------------------------------------------------------------------------
 // 5.0 style 
 // -----------------------------------------------------------------------------
