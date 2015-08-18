@@ -63,6 +63,14 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
     .row-two .panel {
       height: 400px; } }
 
+#live-text__panel-1 {
+  position: relative; }
+  #live-text__panel-1 svg {
+    height: 84px;
+    position: absolute;
+    bottom: 20px;
+    right: 100px; }
+
 @media (min-width: 680px) {
   #live-text__panel-2 {
     max-width: calc(100% / 3); } }
@@ -137,6 +145,11 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
 
 #live-text__panel-4 .caption {
   background-color: yellow; }
+
+#live-text__panel-1 {
+  background-image: url("../../img/artwork/background-spidey.gif");
+  background-size: cover;
+  background-position: right -40px; }
 
 #live-text__panel-2 {
   background-image: url("../../img/artwork/background-asterios-polyp.gif");

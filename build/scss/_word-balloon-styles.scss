@@ -59,6 +59,17 @@ $color-main: black;
 	}
 }
 
+#live-text__panel-1 {
+	position: relative;
+	svg {
+		height: 84px;
+		position: absolute;
+		bottom: 20px;
+		right: 100px;
+
+	}
+}
+
 #live-text__panel-2 {
 	@media (min-width: 680px) {
 		max-width: calc(100% / 3);
