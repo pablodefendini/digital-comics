@@ -623,7 +623,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
 
 body {
   font-family: "jubilat", Georgia, serif;
-  font-size: 1em;
+  font-size: 18px;
   line-height: 1.4em;
   font-weight: 100;
 }
@@ -638,7 +638,12 @@ p {
 }
 
 .subtitle {
-  font-size: 1.3em;
+  font-size: 2em;
+  line-height: 1.4em;
+}
+
+.section-heading {
+  font-size: 1.5em;
   line-height: 1.4em;
 }
 
