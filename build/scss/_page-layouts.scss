@@ -1,0 +1,353 @@
+// -----------------------------------------------------------------------------
+// Table of contents
+// --------------------------------------
+// 1.0 imports
+// 2.0 variables
+// 3.0 typography
+// 4.0 layout
+// 5.0 general
+// 6.0 animation
+// 7.0 modules
+// -----------------------------------------------------------------------------
+
+
+// 1.0 imports
+// -----------------------------------------------------------------------------
+// defines any imported .scss files. Compass imports go first, then all others. 
+// Separated by a line break for easier readability
+// -----------------------------------------------------------------------------
+
+// 2.0 variables
+// -----------------------------------------------------------------------------
+// all variables used in this file
+// -----------------------------------------------------------------------------
+$color-background: white;
+$color-main: black;
+
+// 3.0 typography
+// -----------------------------------------------------------------------------
+// all typographic rules, including colors, text-transforms, and bottom margins
+// -----------------------------------------------------------------------------
+
+// 4.0 layout
+// -----------------------------------------------------------------------------
+// all layout rules, including floats, flexbox, position, overflow, z-index, 
+// widths, heights, margins, padding, etc.
+// ----------------------------------------------------------------------------
+
+// these are the general styles for all 
+// all three types of layouts.
+.comic-page {
+	&__strip, &__full {
+		width: 98%;
+		margin: 1em auto 2em;
+		max-width: 800px;
+		@include justify-content(center);
+		box-sizing: border-box;
+		.row {
+			box-sizing: border-box;
+			@media (min-width: 700px) {
+				@include display-flex;
+				@include flex-wrap(no-wrap);
+			}
+			.panel {
+				@include flex-grow(1);
+			}
+		}
+	}
+	&__strip {
+		.row {
+			@include display-flex;
+			@include flex-direction(column);
+			@include justify-content(center);
+			@include align-items(center);
+			@media (min-width: 700px) {
+				@include flex-direction(row);
+				@include flex-wrap(no-wrap);
+			}
+		}
+		.panel {
+			max-width: 320px;
+			min-width: 300px;
+			@media (min-width: 700px) {
+				min-width: 100px;
+			}
+		}
+	}
+}
+
+// general margin and box-model baseline for panels.
+.panel {
+	box-sizing: border-box;
+	margin: .3em;
+}
+
+// these alter the default height measurements for each panel,
+// depending on the number of rows in a layout,
+// in order to preserve the general overall 
+// proprotions of the page.
+.one-row {
+	.panel {
+		min-height: 200px;
+	}
+}
+.two-row {
+	.panel {
+		min-height: 440px;
+	}
+}
+.three-row {
+	.panel {
+		min-height: 290px;
+	}
+}
+.four-row {
+	.panel {
+		min-height: 220px;
+	}
+}
+
+// specific styles for individual layouts
+// 4-panel strip
+.four-panel-strip {
+	.row {
+		@media (min-width: 300px) {
+			@include flex-direction(row);
+			@include flex-wrap(wrap);
+		}
+	}
+}
+
+// Kirby 1
+.kirby-1 {
+	.row {
+		@include flex-direction(column);
+	}
+}
+
+// Kirby 2
+.kirby-2 {
+	.row {
+		@media (min-width: 570px) {
+			@include display-flex;
+			@include flex-wrap(no-wrap);
+		}
+	}
+}
+
+// Kirby 3
+.kirby-3 {
+	.row {
+		@media (min-width: 500px) {
+			@include display-flex;
+			@include flex-wrap(no-wrap);
+		}
+	}
+}
+
+// Aja 1
+.aja-1 {
+	.row {
+		@media (min-width: 500px) {
+			@include display-flex;
+			@include flex-wrap(no-wrap);
+		}
+	}
+}
+#aja-1-panel-1 {
+	min-height: 220px;
+}
+#aja-1-panel-2, #aja-1-panel-3, #aja-1-panel-4 {
+	min-height: 220px;
+}
+#aja-1-panel-5 {
+	min-height: 400px;
+}
+
+// Aja 2
+.aja-2 {
+	.row {
+		@media (min-width: 520px) {
+			@include display-flex;
+			@include flex-wrap(no-wrap);
+		}
+	}
+}
+
+#aja-2-panel-1 {
+	min-height: 150px;
+}
+#aja-2-panel-2 {
+	@include flex-grow(3);
+}
+#aja-2-panel-3 {
+	@include flex-grow(3);
+}
+#aja-2-panel-4 {
+	@include flex-grow(1);
+}
+#aja-2-panel-5 {
+	@include flex-grow(1);
+}
+#aja-2-column-1 {
+	@include flex-grow(1);
+	min-height: 300px;
+}
+#aja-2-panel-6 {
+	@include flex-grow(2);
+	min-height: 75px;
+}
+#aja-2-panel-7 {
+	@include flex-grow(2);
+	@include align-self(flex-end);
+}
+#aja-2-panel-8 {
+	@include flex-grow(5);
+	min-height: 300px;
+}
+#aja-2-column-2 {
+	@include flex-grow(1);
+	min-height: 300px;
+}
+#aja-2-panel-9 {
+	@include flex-grow(2);
+}
+#aja-2-panel-10 {
+	@include flex-grow(2);
+	@include align-self(flex-end);
+	min-height: 75px;
+}
+#aja-2-panel-11 {
+	min-height: 200px;
+}
+
+// Aja 3
+.aja-3 {
+	.row {
+		@media (min-width: 520px) {
+			@include display-flex;
+			@include flex-wrap(no-wrap);
+		}
+	}
+	.panel {
+		margin: 0;
+		border: .4em solid lighten($color-main, 30%);
+		//box-shadow: .3em -1 0 lighten($color-main, 70%);
+	}
+}
+#aja-3-row-1 {
+} 
+#aja-3-row-2 {
+}
+#aja-3-row-3 {
+	@media (min-width: 520px) {
+		margin-top: -104px;
+		min-height: 250px;
+	}
+}
+#aja-3-row-4 {
+	@media (min-width: 520px) {
+		margin-top: -100px;
+		min-height: 470px;
+		border: .4em solid lighten($color-main, 30%);
+		box-sizing: border-box;
+		background-color: lighten($color-main, 50%);
+		//color: $color-background;
+		text-align: center;
+	}
+}
+#aja-3-panel-1 {
+	@media (min-width: 520px) {
+		min-height: 150px;
+	}
+}
+#aja-3-panel-2 {
+	@media (min-width: 520px) {
+		max-height: 100px;
+		margin-top: -100px;
+	}
+}
+#aja-3-panel-3 {
+	@media (min-width: 520px) {
+		max-height: 100px;
+		margin-top: -60px;
+		z-index: 2;
+	}
+}
+#aja-3-panel-4 {
+	@media (min-width: 520px) {
+		max-height: 100px;
+		//margin-top: 5px;
+		z-index: 2;
+	}
+}
+#aja-3-panel-5 {
+	@media (min-width: 520px) {
+		min-height: 150px;
+		height: 150px;
+		@include flex-grow(1.5);
+	}
+}
+#aja-3-panel-6 {
+	z-index: 1;
+	padding-top: 100px;
+}
+#aja-3-panel-8 {
+	margin-top: 200px;
+	@include rotate(-2deg);
+	@media (min-width: 520px) {
+		position: relative;
+		margin-top: 0;
+		left: -40px;
+		top: 15px;
+		height: 200px;
+		@include rotate(-10deg);
+	}
+}
+#aja-3-panel-9 {
+	@include rotate(2deg);
+	@media (min-width: 520px) {
+		position: relative;
+		top: 120px;
+		left:10px;
+		height: 200px;
+		@include rotate(10deg);
+	}
+}
+#aja-3-panel-10 {
+	@include align-self(flex-end);
+}
+
+// Live text sample page
+
+.live-text {
+	.row {
+		@media (min-width: 680px) {
+			@include display-flex;
+			@include flex-wrap(no-wrap);
+		}
+	}
+}
+
+// 5.0 style
+// -----------------------------------------------------------------------------
+// global colors, decorations like shadows, gradients, etc., 
+// and any other styles that don't fit comfortably in any of 
+// the other categories
+// -----------------------------------------------------------------------------
+
+.panel {
+	border: 1px solid $color-main;
+	background-color: lighten($color-main, 50%);
+}
+
+// 6.0 animation
+// -----------------------------------------------------------------------------
+// transitions, transforms, animations, etc.
+// -----------------------------------------------------------------------------
+
+// 7.0 modules
+// -----------------------------------------------------------------------------
+// module level styles that don't fit either of the categories above, including
+// background, borders, pseudo element content etc.
+// -----------------------------------------------------------------------------

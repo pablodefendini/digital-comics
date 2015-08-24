@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="400px" height="400px" viewBox="0 0 400 400" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <!-- Generator: Sketch 3.3.3 (12072) - http://www.bohemiancoding.com/sketch -->
+    <title>icon__live-text--1</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="icon__live-text--1" sketch:type="MSArtboardGroup">
+            <rect id="background" stroke="#FFFFFF" stroke-width="2" sketch:type="MSShapeGroup" x="10" y="10" width="380" height="380" rx="60"></rect>
+            <path d="M198.497208,354 C114.40991,354 46,307.616884 46,250.604781 C46,193.592679 114.40991,147.209563 198.497208,147.209563 C203.365685,147.209563 208.390489,147.381183 213.448791,147.709167 L215.771367,147.865532 L216.402259,146.328581 C236.356313,97.7563595 248.28743,72.4824813 254.66893,60 C251.709879,100.521345 245.987186,130.806522 241.503945,149.650378 L241.113127,151.294115 L243.446869,151.778464 C307.781105,165.214389 351,204.927214 351,250.604781 C351,307.616884 282.59009,354 198.497208,354" id="word-balloon" stroke="#FFFFFF" stroke-width="2" fill="#6F6E6E" sketch:type="MSShapeGroup" transform="translate(198.500000, 207.000000) scale(1, -1) translate(-198.500000, -207.000000) "></path>
+            <text id="Words." sketch:type="MSTextLayer" font-family="CCMonologous" font-size="52" font-weight="normal" sketch:alignment="middle" fill="#FFFFFF">
+                <tspan x="88.822" y="187">Words.</tspan>
+            </text>
+        </g>
+    </g>
+</svg>
