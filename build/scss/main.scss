@@ -82,9 +82,11 @@ footer {
 	@include display-flex;
 	@include flex-wrap(wrap);
 	@include justify-content(center);
-	a img {
-		padding: .5em;
-		max-width: 7em;
+	a {
+		img {
+			padding: .5em;
+			max-width: 7em;
+		}
 	}
 }
 
