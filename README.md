@@ -1,2 +1,9 @@
-# comic-grids
-Comic grids is a framework for building comics strips and full pages out of HTML, CSS, and JavaScript.
+# Digital Comics
+This site depicts one possible approach to building comics directly out of HTML, CSS, SVG, and vector images, using responsive design techniques.
+It's build using CodeKit, for ease of development, and is hosted on a Github page.
+## Background
+Most comics made for digital delivery still cling to the metaphor of the static page as a framework for designing, displaying, and consuming comics on a screen. This means flat, pixel-based (or raster) artwork displayed within a static content frame, either inside a web browser, or in an app. The comics created for these media are mostly created with specific ‘page’ dimensions in mind.
+Meanwhile, the world of web design and development has moved on from a static page/screen paradigm, and embraced the fluidity inherent in digital media designed for the screen. Techniques such as responsive web design, and resources such as vector-based images have made for content that adapts to its specific viewing context, regardless of screen size, display resolution, computing platform, or bandwidth conditions.
+As more and more readers—both long time and newcomers—are moving to reading their comics exclusively on digital devices, applying these techniques to how we display comics on screens can dramatically improve the reading experience, and also decrease cost and complexity when trying to deliver a comic across a wide gamut of devices, platforms, and network conditions.
+Fundamentally, these techniques can also affect the way creators design comics for this new medium. Keeping these technical capabilities in mind can open up storytelling possibilities that wouldn't be possible in print, or by sticking to a static page paradigm for digital comics.</p>
+I'll also show a few examples of interesting layout, pacing, and storytelling techniques that start to scratch the surface of some of the novel things comics creators working in the digital space can achieve.
