@@ -223,15 +223,13 @@ body {
   text-align: center;
   font-family: "Helvetica Neue", "Helvetica", sans-serif; }
 
-.site-header .title {
+.title {
   font-size: 1.5em;
   line-height: 1.2em; }
-.site-header .subtitle {
+
+.subtitle {
   font-size: 1.2em;
   line-height: 2em; }
-
-.grid-title {
-  font-size: 1.2em; }
 
 .site-header {
   width: 95%;
@@ -241,6 +239,19 @@ body {
 
 footer {
   padding-bottom: 1000px; }
+
+.layout-icons {
+  max-width: 40em;
+  margin: 0 auto;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -webkit-justify-content: center;
+  justify-content: center; }
+  .layout-icons a img {
+    padding: 1em;
+    max-width: 7em; }
 
 .grid-title {
   padding: 1em; }

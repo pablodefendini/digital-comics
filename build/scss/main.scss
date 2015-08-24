@@ -38,19 +38,13 @@ body {
 	text-align: center;
 	font-family: "Helvetica Neue", "Helvetica", sans-serif;
 }
-.site-header {
-	.title {
-		font-size: 1.5em;
-		line-height: 1.2em;
-	}
-	.subtitle {
-		font-size: 1.2em;
-		line-height: 2em;
-	}
+.title {
+	font-size: 1.5em;
+	line-height: 1.2em;
 }
-
-.grid-title {
+.subtitle {
 	font-size: 1.2em;
+	line-height: 2em;
 }
 
 // 4.0 layout
@@ -67,6 +61,18 @@ body {
 
 footer {
 	padding-bottom: 1000px;
+}
+
+.layout-icons {
+	max-width: 40em;
+	margin: 0 auto;
+	@include display-flex;
+	@include flex-wrap(wrap);
+	@include justify-content(center);
+	a img {
+		padding: 1em;
+		max-width: 7em;
+	}
 }
 
 .grid-title {

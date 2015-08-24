@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="400px" height="400px" viewBox="0 0 400 400" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <!-- Generator: Sketch 3.3.3 (12072) - http://www.bohemiancoding.com/sketch -->
+    <title>icon__3-row--7-panel</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="icon__3-row--7-panel" sketch:type="MSArtboardGroup" stroke="#FFFFFF" stroke-width="2">
+            <rect id="background" sketch:type="MSShapeGroup" x="10" y="10" width="380" height="380" rx="60"></rect>
+            <rect id="panel-7" fill="#6E6E6E" sketch:type="MSShapeGroup" x="205.064044" y="256.808138" width="120" height="90"></rect>
+            <rect id="panel-6" fill="#6E6E6E" sketch:type="MSShapeGroup" x="74.935956" y="256.808138" width="120" height="90"></rect>
+            <rect id="panel-5" fill="#6E6E6E" sketch:type="MSShapeGroup" x="250.064044" y="155" width="75" height="90"></rect>
+            <rect id="panel-4" fill="#6E6E6E" sketch:type="MSShapeGroup" x="162.5" y="155" width="75" height="90"></rect>
+            <rect id="panel-3" fill="#6E6E6E" sketch:type="MSShapeGroup" x="74.935956" y="155" width="75" height="90"></rect>
+            <rect id="panel-2" fill="#6E6E6E" sketch:type="MSShapeGroup" x="205.064044" y="54.5492681" width="120" height="90"></rect>
+            <rect id="panel-1" fill="#6E6E6E" sketch:type="MSShapeGroup" x="74.935956" y="54.5492681" width="120" height="90"></rect>
+        </g>
+    </g>
+</svg>
