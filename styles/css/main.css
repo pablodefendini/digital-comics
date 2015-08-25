@@ -560,6 +560,9 @@ nav .toc__article--section {
 p {
   letter-spacing: 1.25px; }
 
+footer {
+  text-align: center; }
+
 .title {
   font-size: 3em;
   line-height: 1.1em; }
@@ -572,10 +575,24 @@ p {
   font-size: 1.5em;
   line-height: 1.4em; }
 
+.section-sub-heading {
+  font-size: 1.2em;
+  line-height: 2em; }
+  .section-sub-heading a {
+    text-decoration: none; }
+
+nav {
+  max-width: 300px; }
+  nav p, nav .toc__title, nav .toc__title--credits, nav .toc__article, nav .toc__article--section, nav .toc__credits {
+    padding: 0 1em; }
+
 header, section {
   width: 100%;
   max-width: 35em;
   margin: 1em auto; }
+
+.site-wrap {
+  padding-bottom: 3000px; }
 
 .site-header {
   width: 95%;
@@ -584,7 +601,7 @@ header, section {
   box-sizing: border-box; }
 
 footer {
-  padding-bottom: 1000px; }
+  padding-bottom: 100px; }
 
 .layout-icons {
   margin: 0 auto;

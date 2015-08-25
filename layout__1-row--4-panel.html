@@ -11,27 +11,47 @@
         <script>try{Typekit.load({ async: true });}catch(e){}</script>
 
         <link rel="apple-touch-icon" href="apple-touch-icon.png">
-        <!-- Place favicon.ico in the root directory -->
 
         <link rel="stylesheet" href="styles/css/main.css">
 
-    </head>    <body>
-   		<section>
-	   		<h1 class="title">One row, four panel layout</h1>
-			<h2 class="subtitle">(Comic strip style)</h2>
-	        <h3 class="subhead"><a href="index.html">Back to the article</a></h3>
-			<p>This layout is also intended for comic strips. It's composed of four panels of equal height. It's reflowable, and the row of panels collapses into two rows of two panels, and then into one column of four panels.</p>
-		</section>
-		<section class="comic-page__strip one-row four-panel-strip">
-			<div class="row">
-				<div class="panel">Panel 1</div>
-				<div class="panel">Panel 2</div>
-				<div class="panel">Panel 3</div>
-				<div class="panel">Panel 4</div>
-			</div>
-		</section>
-
-        <!-- @ import '../build/partials/footer' -->
-
-    </body>
-</html>
+    </head>
+    <body>
+        	<nav>
+		<ul class="navigation">
+		    <p class="toc__title">Standards, Semantics, and Sequential Art</p>
+		    <li class="toc__article"><a href="index.html">Introduction</a></li>
+		    <li class="toc__article"><a href="part-1.html"><span>Part One: </span>Responsive Layouts</a></li>
+		    <!--li class="toc__article--section"><a href="FIXME.HTML#SECTION">Something something</a></li-->
+		    <li class="toc__article"><a href="part-2.html"><span>Part Two: </span>Live Text</a></li>
+		    <!--li class="toc__article--section"><a href="FIXME.HTML#SECTION">All SVG, all the time</a></li-->
+		    <li class="toc__article"><a href="part-3.html"><span>Part Three: </span>Vector Artwork</a></li>
+		    <!--li class="toc__article--section"><a href="FIXME.HTML#SECTION">Coming soon.</a></li-->
+		    <li class="toc__title--credits">Credits</a></li>
+		    <li class="toc__credits"><a href="#">Adriano Valle</a></li>
+		    <li class="toc__credits"><a href="#">Liza Daly</a></li>
+		    <li class="toc__credits"><a href="#">Adam Witwer</a></li>
+		    <li class="toc__credits"><a href="#">Rachel Lovinger</a></li>
+		    <li class="toc__credits"><a href="#">Ajay TKTK</a></li>
+		    <li class="toc__credits"><a href="#">@Takedanger</a></li>
+		    <li class="toc__credits"><a href="#">Phil Dini</a></li>
+		    <li class="toc__credits"><a href="#">The Brazilian Dude</a></li>
+		    <li class="toc__credits"><a href="#">Github Repo for this site</a></li>
+	   </ul>
+	</nav>
+		 
+	<input type="checkbox" id="toc-toggle" class="nav-trigger" />
+	<label for="toc-toggle"></label>        <div class="site-wrap">            <header class="site-header">
+		   		<h1 class="title">One row, four panel layout</h1>
+				<h2 class="subtitle">(Comic strip style)</h2>
+		        <h3 class="subhead"><a href="part-1.html">Back to Part 1</a></h3>
+				<p>This layout is also intended for comic strips. It's composed of four panels of equal height. It's reflowable, and the row of panels collapses into two rows of two panels, and then into one column of four panels.</p>
+			</header>
+			<section class="comic-page__strip one-row four-panel-strip">
+				<div class="row">
+					<div class="panel">Panel 1</div>
+					<div class="panel">Panel 2</div>
+					<div class="panel">Panel 3</div>
+					<div class="panel">Panel 4</div>
+				</div>
+			</section>
+<!-- @ import '../site-footer' -->

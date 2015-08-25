@@ -65,6 +65,10 @@ $color-main: #ffffff;
  	letter-spacing: 1.25px;
  }
 
+ footer {
+ 	text-align: center;
+ }
+
  .title {
  	font-size: 3em;
  	line-height: 1.1em;
@@ -79,15 +83,34 @@ $color-main: #ffffff;
  	font-size: 1.5em;
  	line-height: 1.4em;
  }
+
+.section-sub-heading {
+ 	font-size: 1.2em;
+ 	line-height: 2em;
+ 	a {
+ 		text-decoration: none;
+ 	}
+ }
 // 4.0 layout
 // -----------------------------------------------------------------------------
 // all layout rules, including floats, flexbox, position, overflow, z-index, 
 // widths, heights, margins, padding, etc.
 // -----------------------------------------------------------------------------
+nav {
+	max-width: 300px;
+	p, .toc__title, .toc__title--credits, .toc__article, .toc__article--section, .toc__credits {
+		padding: 0 1em;
+	} 
+}
+
 header, section {
 	width: 100%;
 	max-width: 35em;
 	margin: 1em auto;
+}
+
+.site-wrap {
+	padding-bottom: 3000px; // this feels super hacky
 }
 
 .site-header {
@@ -98,7 +121,7 @@ header, section {
 }
 
 footer {
-	padding-bottom: 1000px;
+	padding-bottom: 100px;
 }
 
 .layout-icons {
