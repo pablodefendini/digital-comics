@@ -21,6 +21,7 @@
 @import 'compass/css3/transition';
 @import 'compass/css3/flexbox';
 @import 'fonts';
+@import 'navigation';
 @import 'page-layouts';
 @import 'live-text-styles';
 
@@ -40,6 +41,24 @@ $color-main: #ffffff;
 	font-size: 18px;
  	line-height: 1.4em;
  	font-weight: 100;
+ }
+
+ nav {
+ 	p, a {
+        font-size: .7em;
+        letter-spacing: .75px;
+        text-decoration: none;
+    }
+    .toc__title, .toc__article span {
+        text-transform: uppercase;
+        &--credits {
+            font-size: .7em;
+            text-transform: uppercase;
+        }
+    }
+    .toc__article--section {
+        margin-left: 1em;
+    }
  }
 
  p {
@@ -117,6 +136,10 @@ body {
 	background-color: $color-background;
 }
 
+nav {
+	background: darken($color-background, 10%);
+}
+
 a {
 	color: $color-main;
 	opacity: .7;
@@ -125,6 +148,11 @@ a {
 		opacity: 1;
 	}
 }
+
+.site-wrap {
+	background-color: $color-background;
+}
+
 // 6.0 animation
 // -----------------------------------------------------------------------------
 // transitions, transforms, animations, etc.

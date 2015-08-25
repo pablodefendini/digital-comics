@@ -1,0 +1,62 @@
+// Site-wide navigation/TOC, written in CSS only, intially taken from here: http://www.sitepoint.com/pure-css-off-screen-navigation-menu/
+nav {
+    list-style: none;
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 0;
+    overflow: scroll;
+}
+
+.site-wrap {
+    min-width: 100%;
+    min-height: 100%;
+    position: relative;
+    top: 0;
+    bottom: 100%;
+    left: 0;
+    z-index: 1;
+}
+
+.nav-trigger {
+    position: absolute;
+    clip: rect(0, 0, 0, 0);
+}
+
+label[for="toc-toggle"] {
+    position: fixed;
+    top: 15px;
+    left: 15px;
+    z-index: 2;
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+    opacity: .7;
+    background-image: url('../../img/icons/icon__toc.svg');     // you can change this to morph the inline svg into a close X.
+    background-size: contain;
+    background-repeat: no-repeat;
+    &:hover {
+        opacity: 1;
+    }
+}
+
+.nav-trigger:checked + label {
+    left: 320px;
+    background-image: url('../../img/icons/icon__toc--collapse.svg');     // you can change this to morph the inline svg into a close X.
+}
+ 
+.nav-trigger:checked ~ .site-wrap {
+    left: 300px;
+}
+
+.nav-trigger + label, .site-wrap {
+    transition: left 0.3s;
+}
+
+body {
+    overflow-x: hidden;
+}

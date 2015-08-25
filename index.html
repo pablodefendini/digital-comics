@@ -16,40 +16,66 @@
         <link rel="stylesheet" href="styles/css/main.css">
 
     </head><body>
-    <header class="site-header">
-        <h1 class="title">Semantics, Standards, and Sequential Art:</h1>
-        <h2 class="subtitle">Toward a digital comics praxis.</h2>
-        <h3 class="section-heading">Introduction</h3>
-        <p>Most comics made for digital delivery still cling to the metaphor of the static page as a framework for designing, displaying, and consuming comics on a screen. This means flat, pixel-based (or raster) artwork displayed within a static content frame, either inside a web browser, or in an app. The comics created for these media are mostly created with specific ‘page’ dimensions in mind. </p>
-        <p>Meanwhile, the world of web design and development has moved on from a static page/screen paradigm, and embraced the fluidity inherent in digital media designed for the screen. Techniques such as responsive web design, and resources such as vector-based images have made for content that adapts to its specific viewing context, regardless of screen size, display resolution, computing platform, or bandwidth conditions. </p>
-        <p>As more and more readers—both long time and newcomers—are moving to reading their comics exclusively on digital devices, applying these techniques to how we display comics on screens can dramatically improve the reading experience, and also decrease cost and complexity when trying to deliver a comic across a wide gamut of devices, platforms, and network conditions.</p>
-        <p>Fundamentally, these techniques can also affect the way creators design comics for this new medium. Keeping these technical capabilities in mind can open up storytelling possibilities that wouldn't be possible in print, or by sticking to a static page paradigm for digital comics.</p>
-        <p>This site depicts one possible approach to building comics directly out of HTML, CSS, SVG, and vector images, using responsive design techniques. I'll also show a few examples of interesting layout, pacing, and storytelling techniques that start to scratch the surface of some of the novel things comics creators working in the digital space can achieve.</p>
-    </header>
-    <section>
-        <h3 class="section-heading">Part 1: Adaptive and responsive layouts</h3>
-        <p>I’ve started building out these HTML and CSS based comics layouts using CSS flexbox. It’s going well so far. I’m about to start moving into more complicated layouts, with overlapping panels and stuff like that.</p>
-        <p>Click thorugh each layout below for a live demo.</p>
-        <div class="layout-icons">
-            <a href="layout__1-row--3-panel.html"><img src="img/icons/icon__1-row--3-panel.svg"></a>
-            <a href="layout__1-row--4-panel.html"><img src="img/icons/icon__1-row--4-panel.svg"></a>
-            <a href="layout__3-row--3-panel.html"><img src="img/icons/icon__3-row--3-panel.svg"></a>
-            <a href="layout__2-row--4-panel.html"><img src="img/icons/icon__2-row--4-panel.svg"></a>
-            <a href="layout__3-row--7-panel.html"><img src="img/icons/icon__3-row--7-panel.svg"></a>
-            <a href="layout__3-row--5-panel.html"><img src="img/icons/icon__3-row--5-panel.svg"></a>
-            <a href="layout__4-row--11-panel.html"><img src="img/icons/icon__4-row--11-panel.svg"></a>
-            <a href="layout__4-row--10-panel.html"><img src="img/icons/icon__4-row--10-panel.svg"></a>
-        </div>
-    </section>
+    	<nav>
+	    <p class="toc__title">Standards, Semantics, and Sequential Art</p>
+		<ul class="navigation">
+		    <li class="toc__article"><a href="index.html">Introduction</a></li>
+		    <li class="toc__article"><a href="FIXME.HTML"><span>Part One:</span> <br/>Semantic Layouts</a></li>
+		    <li class="toc__article--section"><a href="FIXME.HTML#SECTION">Something something</a></li>
+		    <li class="toc__article"><a href="FIXME.HTML"><span>Part Two:</span> <br/>Live Text</a></li>
+		    <li class="toc__article--section"><a href="FIXME.HTML#SECTION">All SVG, all the time</a></li>
+		    <li class="toc__article"><a href="FIXME.HTML"><span>Part Three:</span> <br/>Vector Artwork</a></li>
+		    <li class="toc__article--section"><a href="FIXME.HTML#SECTION">MOAR SVG, dood.</a></li>
+		    <li class="toc__title--credits">Credits</a></li>
+		    <li class="toc__credits"><a href="#">Adriano Valle</a></li>
+		    <li class="toc__credits"><a href="#">Liza Daly</a></li>
+		    <li class="toc__credits"><a href="#">Adam Witwer</a></li>
+		    <li class="toc__credits"><a href="#">Rachel Lovinger</a></li>
+		    <li class="toc__credits"><a href="#">Ajay TKTK</a></li>
+		    <li class="toc__credits"><a href="#">@Takedanger</a></li>
+		    <li class="toc__credits"><a href="#">Phil Dini</a></li>
+		    <li class="toc__credits"><a href="#">The Brazilian Dude</a></li>
+		    <li class="toc__credits"><a href="#">Github Repo for this site</a></li>
+	   </ul>
+	</nav>
+		 
+	<input type="checkbox" id="toc-toggle" class="nav-trigger" />
+	<label for="toc-toggle"></label>    <div class="site-wrap">
+        <header class="site-header">
+            <h1 class="title">Semantics, Standards, and Sequential Art:</h1>
+            <h2 class="subtitle">Toward a digital comics praxis.</h2>
+            <h3 class="section-heading">Introduction</h3>
+            <p>Most comics made for digital delivery still cling to the metaphor of the static page as a framework for designing, displaying, and consuming comics on a screen. This means flat, pixel-based (or raster) artwork displayed within a static content frame, either inside a web browser, or in an app. The comics created for these media are mostly created with specific ‘page’ dimensions in mind. </p>
+            <p>Meanwhile, the world of web design and development has moved on from a static page/screen paradigm, and embraced the fluidity inherent in digital media designed for the screen. Techniques such as responsive web design, and resources such as vector-based images have made for content that adapts to its specific viewing context, regardless of screen size, display resolution, computing platform, or bandwidth conditions. </p>
+            <p>As more and more readers—both long time and newcomers—are moving to reading their comics exclusively on digital devices, applying these techniques to how we display comics on screens can dramatically improve the reading experience, and also decrease cost and complexity when trying to deliver a comic across a wide gamut of devices, platforms, and network conditions.</p>
+            <p>Fundamentally, these techniques can also affect the way creators design comics for this new medium. Keeping these technical capabilities in mind can open up storytelling possibilities that wouldn't be possible in print, or by sticking to a static page paradigm for digital comics.</p>
+            <p>This site depicts one possible approach to building comics directly out of HTML, CSS, SVG, and vector images, using responsive design techniques. I'll also show a few examples of interesting layout, pacing, and storytelling techniques that start to scratch the surface of some of the novel things comics creators working in the digital space can achieve.</p>
+        </header>
+        <section>
+            <h3 class="section-heading">Part 1: Adaptive and responsive layouts</h3>
+            <p>I’ve started building out these HTML and CSS based comics layouts using CSS flexbox. It’s going well so far. I’m about to start moving into more complicated layouts, with overlapping panels and stuff like that.</p>
+            <p>Click thorugh each layout below for a live demo.</p>
+            <div class="layout-icons">
+                <a href="layout__1-row--3-panel.html"><img src="img/icons/icon__1-row--3-panel.svg"></a>
+                <a href="layout__1-row--4-panel.html"><img src="img/icons/icon__1-row--4-panel.svg"></a>
+                <a href="layout__3-row--3-panel.html"><img src="img/icons/icon__3-row--3-panel.svg"></a>
+                <a href="layout__2-row--4-panel.html"><img src="img/icons/icon__2-row--4-panel.svg"></a>
+                <a href="layout__3-row--7-panel.html"><img src="img/icons/icon__3-row--7-panel.svg"></a>
+                <a href="layout__3-row--5-panel.html"><img src="img/icons/icon__3-row--5-panel.svg"></a>
+                <a href="layout__4-row--11-panel.html"><img src="img/icons/icon__4-row--11-panel.svg"></a>
+                <a href="layout__4-row--10-panel.html"><img src="img/icons/icon__4-row--10-panel.svg"></a>
+            </div>
+        </section>
 
-    <section>
-        <h3 class="section-heading">Part 2: Live text</h3>
-        <p>Using CSS and SVG. See live text samples below. I'll write more later.</p>
-        <div class="layout-icons">
-            <a href="layout__4-row--7-panel--live-text.html"><img src="img/icons/icon__live-text--1.svg"></a>
-        </div>
+        <section>
+            <h3 class="section-heading">Part 2: Live text</h3>
+            <p>Using CSS and SVG. See live text samples below. I'll write more later.</p>
+            <div class="layout-icons">
+                <a href="layout__4-row--7-panel--live-text.html"><img src="img/icons/icon__live-text--1.svg"></a>
+            </div>
+        </section>
+        <!-- @ import '../build/partials/footer' -->
+    </div> <!-- END class="site-wrap" >
 
-    <!-- @ import '../build/partials/footer' -->
-
-    </body>
+</body>
 </html>
