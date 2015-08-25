@@ -45,19 +45,10 @@ $color-main: #ffffff;
 
  nav {
  	p, a {
-        font-size: .7em;
+        font-size: 1em;
+        line-height: 1.8em;
         letter-spacing: .75px;
         text-decoration: none;
-    }
-    .toc__title, .toc__article span {
-        text-transform: uppercase;
-        &--credits {
-            font-size: .7em;
-            text-transform: uppercase;
-        }
-    }
-    .toc__article--section {
-        margin-left: 1em;
     }
  }
 
@@ -91,16 +82,35 @@ $color-main: #ffffff;
  		text-decoration: none;
  	}
  }
+
+ .toc__ {
+ 	&title {
+		font-size: 1.3em;
+		line-height: 1.3em;
+ 	}
+ 	&sub-heading {
+ 		font-size: .7em;
+ 		text-transform: uppercase;
+	 	letter-spacing: 2px;
+		margin-top: 1em;
+ 	}
+ 	&entry, &sub-entry {
+ 		text-indent: .5em;
+ 	}
+ 	&sub-entry {
+ 		font-size: .7em;
+ 		line-height: 1em;
+ 	}
+ }
 // 4.0 layout
 // -----------------------------------------------------------------------------
 // all layout rules, including floats, flexbox, position, overflow, z-index, 
 // widths, heights, margins, padding, etc.
 // -----------------------------------------------------------------------------
 nav {
-	max-width: 300px;
-	p, .toc__title, .toc__title--credits, .toc__article, .toc__article--section, .toc__credits {
-		padding: 0 1em;
-	} 
+	max-width: 280px;
+	height: 200%;
+	padding: 1em 0em 0em 1em;
 }
 
 header, section {
