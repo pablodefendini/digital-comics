@@ -567,12 +567,19 @@ footer {
   line-height: 1.4em; }
 
 .section-heading {
+  font-size: 2em;
+  line-height: 1.2em;
+  letter-spacing: 1px; }
+
+.intro-text {
   font-size: 1.5em;
-  line-height: 1.4em; }
+  line-height: 1.2em;
+  letter-spacing: 1px; }
 
 .section-sub-heading {
   font-size: 1.2em;
-  line-height: 2em; }
+  line-height: 2em;
+  letter-spacing: 1px; }
   .section-sub-heading a {
     text-decoration: none; }
 
@@ -584,21 +591,32 @@ footer {
   text-transform: uppercase;
   letter-spacing: 2px;
   margin-top: 1.6em; }
+  .toc__sub-heading a {
+    text-decoration: none; }
 .toc__entry {
   margin-left: .5em; }
+  .toc__entry a {
+    text-decoration: none; }
 .toc__sub-entry {
-  font-size: .7em;
+  font-size: .9em;
   margin-left: 1.5em; }
+.toc__demo-entry {
+  font-size: .7em;
+  margin: 0 0 0 2.5em; }
+  .toc__demo-entry span {
+    display: block;
+    line-height: 0; }
 
 nav {
-  max-width: 280px;
-  height: 200%;
-  padding: 1em 0em 0em 1em; }
+  max-width: 280px; }
 
 header, section {
   width: 100%;
-  max-width: 35em;
-  margin: 1em auto; }
+  max-width: 36em;
+  margin: 0 auto; }
+
+.navigation {
+  padding: 1em 0em 1em 1em; }
 
 .site-wrap {
   padding-bottom: 3000px; }
@@ -625,10 +643,16 @@ footer {
     max-width: 7em; }
 
 .title {
-  margin-top: 2em; }
+  margin: 2em 0 .2em 0; }
 
 .subtitle {
   margin-top: .4em; }
+
+.section-heading {
+  padding-top: 4em; }
+
+.section-sub-heading {
+  margin: 1em 0 0 0; }
 
 p {
   margin-top: .4em; }

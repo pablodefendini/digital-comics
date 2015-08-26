@@ -20,21 +20,30 @@
 		<ul class="navigation">
 		    <h1 class="toc__title"><a href="index.html">Standards, Semantics, & Sequential Art</a></h1>
 		    <li class="toc__sub-heading">Contents</li>
-		    <li class="toc__entry"><a href="index.html">Introduction: Toward a digital comics praxis</a></li>
-		    <li class="toc__entry"><a href="#">Current Approaches to Digital Comics</a></li>
-		    <li class="toc__sub-entry"><a href="#">Panel-by-Panel Presentation</a></li>
-		    <li class="toc__sub-entry"><a href="#">The Balak Framework</a></li>
-		    <li class="toc__entry"><a href="#">How Digital Comics are different from print comics</a></li>
-		    <li class="toc__sub-entry"><a href="#">Viewing surface</a></li>
-		    <li class="toc__sub-entry"><a href="#">Viewing conditions</a></li>
-		    <li class="toc__sub-entry"><a href="#">The static page metaphor</a></li>
-		    <li class="toc__sub-entry"><a href="#">Undermining page-level storytelling</a></li>
-		    <li class="toc__sub-entry"><a href="#">Un-semantic blobs</a></li>
-		    <li class="toc__entry"><a href="#">An Alternative Approach to Digital Comics</a></li>
-		    <li class="toc__sub-entry"><a href="part-1.html">Responsive Layouts</a></li>
-		    <li class="toc__sub-entry"><a href="part-2.html">Live Text</a></li>
-		    <li class="toc__sub-entry"><a href="part-3.html">Resolution-independent Artwork</a></li>
-		    <li class="toc__entry"><a href="#">Storytelling implications of digital comics</a></li>
+		    <li class="toc__entry"><a href="intro.html">Introduction: Toward a digital comics praxis</a></li>
+		    <li class="toc__entry"><a href="part-1.html">Current Approaches to Digital Comics</a></li>
+		    <li class="toc__sub-entry"><a href="part-1.html#panel-by-panel-presentation">Panel-by-Panel Presentation</a></li>
+		    <li class="toc__sub-entry"><a href="part-1.html#the-balak-framework">The Balak Framework</a></li>
+		    <li class="toc__entry"><a href="part-2.html">How Digital Comics are different from print comics</a></li>
+		    <li class="toc__sub-entry"><a href="part-2.html#viewing-surface">Viewing surface</a></li>
+		    <li class="toc__sub-entry"><a href="part-2.html#viewing-conditions">Viewing conditions</a></li>
+		    <li class="toc__sub-entry"><a href="part-2.html#the-static-page-metaphor">The static page metaphor</a></li>
+		    <li class="toc__sub-entry"><a href="part-2.html#undermining-page-level-storytelling">Undermining page-level storytelling</a></li>
+		    <li class="toc__sub-entry"><a href="part-2.html#un-semantic-blobs">Un-semantic blobs</a></li>
+		    <li class="toc__entry"><a href="part-3.html">An Alternative Approach to Digital Comics</a></li>
+		    <li class="toc__sub-entry"><a href="part-3.html#responsive-layouts">Responsive Layouts</a></li>
+		    <li class="toc__demo-entry"><a href="layout__1-row--3-panel.html"><span class="toc__sub-heading">Demo</span> 3-panel strip</a></li>
+		    <li class="toc__demo-entry"><a href="layout__1-row--4-panel.html"><span class="toc__sub-heading">Demo</span> 4-panel strip</a></li>
+		    <li class="toc__demo-entry"><a href="layout__3-row--3-panel.html"><span class="toc__sub-heading">Demo</span> 3-row, 3-panel layout</a></li>
+		    <li class="toc__demo-entry"><a href="layout__2-row--4-panel.html"><span class="toc__sub-heading">Demo</span> 2-row, 4-panel layout</a></li>
+		    <li class="toc__demo-entry"><a href="layout__3-row--7-panel.html"><span class="toc__sub-heading">Demo</span> 3-row, 7-panel layout</a></li>
+		    <li class="toc__demo-entry"><a href="layout__3-row--5-panel.html"><span class="toc__sub-heading">Demo</span> 3-row, 5-panel layout</a></li>
+		    <li class="toc__demo-entry"><a href="layout__4-row--11-panel.html"><span class="toc__sub-heading">Demo</span> 4-row, 11-panel layout</a></li>
+		    <li class="toc__demo-entry"><a href="layout__4-row--10-panel.html"><span class="toc__sub-heading">Demo</span> 4-row, 10-panel layout</a></li>
+		    <li class="toc__sub-entry"><a href="part-3.html#live-text">Live Text</a></li>
+		    <li class="toc__demo-entry"><a href="layout__4-row--7-panel--live-text.html"><span class="toc__sub-heading">Demo</span> Live text word balloons</a></li>
+		    <li class="toc__sub-entry"><a href="part-3.html#resolution-independent-artwork">Resolution-independent Artwork</a></li>
+		    <li class="toc__entry"><a href="part-4.html">Storytelling implications of digital comics</a></li>
 		    <li class="toc__entry"><a href="acknowledgements.html">Acknowledgements</a></li>
 		    <li class="toc__sub-heading">Resources</li>
 		    <li class="toc__sub-entry"><a href="https://github.com/pablodefendini/digital-comics">Github Repo for this site</a></li>
@@ -45,17 +54,17 @@
 	<input type="checkbox" id="toc-toggle" class="nav-trigger" />
 	<label for="toc-toggle"></label>        <div class="site-wrap">            <header class="site-header">
                 <h1 class="title">Standards, Semantics, & Sequential Art</h1>
-                <h2 class="section-heading">Most digital comics cling to the metaphor of the static page as a framework for designing, displaying, and reading comics on a screen. Instead, comics creators could embrace the fluidity inherent in digital media when designing comics for the screen.</h2>
-                <p>As more and more readers—both long time and newcomers—are moving to reading their comics exclusively on digital devices, applying digital design techniques to how we display comics on screens can dramatically improve the reading experience, and also decrease cost and complexity when trying to deliver a comic across a wide gamut of devices, platforms, and network conditions.</p>
-                <p>Fundamentally, these techniques can also affect the way creators design comics for this new medium. Keeping these technical capabilities in mind can open up storytelling possibilities that wouldn't be possible in print, or by sticking to a static page paradigm for digital comics.</p>
-                <p>This site depicts one possible approach to building comics directly out of HTML, CSS, SVG, and vector images, using responsive design techniques. I'll also show a few examples of interesting layout, pacing, and storytelling techniques that start to scratch the surface of some of the novel things comics creators working in the digital space can achieve.</p>
-
-                <h3 class="section-sub-heading"><a href="part-1.html">Part One: Responsive and Adaptive Layouts</a></h3>
-                <h3 class="section-sub-heading"><a href="part-2.html">Part Two: Live Text</a></h3>
-                <h3 class="section-sub-heading"><a href="part-3.html">Part Three: Resolution-independent artwork</a></h3>
+                <h2 class="intro-text">Most digital comics cling to the metaphor of the static page as a framework for designing, displaying, and reading comics on a screen. Instead, comics creators could embrace the fluidity inherent in digital media when designing comics for the screen.</h2>
             </header>
+            <section>
+				<h3 class="toc__sub-heading"><a href="intro.html">Introduction: Toward a digital comics praxis</a></h3>
+				<h3 class="toc__sub-heading"><a href="part-1.html">Part 1: Current Approaches to Digital Comics</a></h3>
+			    <h3 class="toc__sub-heading"><a href="part-2.html">Part 2: How Digital Comics are different from print comics</a></h3>
+			    <h3 class="toc__sub-heading"><a href="part-3.html">Part 3: An Alternative Approach to Digital Comics</a></h3>
+			    <h3 class="toc__sub-heading"><a href="part-4.html">Storytelling implications of digital comics</a></h3>
+			</section>
             <footer>
-                <p>This is the bottom of the page.</p>
+                <p></p>
             </footer>
         </div> <!-- END class="site-wrap" -->
     </body>
