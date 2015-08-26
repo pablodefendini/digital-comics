@@ -547,9 +547,10 @@ body {
 
 nav p, nav a {
   font-size: 1em;
-  line-height: 1.8em;
   letter-spacing: .75px;
   text-decoration: none; }
+nav li {
+  margin: .8em 0 0 0; }
 
 p {
   letter-spacing: 1.25px; }
@@ -582,12 +583,12 @@ footer {
   font-size: .7em;
   text-transform: uppercase;
   letter-spacing: 2px;
-  margin-top: 1em; }
-.toc__entry, .toc__sub-entry {
-  text-indent: .5em; }
+  margin-top: 1.6em; }
+.toc__entry {
+  margin-left: .5em; }
 .toc__sub-entry {
   font-size: .7em;
-  line-height: 1em; }
+  margin-left: 1.5em; }
 
 nav {
   max-width: 280px;

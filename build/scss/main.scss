@@ -46,9 +46,11 @@ $color-main: #ffffff;
  nav {
  	p, a {
         font-size: 1em;
-        line-height: 1.8em;
         letter-spacing: .75px;
         text-decoration: none;
+    }
+    li {
+    	margin: .8em 0 0 0;
     }
  }
 
@@ -92,14 +94,14 @@ $color-main: #ffffff;
  		font-size: .7em;
  		text-transform: uppercase;
 	 	letter-spacing: 2px;
-		margin-top: 1em;
+		margin-top: 1.6em;
  	}
- 	&entry, &sub-entry {
- 		text-indent: .5em;
+ 	&entry {
+ 		margin-left: .5em;
  	}
  	&sub-entry {
  		font-size: .7em;
- 		line-height: 1em;
+ 		margin-left: 1.5em;
  	}
  }
 // 4.0 layout
