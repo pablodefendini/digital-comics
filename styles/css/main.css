@@ -104,7 +104,7 @@ label[for="toc-toggle"] {
     opacity: 1; }
 
 .nav-trigger:checked + label {
-  left: 320px;
+  left: 300px;
   background-image: url("../../img/icons/icon__toc--collapse.svg"); }
 
 .nav-trigger:checked ~ .site-wrap {

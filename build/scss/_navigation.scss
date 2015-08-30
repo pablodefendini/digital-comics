@@ -45,7 +45,7 @@ label[for="toc-toggle"] {
 }
 
 .nav-trigger:checked + label {
-    left: 320px;
+    left: 300px;
     background-image: url('../../img/icons/icon__toc--collapse.svg');     // you can change this to morph the inline svg into a close X.
 }
  
