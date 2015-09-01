@@ -95,6 +95,13 @@ $color-main: #ffffff;
  	}
  }
 
+ .running-head {
+ 	font-size: .7em;
+	text-transform: uppercase;
+ 	letter-spacing: 2px;
+	text-align: center;
+ }
+
  .toc__ {
  	&title {
 		font-size: 1.3em;
@@ -156,6 +163,12 @@ header, section {
 	margin: 0 auto;
 	padding-top: .5em;
 	box-sizing: border-box;
+}
+
+.running-head {
+	position: fixed;
+	padding: 1.6em 0;
+	width: 100%;
 }
 
 footer {
@@ -220,6 +233,12 @@ a {
 
 .site-wrap {
 	background-color: $color-background;
+}
+
+.running-head {
+	color: $color-main;
+	background-color: $color-background;
+	opacity: .9;
 }
 
 // 6.0 animation

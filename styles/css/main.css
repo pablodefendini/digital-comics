@@ -608,6 +608,12 @@ footer {
   .section-sub-heading a {
     text-decoration: none; }
 
+.running-head {
+  font-size: .7em;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  text-align: center; }
+
 .toc__title {
   font-size: 1.3em;
   line-height: 1.3em; }
@@ -651,6 +657,11 @@ header, section {
   margin: 0 auto;
   padding-top: .5em;
   box-sizing: border-box; }
+
+.running-head {
+  position: fixed;
+  padding: 1.6em 0;
+  width: 100%; }
 
 footer {
   padding-bottom: 100px; }
@@ -701,3 +712,8 @@ a {
 
 .site-wrap {
   background-color: #4d4d4d; }
+
+.running-head {
+  color: #ffffff;
+  background-color: #4d4d4d;
+  opacity: .9; }
