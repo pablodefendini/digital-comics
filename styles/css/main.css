@@ -539,6 +539,31 @@ body {
 #live-text__panel-4 .caption {
   background-color: yellow; }
 
+.toy-planes {
+  font-family: 'CCMonologous';
+  font-size: .7em;
+  line-height: 1.4em; }
+
+.toy-planes .caption, .toy-planes .panel-description, .toy-planes .dialogue {
+  margin: .4em .4em;
+  padding: .4em .6em;
+  width: auto; }
+
+.toy-planes .panel-description {
+  background-color: #666666; }
+.toy-planes .caption {
+  background-color: yellow; }
+.toy-planes .narrator {
+  background-color: #00e600; }
+.toy-planes .joanie {
+  background-color: #ccccff; }
+.toy-planes .taxi-driver {
+  background-color: #ffedcc; }
+.toy-planes .shopkeeper {
+  background-color: #ffcccc; }
+.toy-planes .announcer {
+  background-color: #ffff33; }
+
 body {
   font-family: "jubilat", Georgia, serif;
   font-size: 18px;

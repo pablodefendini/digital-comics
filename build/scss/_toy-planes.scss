@@ -21,178 +21,33 @@
 @import 'compass/css3/transition';
 @import 'compass/css3/flexbox';
 @import 'fonts';
-@import 'navigation';
-@import 'page-layouts';
-@import 'live-text-styles';
 
-@import 'toy-planes';
 
 // 2.0 variables
 // -----------------------------------------------------------------------------
 // all variables used in this file
 // -----------------------------------------------------------------------------
-$color-background: #4d4d4d;
-$color-main: #ffffff;
 
 // 3.0 typography
 // -----------------------------------------------------------------------------
 // all typographic rules, including colors, text-transforms, and bottom margins
 // -----------------------------------------------------------------------------
- body {
- 	font-family: "jubilat", Georgia, serif;
-	font-size: 18px;
+ .toy-planes {
+ 	font-family: 'CCMonologous';
+ 	font-size: .7em;
  	line-height: 1.4em;
- 	font-weight: 100;
- }
-
- nav {
- 	p, a {
-        font-size: 1em;
-        letter-spacing: .75px;
-        text-decoration: none;
-    }
-    li {
-    	margin: .8em 0 0 0;
-    }
- }
-
- p {
- 	letter-spacing: 1.25px;
- }
-
- footer {
- 	text-align: center;
- }
-
- .title {
- 	font-size: 3em;
- 	line-height: 1.1em;
- }
-
- .subtitle {
-	font-size: 2em;
- 	line-height: 1.4em;
- }
-
- .section-heading{
- 	font-size: 2em;
- 	line-height: 1.2em;
- 	letter-spacing: 1px;
- }
-
- .intro-text {
- 	font-size: 1.5em;
- 	line-height: 1.2em;
- 	letter-spacing: 1px;
- }
-
-.section-sub-heading {
- 	font-size: 1.2em;
- 	line-height: 2em;
-  	letter-spacing: 1px;
-	a {
- 		text-decoration: none;
- 	}
- }
-
- .toc__ {
- 	&title {
-		font-size: 1.3em;
-		line-height: 1.3em;
- 	}
- 	&sub-heading {
- 		font-size: .7em;
- 		text-transform: uppercase;
-	 	letter-spacing: 2px;
-		margin-top: 1.6em;
-		a {
-	 		text-decoration: none;
-	 	}
- 	}
- 	&entry {
- 		margin-left: .5em;
- 		a {
- 			text-decoration: none;
- 		}
- 	}
- 	&sub-entry {
- 		font-size: .9em;
- 		margin-left: 1.5em;
- 	}
- 	&demo-entry {
- 		font-size: .7em;
- 		margin: 0 0 0 2.5em;
- 		span {
- 			display: block;
- 			line-height: 0;
- 		}
- 	}
  }
 // 4.0 layout
 // -----------------------------------------------------------------------------
 // all layout rules, including floats, flexbox, position, overflow, z-index, 
 // widths, heights, margins, padding, etc.
 // -----------------------------------------------------------------------------
-nav {
-	max-width: 280px;
-}
-
-header, section {
-	width: 100%;
-	max-width: 36em;
-	margin: 0 auto;
-}
-
-.navigation {
-	padding: 1em 0em 1em 1em;
-}
-
-.site-wrap {
-	padding-bottom: 3000px; // this feels super hacky
-}
-
-.site-header {
-	width: 95%;
-	margin: 0 auto;
-	padding-top: .5em;
-	box-sizing: border-box;
-}
-
-footer {
-	padding-bottom: 100px;
-}
-
-.layout-icons {
-	margin: 0 auto;
-	@include display-flex;
-	@include flex-wrap(wrap);
-	@include justify-content(center);
-	a {
-		img {
-			padding: .5em;
-			max-width: 7em;
-		}
+.toy-planes {
+	.caption, .panel-description, .dialogue {
+		margin: .4em .4em;
+		padding: .4em .6em;
+		width: auto;
 	}
-}
-
-.title {
-	margin: 2em 0 .2em 0;
-}
-
-.subtitle {
-	margin-top: .4em;
-}
-
-.section-heading {
-	padding-top: 4em;	
-}
-
-.section-sub-heading {
-	margin: 1em 0 0 0;
-}
-
-p {
-	margin-top: .4em;
 }
 // 5.0 style
 // -----------------------------------------------------------------------------
@@ -200,28 +55,29 @@ p {
 // and any other styles that don't fit comfortably in any of 
 // the other categories
 // -----------------------------------------------------------------------------
-body {
-	color: $color-main;
-	background-color: $color-background;
-}
-
-nav {
-	background: darken($color-background, 10%);
-}
-
-a {
-	color: $color-main;
-	opacity: .7;
-	@include transition(ease-in, .5s);
-	&:hover {
-		opacity: 1;
+.toy-planes {
+	.panel-description {
+		background-color: lighten(black, 40%);
+	}
+	.caption {
+		background-color: yellow;
+	}
+	.narrator {
+		background-color: lighten(green, 20%);
+	}
+	.joanie {
+		background-color: lighten(blue, 40%);
+	}
+	.taxi-driver {
+		background-color: lighten(orange, 40%);
+	}
+	.shopkeeper {
+		background-color: lighten(red, 40%);
+	}
+	.announcer {
+		background-color: lighten(yellow, 10%);
 	}
 }
-
-.site-wrap {
-	background-color: $color-background;
-}
-
 // 6.0 animation
 // -----------------------------------------------------------------------------
 // transitions, transforms, animations, etc.
