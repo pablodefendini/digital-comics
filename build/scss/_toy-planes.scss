@@ -333,8 +333,7 @@
 #page04 {
 	&__panel01 {
 		position: relative;
-		@media (min-width: 700px) {
-		}
+		min-height: 200px;
 	}
 	&__panel02 {
 		position: relative;
@@ -364,6 +363,69 @@
 			left: 4em;
 			top: 2em;
 			width: 11em;
+		}
+	}
+}
+
+// PAGE 05 ROW LAYOUTS
+#page05 {
+	&__row02 {
+		@include display-flex;
+		@include flex-direction(column);
+	}
+}
+
+// PAGE 05 PANEL LAYOUTS
+#page05 {
+	&__panel01 {
+		position: relative;
+		.yes {
+			position: absolute;
+			width: 2em;
+			top: 1em;
+			left: 3em;
+		}
+		.agreed {
+			position: absolute;
+			width: 12em;
+			top: 1em;
+			right: 2em;
+		}
+	}
+	&__panel02 {
+		position: relative;
+		.money {
+			position: absolute;
+			width: 10em;
+			bottom: 1em;
+			right: 5em;
+		}
+	}
+	&__panel03 {
+		position: relative;
+		height: 400px;
+		.deserve {
+			position: absolute;
+			width: 25em;
+			top: 1em;
+			left: 1em;
+			@media (min-width: 700px) {
+				top: 2em;
+				left: 2em;
+			}
+		}
+	}
+	&__panel04 {
+		position: relative;
+		.all {
+			position: absolute;
+			width: 15em;
+			top: 7em;
+			left: 2em;
+			@media (min-width: 700px) {
+				top: 7em;
+				left: 5em;
+			}
 		}
 	}
 }

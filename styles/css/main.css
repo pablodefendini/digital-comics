@@ -760,7 +760,8 @@ body {
   flex-direction: column; }
 
 #page04__panel01 {
-  position: relative; }
+  position: relative;
+  min-height: 200px; }
 #page04__panel02 {
   position: relative;
   height: 300px; }
@@ -785,6 +786,55 @@ body {
     left: 4em;
     top: 2em;
     width: 11em; }
+
+#page05__row02 {
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-direction: column;
+  flex-direction: column; }
+
+#page05__panel01 {
+  position: relative; }
+  #page05__panel01 .yes {
+    position: absolute;
+    width: 2em;
+    top: 1em;
+    left: 3em; }
+  #page05__panel01 .agreed {
+    position: absolute;
+    width: 12em;
+    top: 1em;
+    right: 2em; }
+#page05__panel02 {
+  position: relative; }
+  #page05__panel02 .money {
+    position: absolute;
+    width: 10em;
+    bottom: 1em;
+    right: 5em; }
+#page05__panel03 {
+  position: relative;
+  height: 400px; }
+  #page05__panel03 .deserve {
+    position: absolute;
+    width: 25em;
+    top: 1em;
+    left: 1em; }
+    @media (min-width: 700px) {
+      #page05__panel03 .deserve {
+        top: 2em;
+        left: 2em; } }
+#page05__panel04 {
+  position: relative; }
+  #page05__panel04 .all {
+    position: absolute;
+    width: 15em;
+    top: 7em;
+    left: 2em; }
+    @media (min-width: 700px) {
+      #page05__panel04 .all {
+        top: 7em;
+        left: 5em; } }
 
 .toy-planes .panel-description {
   color: black;
