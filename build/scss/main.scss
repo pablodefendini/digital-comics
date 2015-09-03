@@ -95,7 +95,7 @@ $color-main: #ffffff;
  	}
  }
 
- .running-head {
+ .running-head, .comic-title {
  	font-size: .7em;
 	text-transform: uppercase;
  	letter-spacing: 2px;
@@ -142,6 +142,16 @@ $color-main: #ffffff;
 // -----------------------------------------------------------------------------
 nav {
 	max-width: 280px;
+}
+
+.comic-nav {
+    ul {
+        @include display-flex;
+        @include justify-content(space-around);
+    	li {
+			margin: 2em 1em 1em 1em;
+    	}
+    }
 }
 
 header, section {

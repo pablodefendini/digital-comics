@@ -572,49 +572,65 @@ body {
     float: right;
     margin-top: -773px; } }
 
-#page01__panel02 .joanie {
-  width: 11em;
-  height: 11em;
-  float: right;
-  margin-right: 1em;
-  margin-top: 1em; }
+#page01__panel02 {
+  position: relative; }
+  #page01__panel02 .grew {
+    position: absolute;
+    width: 11em;
+    top: 1em;
+    right: 1em; }
+  #page01__panel02 .sure {
+    position: absolute;
+    width: 11em;
+    top: 9em;
+    right: 1em; }
 #page01__panel03 {
   position: relative;
   height: 500px; }
   @media (min-width: 700px) {
     #page01__panel03 {
       height: 765px; } }
-  #page01__panel03 .joanie {
+  #page01__panel03 .accent {
+    position: absolute;
+    width: 15em;
+    top: 1em;
+    right: 1em; }
+  #page01__panel03 .really {
     position: absolute;
     width: 11em;
-    right: 0em;
+    right: 1em;
     top: 12em; }
-  #page01__panel03 .accent {
-    width: 15em;
-    position: absolute;
-    top: 0px;
-    right: 0; }
   #page01__panel03 .sponsoring {
-    width: 20em;
     position: absolute;
-    bottom: 0;
-    right: 0; }
+    width: 20em;
+    bottom: 7em;
+    right: 1em; }
+  #page01__panel03 .disaster {
+    position: absolute;
+    width: 20em;
+    bottom: 1em;
+    right: 1em; }
 #page01__panel04 {
   position: relative;
   height: 250px; }
-  #page01__panel04 .narrator {
+  #page01__panel04 .decompression {
     position: absolute;
     bottom: 0; }
 #page01__panel05 {
   position: relative; }
-  #page01__panel05 .joanie {
+  #page01__panel05 .ras {
     position: absolute;
-    width: 11em;
-    right: 2em;
-    top: 2em; }
+    width: 5em;
+    right: 6em;
+    top: 3em; }
+  #page01__panel05 .insulted {
+    position: absolute;
+    width: 12em;
+    right: 1em;
+    bottom: 1em; }
 #page01__panel06 {
   position: relative; }
-  #page01__panel06 .narrator {
+  #page01__panel06 .need {
     position: absolute;
     width: 15em;
     bottom: 1em;
@@ -656,7 +672,7 @@ body {
 #page02__panel02 {
   position: relative;
   min-height: 200px; }
-  #page02__panel02 .joanie {
+  #page02__panel02 .glad {
     position: absolute;
     width: 25em;
     right: 1em;
@@ -836,28 +852,30 @@ body {
         top: 7em;
         left: 5em; } }
 
-.toy-planes .panel-description {
-  color: black;
-  background-color: white; }
-.toy-planes .caption {
-  background-color: white;
-  opacity: .8; }
-.toy-planes .narrator {
-  color: black;
-  background-color: white; }
-.toy-planes .joanie {
-  color: black;
-  background-color: white; }
-.toy-planes .driver {
-  color: black;
-  background-color: white;
-  opacity: .5; }
-.toy-planes .shopkeeper {
-  color: black;
-  background-color: white; }
-.toy-planes .announcer {
-  color: black;
-  background-color: white; }
+.toy-planes {
+  background-color: black; }
+  .toy-planes .panel-description {
+    color: black;
+    background-color: white; }
+  .toy-planes .caption {
+    background-color: white;
+    opacity: .8; }
+  .toy-planes .narrator {
+    color: black;
+    background-color: white; }
+  .toy-planes .joanie {
+    color: black;
+    background-color: white; }
+  .toy-planes .driver {
+    color: black;
+    background-color: white;
+    opacity: .5; }
+  .toy-planes .shopkeeper {
+    color: black;
+    background-color: white; }
+  .toy-planes .announcer {
+    color: black;
+    background-color: white; }
 
 body {
   font-family: "jubilat", Georgia, serif;
@@ -903,7 +921,7 @@ footer {
   .section-sub-heading a {
     text-decoration: none; }
 
-.running-head {
+.running-head, .comic-title {
   font-size: .7em;
   text-transform: uppercase;
   letter-spacing: 2px;
@@ -935,6 +953,14 @@ footer {
 
 nav {
   max-width: 280px; }
+
+.comic-nav ul {
+  display: -webkit-flex;
+  display: flex;
+  -webkit-justify-content: space-around;
+  justify-content: space-around; }
+  .comic-nav ul li {
+    margin: 2em 1em 1em 1em; }
 
 header, section {
   width: 100%;
