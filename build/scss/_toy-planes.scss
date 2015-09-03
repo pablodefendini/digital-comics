@@ -37,6 +37,15 @@
  	font-size: .7em;
  	line-height: 1.4em;
  }
+
+ .dialogue {
+ 	text-align: center;
+ }
+
+ .joanie {
+ 	font-family: 'CCSoliloquous';
+ }
+
 // 4.0 layout
 // -----------------------------------------------------------------------------
 // all layout rules, including floats, flexbox, position, overflow, z-index, 
@@ -49,6 +58,98 @@
 		width: auto;
 	}
 }
+
+.toy-planes {
+	.panel {
+		min-height: 250px;
+	}
+}
+
+// PAGE 01 ROW LAYOUTS
+#page01 {
+	&__row01 {
+		@include display-flex;
+	}
+	&__row02, &__row03 {
+		@media (min-width: 700px) {
+			width: 50%;
+		}
+	}
+	&__row03 {
+		@media (min-width: 700px) {
+			@include flex-direction(column);
+			float: right;
+			margin-top: -773px;
+		}
+	}
+}
+
+// PAGE 01 INDIVIDUAL PANEL LAYOUTS
+#page01 {
+	&__panel01 {
+	}
+	&__panel02 {
+		.joanie {
+			width: 11em;
+			height: 11em;
+			float: right;
+			margin-right: 1em;
+			margin-top: 1em;
+		}
+	}
+	&__panel03 {
+		position: relative;
+		height: 500px;
+		@media (min-width: 700px) {
+			height: 765px;
+		}
+		.joanie {
+			position: absolute;
+			width: 11em;
+			right: 0em;
+			top:12em;
+		}
+		.accent {
+			width: 15em;
+			position: absolute;
+			top: 0px;
+			right: 0;
+		}
+		.sponsoring {
+			width: 20em;
+			position: absolute;
+			bottom: 0;
+			right: 0;
+		}
+	}
+	&__panel04 {
+		position: relative;
+		height: 250px;
+		.narrator {
+			position: absolute;
+			bottom: 0;
+		}
+	}
+	&__panel05 {
+		position: relative;
+		.joanie {
+			position: absolute;
+			width: 11em;
+			right: 2em;
+			top:2em;
+		}
+	}
+	&__panel06 {
+		position: relative;
+		.narrator {
+			position: absolute;
+			width: 15em;
+			bottom: 1em;
+			left: 1em;
+		}
+	}
+}
+
 // 5.0 style
 // -----------------------------------------------------------------------------
 // global colors, decorations like shadows, gradients, etc., 

@@ -544,10 +544,80 @@ body {
   font-size: .7em;
   line-height: 1.4em; }
 
+.dialogue {
+  text-align: center; }
+
+.joanie {
+  font-family: 'CCSoliloquous'; }
+
 .toy-planes .caption, .toy-planes .panel-description, .toy-planes .dialogue {
   margin: .4em .4em;
   padding: .4em .6em;
   width: auto; }
+
+.toy-planes .panel {
+  min-height: 250px; }
+
+#page01__row01 {
+  display: -webkit-flex;
+  display: flex; }
+@media (min-width: 700px) {
+  #page01__row02, #page01__row03 {
+    width: 50%; } }
+@media (min-width: 700px) {
+  #page01__row03 {
+    -webkit-flex-direction: column;
+    flex-direction: column;
+    float: right;
+    margin-top: -773px; } }
+
+#page01__panel02 .joanie {
+  width: 11em;
+  height: 11em;
+  float: right;
+  margin-right: 1em;
+  margin-top: 1em; }
+#page01__panel03 {
+  position: relative;
+  height: 500px; }
+  @media (min-width: 700px) {
+    #page01__panel03 {
+      height: 765px; } }
+  #page01__panel03 .joanie {
+    position: absolute;
+    width: 11em;
+    right: 0em;
+    top: 12em; }
+  #page01__panel03 .accent {
+    width: 15em;
+    position: absolute;
+    top: 0px;
+    right: 0; }
+  #page01__panel03 .sponsoring {
+    width: 20em;
+    position: absolute;
+    bottom: 0;
+    right: 0; }
+#page01__panel04 {
+  position: relative;
+  height: 250px; }
+  #page01__panel04 .narrator {
+    position: absolute;
+    bottom: 0; }
+#page01__panel05 {
+  position: relative; }
+  #page01__panel05 .joanie {
+    position: absolute;
+    width: 11em;
+    right: 2em;
+    top: 2em; }
+#page01__panel06 {
+  position: relative; }
+  #page01__panel06 .narrator {
+    position: absolute;
+    width: 15em;
+    bottom: 1em;
+    left: 1em; }
 
 .toy-planes .panel-description {
   background-color: #666666; }
