@@ -57,9 +57,9 @@
 		padding: .4em .6em;
 		width: auto;
 	}
-}
-
-.toy-planes {
+	.panel-description {
+		display: none;
+	}
 	.panel {
 		min-height: 250px;
 	}
@@ -207,6 +207,120 @@
 	}
 }
 
+// PAGE 03 ROW LAYOUTS
+#page03 {
+	&__row01 {
+		
+	}
+}
+
+// PAGE 03 PANEL LAYOUTS
+#page03 {
+	&__panel01 {
+		position: relative;
+		height: 350px;
+		@media (min-width: 700px) {
+			height: 650px;
+		}
+		.ask {
+			position: absolute;
+			width: 30em;
+			left: 1em;
+			top: 1em;
+			@media (min-width: 700px) {
+				left: 0em;
+				top: 0em;
+				width: 25em;
+			}
+		}
+		.government {
+			position: absolute;
+			width: 11em;
+			right: 3em;
+			top: 10em;
+			@media (min-width: 700px) {
+				right: 0em;
+				width: 9em;
+			}
+		}
+		.private {
+			position: absolute;
+			width: 20em;
+			right: 4em;
+			bottom: 1em;
+		}
+	}
+	&__panel02 {
+		position: relative;
+		height: 350px;
+		@media (min-width: 700px) {
+			height: 650px;
+		}
+		.people {
+			position: absolute;
+			width: 20em;
+			left: 2em;
+			top: 1em;
+		}
+		.food {
+			position: absolute;
+			width: 19em;
+			left: 5em;
+			top: 6em;
+			@media (min-width: 700px) {
+				top: 23em;
+			}
+		}
+		.spinoff {
+			position: absolute;
+			width: 23em;
+			right: 2em;
+			bottom: 1em;
+			@media (min-width: 700px) {
+				right: 1em;
+			}
+		}
+	}
+	&__panel03 {
+		position: relative;
+		height: 300px;
+		.wait {
+			position: absolute;
+			width: 20em;
+			left: 1em;
+			top: 0em;
+		}
+		.good {
+			position: absolute;
+			width: 22em;
+			left: 3em;
+			top: 4em;
+		}
+		.maybe {
+			position: absolute;
+			width: 7em;
+			right: 2em;
+			bottom: 1em;
+		}
+	}
+	&__panel04 {
+		position: relative;
+		height: 300px;
+		.dropped {
+			position: absolute;
+			width: 17em;
+			left: 2em;
+			top: 1em;
+		}
+		.yes {
+			position: absolute;
+			width: 4em;
+			right: 2em;
+			bottom: 1em;
+		}
+	}
+}
+
 // 5.0 style
 // -----------------------------------------------------------------------------
 // global colors, decorations like shadows, gradients, etc., 
@@ -215,25 +329,33 @@
 // -----------------------------------------------------------------------------
 .toy-planes {
 	.panel-description {
-		background-color: lighten(black, 40%);
+		color: black;
+		background-color: white;
 	}
 	.caption {
-		background-color: yellow;
+		background-color: white;
+		opacity: .8;
 	}
 	.narrator {
-		background-color: lighten(green, 20%);
+		color: black;
+		background-color: white;
 	}
 	.joanie {
-		background-color: lighten(blue, 40%);
+		color: black;
+		background-color: white;
 	}
-	.taxi-driver {
-		background-color: lighten(orange, 40%);
+	.driver {
+		color: black;
+		background-color: white;
+		opacity: .5;
 	}
 	.shopkeeper {
-		background-color: lighten(red, 40%);
+		color: black;
+		background-color: white;
 	}
 	.announcer {
-		background-color: lighten(yellow, 10%);
+		color: black;
+		background-color: white;
 	}
 }
 // 6.0 animation

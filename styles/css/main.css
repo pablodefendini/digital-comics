@@ -554,7 +554,8 @@ body {
   margin: .4em .4em;
   padding: .4em .6em;
   width: auto; }
-
+.toy-planes .panel-description {
+  display: none; }
 .toy-planes .panel {
   min-height: 250px; }
 
@@ -663,20 +664,117 @@ body {
 #page02__panel03 {
   height: 300px; }
 
+#page03__panel01 {
+  position: relative;
+  height: 350px; }
+  @media (min-width: 700px) {
+    #page03__panel01 {
+      height: 650px; } }
+  #page03__panel01 .ask {
+    position: absolute;
+    width: 30em;
+    left: 1em;
+    top: 1em; }
+    @media (min-width: 700px) {
+      #page03__panel01 .ask {
+        left: 0em;
+        top: 0em;
+        width: 25em; } }
+  #page03__panel01 .government {
+    position: absolute;
+    width: 11em;
+    right: 3em;
+    top: 10em; }
+    @media (min-width: 700px) {
+      #page03__panel01 .government {
+        right: 0em;
+        width: 9em; } }
+  #page03__panel01 .private {
+    position: absolute;
+    width: 20em;
+    right: 4em;
+    bottom: 1em; }
+#page03__panel02 {
+  position: relative;
+  height: 350px; }
+  @media (min-width: 700px) {
+    #page03__panel02 {
+      height: 650px; } }
+  #page03__panel02 .people {
+    position: absolute;
+    width: 20em;
+    left: 2em;
+    top: 1em; }
+  #page03__panel02 .food {
+    position: absolute;
+    width: 19em;
+    left: 5em;
+    top: 6em; }
+    @media (min-width: 700px) {
+      #page03__panel02 .food {
+        top: 23em; } }
+  #page03__panel02 .spinoff {
+    position: absolute;
+    width: 23em;
+    right: 2em;
+    bottom: 1em; }
+    @media (min-width: 700px) {
+      #page03__panel02 .spinoff {
+        right: 1em; } }
+#page03__panel03 {
+  position: relative;
+  height: 300px; }
+  #page03__panel03 .wait {
+    position: absolute;
+    width: 20em;
+    left: 1em;
+    top: 0em; }
+  #page03__panel03 .good {
+    position: absolute;
+    width: 22em;
+    left: 3em;
+    top: 4em; }
+  #page03__panel03 .maybe {
+    position: absolute;
+    width: 7em;
+    right: 2em;
+    bottom: 1em; }
+#page03__panel04 {
+  position: relative;
+  height: 300px; }
+  #page03__panel04 .dropped {
+    position: absolute;
+    width: 17em;
+    left: 2em;
+    top: 1em; }
+  #page03__panel04 .yes {
+    position: absolute;
+    width: 4em;
+    right: 2em;
+    bottom: 1em; }
+
 .toy-planes .panel-description {
-  background-color: #666666; }
+  color: black;
+  background-color: white; }
 .toy-planes .caption {
-  background-color: yellow; }
+  background-color: white;
+  opacity: .8; }
 .toy-planes .narrator {
-  background-color: #00e600; }
+  color: black;
+  background-color: white; }
 .toy-planes .joanie {
-  background-color: #ccccff; }
-.toy-planes .taxi-driver {
-  background-color: #ffedcc; }
+  color: black;
+  background-color: white; }
+.toy-planes .driver {
+  color: black;
+  background-color: white;
+  opacity: .5; }
 .toy-planes .shopkeeper {
-  background-color: #ffcccc; }
+  color: black;
+  background-color: white; }
 .toy-planes .announcer {
-  background-color: #ffff33; }
+  color: black;
+  background-color: white; }
 
 body {
   font-family: "jubilat", Georgia, serif;
