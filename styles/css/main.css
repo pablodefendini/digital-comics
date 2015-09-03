@@ -619,6 +619,50 @@ body {
     bottom: 1em;
     left: 1em; }
 
+#page02__row01 {
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-direction: column;
+  flex-direction: column; }
+
+#page02__panel01 {
+  position: relative;
+  height: 500px; }
+  #page02__panel01 .leaving {
+    position: absolute;
+    width: 6em;
+    left: 2em;
+    top: 1em; }
+  #page02__panel01 .remember {
+    position: absolute;
+    width: 16em;
+    left: 11em;
+    top: 5em; }
+  #page02__panel01 .ready {
+    position: absolute;
+    width: 7em;
+    left: 2em;
+    bottom: 8em; }
+  #page02__panel01 .future {
+    position: absolute;
+    width: 19em;
+    right: 3em;
+    bottom: 2em; }
+    @media (min-width: 700px) {
+      #page02__panel01 .future {
+        right: 12em;
+        bottom: 3em; } }
+#page02__panel02 {
+  position: relative;
+  min-height: 200px; }
+  #page02__panel02 .joanie {
+    position: absolute;
+    width: 25em;
+    right: 1em;
+    bottom: 1em; }
+#page02__panel03 {
+  height: 300px; }
+
 .toy-planes .panel-description {
   background-color: #666666; }
 .toy-planes .caption {

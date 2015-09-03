@@ -150,6 +150,63 @@
 	}
 }
 
+// PAGE 02 ROW LAYOUTS
+#page02 {
+	&__row01 {
+		@include display-flex;
+		@include flex-direction(column);
+	}
+}
+
+// PAGE 02 PANEL LAYOUTS
+#page02 {
+	&__panel01 {
+		position: relative;
+		height: 500px;
+		.leaving {
+			position: absolute;
+			width: 6em;
+			left: 2em;
+			top: 1em;
+		}
+		.remember {
+			position: absolute;
+			width: 16em;
+			left: 11em;
+			top: 5em;
+		}
+		.ready {
+			position: absolute;
+			width: 7em;
+			left: 2em;
+			bottom: 8em;
+		}
+		.future {
+			position: absolute;
+			width: 19em;
+			right: 3em;
+			bottom:2em;
+			@media (min-width: 700px) {
+				right: 12em;
+				bottom: 3em;
+			}
+		}
+	}
+	&__panel02 {
+		position: relative;
+		min-height: 200px;
+		.joanie {
+			position: absolute;
+			width: 25em;
+			right: 1em;
+			bottom: 1em;
+		}
+	}
+	&__panel03 {
+		height: 300px;
+	}
+}
+
 // 5.0 style
 // -----------------------------------------------------------------------------
 // global colors, decorations like shadows, gradients, etc., 
