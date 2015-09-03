@@ -321,6 +321,53 @@
 	}
 }
 
+// PAGE 04 ROW LAYOUTS
+#page04 {
+	&__row01 {
+		@include display-flex;
+		@include flex-direction(column);
+	}
+}
+
+// PAGE 04 PANEL LAYOUTS
+#page04 {
+	&__panel01 {
+		position: relative;
+		@media (min-width: 700px) {
+		}
+	}
+	&__panel02 {
+		position: relative;
+		height: 300px;
+		.spaceman {
+			position: absolute;
+			right: 4em;
+			top: 3em;
+			width: 8em;
+			@media (min-width: 700px) {
+				right: 8em;
+				top: 10em;
+			}
+		}
+	}
+	&__panel03 {
+		min-height: 150px;
+	}
+	&__panel04 {
+		height: 300px;
+	}
+	&__panel05 {
+		position: relative;
+		min-height: 150px;
+		.wrap {
+			position: absolute;
+			left: 4em;
+			top: 2em;
+			width: 11em;
+		}
+	}
+}
+
 // 5.0 style
 // -----------------------------------------------------------------------------
 // global colors, decorations like shadows, gradients, etc., 

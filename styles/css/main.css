@@ -753,6 +753,39 @@ body {
     right: 2em;
     bottom: 1em; }
 
+#page04__row01 {
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-direction: column;
+  flex-direction: column; }
+
+#page04__panel01 {
+  position: relative; }
+#page04__panel02 {
+  position: relative;
+  height: 300px; }
+  #page04__panel02 .spaceman {
+    position: absolute;
+    right: 4em;
+    top: 3em;
+    width: 8em; }
+    @media (min-width: 700px) {
+      #page04__panel02 .spaceman {
+        right: 8em;
+        top: 10em; } }
+#page04__panel03 {
+  min-height: 150px; }
+#page04__panel04 {
+  height: 300px; }
+#page04__panel05 {
+  position: relative;
+  min-height: 150px; }
+  #page04__panel05 .wrap {
+    position: absolute;
+    left: 4em;
+    top: 2em;
+    width: 11em; }
+
 .toy-planes .panel-description {
   color: black;
   background-color: white; }
