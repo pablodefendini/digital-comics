@@ -575,7 +575,7 @@ body {
     -webkit-flex-direction: column;
     flex-direction: column;
     float: right;
-    margin-top: -773px; } }
+    margin-top: -772px; } }
 
 #page01__panel02 {
   position: relative; }
@@ -861,28 +861,68 @@ body {
         top: 7em;
         left: 5em; } }
 
+#page01__panel01 {
+  background-image: url("../../img/artwork/toy-planes/page01__panel01--tree.png"), url("../../img/artwork/toy-planes/page01__panel01--rocket.png"), url("../../img/artwork/toy-planes/page01__panel01--sky.png");
+  background-size: 180px, contain, contain;
+  background-position: bottom left, 95% 1em, top left;
+  background-repeat: no-repeat; }
+#page01__panel02 {
+  background-image: url("../../img/artwork/toy-planes/page01__panel02--hair.png"), url("../../img/artwork/toy-planes/page01__panel02--clippers.png");
+  background-size: cover, 75%;
+  background-position: top left, top right;
+  background-repeat: no-repeat; }
+#page01__panel03 {
+  background-image: url("../../img/artwork/toy-planes/page01__panel03--ray.png"), url("../../img/artwork/toy-planes/page01__panel03--joanie.png");
+  background-size: 100%, 85%;
+  background-position: bottom right, top left;
+  background-repeat: no-repeat; }
+#page01__panel04 {
+  background-image: url("../../img/artwork/toy-planes/page01__panel04--toy.png");
+  background-size: contain;
+  background-repeat: no-repeat; }
+#page01__panel05 {
+  background-image: url("../../img/artwork/toy-planes/page01__panel05--joanie.png");
+  background-size: contain;
+  background-repeat: no-repeat; }
+#page01__panel06 {
+  background-image: url("../../img/artwork/toy-planes/page01__panel06--floor.png");
+  background-size: cover;
+  background-repeat: no-repeat; }
+
 .toy-planes .panel-description {
   color: black;
+  border: 1px solid black;
   background-color: white; }
 .toy-planes .caption {
+  border: 1px solid black;
   background-color: white;
   opacity: .8; }
 .toy-planes .narrator {
   color: black;
+  border: 1px solid black;
   background-color: white; }
 .toy-planes .joanie {
   color: black;
+  border: 1px solid black;
   background-color: white; }
 .toy-planes .driver {
   color: black;
+  border: 1px solid black;
   background-color: white;
   opacity: .5; }
 .toy-planes .shopkeeper {
   color: black;
+  border: 1px solid black;
   background-color: white; }
 .toy-planes .announcer {
   color: black;
+  border: 1px solid black;
   background-color: white; }
+.toy-planes .panel {
+  background-color: white; }
+
+#page01__panel01 {
+  background-color: black; }
 
 body {
   font-family: "jubilat", Georgia, serif;
