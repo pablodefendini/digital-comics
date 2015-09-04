@@ -852,30 +852,28 @@ body {
         top: 7em;
         left: 5em; } }
 
-.toy-planes {
-  background-color: black; }
-  .toy-planes .panel-description {
-    color: black;
-    background-color: white; }
-  .toy-planes .caption {
-    background-color: white;
-    opacity: .8; }
-  .toy-planes .narrator {
-    color: black;
-    background-color: white; }
-  .toy-planes .joanie {
-    color: black;
-    background-color: white; }
-  .toy-planes .driver {
-    color: black;
-    background-color: white;
-    opacity: .5; }
-  .toy-planes .shopkeeper {
-    color: black;
-    background-color: white; }
-  .toy-planes .announcer {
-    color: black;
-    background-color: white; }
+.toy-planes .panel-description {
+  color: black;
+  background-color: white; }
+.toy-planes .caption {
+  background-color: white;
+  opacity: .8; }
+.toy-planes .narrator {
+  color: black;
+  background-color: white; }
+.toy-planes .joanie {
+  color: black;
+  background-color: white; }
+.toy-planes .driver {
+  color: black;
+  background-color: white;
+  opacity: .5; }
+.toy-planes .shopkeeper {
+  color: black;
+  background-color: white; }
+.toy-planes .announcer {
+  color: black;
+  background-color: white; }
 
 body {
   font-family: "jubilat", Georgia, serif;
@@ -954,6 +952,8 @@ footer {
 nav {
   max-width: 280px; }
 
+.comic-nav .hidden {
+  display: none; }
 .comic-nav ul {
   display: -webkit-flex;
   display: flex;
