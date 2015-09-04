@@ -40,7 +40,8 @@ $color-main: black;
 .comic-page {
 	&__strip, &__full {
 		width: 98%;
-		margin: 1em auto 2em;
+		margin: 1em auto 0em;
+		padding-bottom: 2em;
 		max-width: 800px;
 		@include justify-content(center);
 		box-sizing: border-box;

@@ -36,6 +36,9 @@
  	font-family: 'CCMonologous';
  	font-size: .7em;
  	line-height: 1.4em;
+ 	.page-nav {
+ 		font-size: 1em;
+ 	}
  }
 
  .dialogue {
@@ -52,6 +55,7 @@
 // widths, heights, margins, padding, etc.
 // -----------------------------------------------------------------------------
 .toy-planes {
+	padding: 0em;
 	.caption, .panel-description, .dialogue {
 		margin: .4em .4em;
 		padding: .4em .6em;
@@ -189,7 +193,7 @@
 		}
 		.remember {
 			position: absolute;
-			width: 16em;
+			width: 15em;
 			left: 11em;
 			top: 5em;
 		}
@@ -236,13 +240,13 @@
 #page03 {
 	&__panel01 {
 		position: relative;
-		height: 350px;
+		height: 500px;
 		@media (min-width: 700px) {
 			height: 650px;
 		}
 		.ask {
 			position: absolute;
-			width: 30em;
+			width: 24em;
 			left: 1em;
 			top: 1em;
 			@media (min-width: 700px) {
@@ -270,7 +274,7 @@
 	}
 	&__panel02 {
 		position: relative;
-		height: 350px;
+		height: 500px;
 		@media (min-width: 700px) {
 			height: 650px;
 		}
@@ -358,8 +362,8 @@
 		height: 300px;
 		.spaceman {
 			position: absolute;
-			right: 4em;
-			top: 3em;
+			right: 2em;
+			top: 2em;
 			width: 8em;
 			@media (min-width: 700px) {
 				right: 8em;
@@ -378,9 +382,13 @@
 		min-height: 150px;
 		.wrap {
 			position: absolute;
-			left: 4em;
-			top: 2em;
+			left: 1em;
+			bottom: 2em;
 			width: 11em;
+			@media (min-width: 700px) {
+				left: 4em;
+				bottom: 3em;
+			}
 		}
 	}
 }

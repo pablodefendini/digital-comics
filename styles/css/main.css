@@ -104,7 +104,7 @@ label[for="toc-toggle"] {
     opacity: 1; }
 
 .nav-trigger:checked + label {
-  left: 300px;
+  left: 320px;
   background-image: url("../../img/icons/icon__toc--collapse.svg"); }
 
 .nav-trigger:checked ~ .site-wrap {
@@ -118,7 +118,8 @@ body {
 
 .comic-page__strip, .comic-page__full {
   width: 98%;
-  margin: 1em auto 2em;
+  margin: 1em auto 0em;
+  padding-bottom: 2em;
   max-width: 800px;
   -webkit-justify-content: center;
   justify-content: center;
@@ -543,6 +544,8 @@ body {
   font-family: 'CCMonologous';
   font-size: .7em;
   line-height: 1.4em; }
+  .toy-planes .page-nav {
+    font-size: 1em; }
 
 .dialogue {
   text-align: center; }
@@ -550,14 +553,16 @@ body {
 .joanie {
   font-family: 'CCSoliloquous'; }
 
-.toy-planes .caption, .toy-planes .panel-description, .toy-planes .dialogue {
-  margin: .4em .4em;
-  padding: .4em .6em;
-  width: auto; }
-.toy-planes .panel-description {
-  display: none; }
-.toy-planes .panel {
-  min-height: 250px; }
+.toy-planes {
+  padding: 0em; }
+  .toy-planes .caption, .toy-planes .panel-description, .toy-planes .dialogue {
+    margin: .4em .4em;
+    padding: .4em .6em;
+    width: auto; }
+  .toy-planes .panel-description {
+    display: none; }
+  .toy-planes .panel {
+    min-height: 250px; }
 
 #page01__row01 {
   display: -webkit-flex;
@@ -652,7 +657,7 @@ body {
     top: 1em; }
   #page02__panel01 .remember {
     position: absolute;
-    width: 16em;
+    width: 15em;
     left: 11em;
     top: 5em; }
   #page02__panel01 .ready {
@@ -682,13 +687,13 @@ body {
 
 #page03__panel01 {
   position: relative;
-  height: 350px; }
+  height: 500px; }
   @media (min-width: 700px) {
     #page03__panel01 {
       height: 650px; } }
   #page03__panel01 .ask {
     position: absolute;
-    width: 30em;
+    width: 24em;
     left: 1em;
     top: 1em; }
     @media (min-width: 700px) {
@@ -712,7 +717,7 @@ body {
     bottom: 1em; }
 #page03__panel02 {
   position: relative;
-  height: 350px; }
+  height: 500px; }
   @media (min-width: 700px) {
     #page03__panel02 {
       height: 650px; } }
@@ -783,8 +788,8 @@ body {
   height: 300px; }
   #page04__panel02 .spaceman {
     position: absolute;
-    right: 4em;
-    top: 3em;
+    right: 2em;
+    top: 2em;
     width: 8em; }
     @media (min-width: 700px) {
       #page04__panel02 .spaceman {
@@ -799,9 +804,13 @@ body {
   min-height: 150px; }
   #page04__panel05 .wrap {
     position: absolute;
-    left: 4em;
-    top: 2em;
+    left: 1em;
+    bottom: 2em;
     width: 11em; }
+    @media (min-width: 700px) {
+      #page04__panel05 .wrap {
+        left: 4em;
+        bottom: 3em; } }
 
 #page05__row02 {
   display: -webkit-flex;
@@ -919,7 +928,8 @@ footer {
   .section-sub-heading a {
     text-decoration: none; }
 
-.running-head, .comic-title {
+.running-head, .page-title, .comic-title, .page-nav {
+  font-family: "jubilat", Georgia, serif;
   font-size: .7em;
   text-transform: uppercase;
   letter-spacing: 2px;
@@ -950,28 +960,29 @@ footer {
     line-height: 0; }
 
 nav {
-  max-width: 280px; }
-
-.comic-nav .hidden {
-  display: none; }
-.comic-nav ul {
-  display: -webkit-flex;
-  display: flex;
-  -webkit-justify-content: space-around;
-  justify-content: space-around; }
-  .comic-nav ul li {
-    margin: 2em 1em 1em 1em; }
+  max-width: 300px; }
 
 header, section {
   width: 100%;
   max-width: 36em;
-  margin: 0 auto; }
+  margin: 0 auto;
+  padding: 0 1em; }
 
 .navigation {
-  padding: 1em 0em 1em 1em; }
+  padding: 1em 1em 5em 1em; }
 
 .site-wrap {
-  padding-bottom: 3000px; }
+  min-height: 100vh; }
+
+.page-nav .hidden {
+  display: none; }
+.page-nav ul {
+  display: -webkit-flex;
+  display: flex;
+  -webkit-justify-content: space-around;
+  justify-content: space-around; }
+  .page-nav ul li {
+    margin: 2em 1em 1em 1em; }
 
 .site-header {
   width: 95%;
