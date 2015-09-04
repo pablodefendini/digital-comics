@@ -505,21 +505,162 @@
 
 #page02 {
 	&__panel01 {
+		background-image: 	url('../../img/artwork/toy-planes/page02__panel01--embrace.png'),
+							url('../../img/artwork/toy-planes/page02__panel01--mountain.png'),
+							url('../../img/artwork/toy-planes/page02__panel01--house-and-road.png');
+		background-size: 	30%,
+							52%,
+							70%;
+		background-position:bottom left,
+							top left,
+							top right;
+		background-repeat: no-repeat;
+	}
+	&__panel02 {
+		background-image: 	url('../../img/artwork/toy-planes/page02__panel02--van.png'),
+							url('../../img/artwork/toy-planes/page02__panel02--road.png'),
+							url('../../img/artwork/toy-planes/page02__panel02--background.png');
+		background-size: 	30%,
+							100%,
+							100%;
+		background-position: 10px 10px,
+							bottom,
+							top;
+		background-repeat: no-repeat;
+	}
+	&__panel03 {
+		background-image: 	url('../../img/artwork/toy-planes/page02__panel03--van.png'),
+							url('../../img/artwork/toy-planes/page02__panel03--road.png'),
+							url('../../img/artwork/toy-planes/page02__panel03--sky.png');
+		background-size: 	30%,
+							100%,
+							100%;
+		background-position: 40% 80%,
+							bottom,
+							top;
+		background-repeat: no-repeat;
 	}
 }
 
 #page03 {
 	&__panel01 {
+		background-image: 	url('../../img/artwork/toy-planes/page03__panel01--driver.png'),
+							url('../../img/artwork/toy-planes/page03__panel01--ray.png'),
+							url('../../img/artwork/toy-planes/page03__panel01--background.png');
+		background-size: 	90%,
+							80%,
+							100%;
+		background-position:bottom right,
+							bottom left,
+							top right;
+		background-repeat: no-repeat;
+	}
+	&__panel02 {
+		background-image: 	url('../../img/artwork/toy-planes/page03__panel02--satellite.png'),
+							url('../../img/artwork/toy-planes/page03__panel02--background.png');
+		background-size: 	90%,
+							contain;
+		background-position:top right,
+							bottom center;
+		background-repeat: no-repeat;
+	}
+	&__panel03 {
+		background-image: url('../../img/artwork/toy-planes/page03__panel03--ray.png');
+		background-size: 70%;
+		background-position:bottom center;
+		background-repeat: no-repeat;
+	}
+	&__panel04 {
+		background-image: url('../../img/artwork/toy-planes/page03__panel04--traffic.png');
+		background-size: cover;
+		background-position:top center;
+		background-repeat: no-repeat;
 	}
 }
 
 #page04 {
 	&__panel01 {
+		background-image: url('../../img/artwork/toy-planes/page04__panel01--background.png');
+		background-size: cover;
+		background-position:top center;
+		background-repeat: no-repeat;
+	}
+	&__panel02 {
+		background-image: 	url('../../img/artwork/toy-planes/page04__panel02--shopkeeper.png'),
+							url('../../img/artwork/toy-planes/page04__panel02--background.png');
+		background-size: 	60%,
+							cover;
+		background-position:bottom center,
+							top center;
+		background-repeat: no-repeat;
+	}
+	&__panel03 {
+		background-image: 	url('../../img/artwork/toy-planes/page04__panel03--toy-car.png'),
+							url('../../img/artwork/toy-planes/page04__panel03--toy-train.png'),
+							url('../../img/artwork/toy-planes/page04__panel03--toy-plane.png'),
+							url('../../img/artwork/toy-planes/page04__panel03--background.png');
+		background-size: 	25%,
+							25%,
+							25%,
+							cover;
+		background-position:center,
+		                    left,
+		                    right;
+		background-repeat: no-repeat;
+	}
+	&__panel04 {
+		background-image: 	url('../../img/artwork/toy-planes/page04__panel04--ray.png'),
+							url('../../img/artwork/toy-planes/page04__panel04--background.png');
+		background-size: 	95%,
+							cover;
+		background-position:bottom,
+		                    left;
+		background-repeat: no-repeat;
+	}
+	&__panel05 {
+		background-image: 	url('../../img/artwork/toy-planes/page04__panel05--hand.png'),
+							url('../../img/artwork/toy-planes/page04__panel03--toy-plane.png'),
+							url('../../img/artwork/toy-planes/page04__panel03--background.png');
+		background-size: 	50%,
+							25%,
+							cover;
+		background-position:top center,
+		                    right;
+		background-repeat: no-repeat;
 	}
 }
 
 #page05 {
 	&__panel01 {
+		background-image: 	url('../../img/artwork/toy-planes/page05__panel01--podium-side.png'),
+							url('../../img/artwork/toy-planes/page05__panel01--roy.png');
+		background-size: 	25%,
+							30%;
+		background-position:bottom center,
+							bottom left;
+		background-repeat: no-repeat;
+	}
+	&__panel02 {
+		background-image: 	url('../../img/artwork/toy-planes/page05__panel02--roy.png');
+		background-size: 	90%;
+		background-position:top center;
+		background-repeat: no-repeat;
+	}
+	&__panel03 {
+		background-image: 	url('../../img/artwork/toy-planes/page05__panel03--foreground.png'),
+							url('../../img/artwork/toy-planes/page05__panel03--roy.png'),
+							url('../../img/artwork/toy-planes/page05__panel03--background.png');
+		background-size: 	contain,
+							70%,
+							contain;
+		background-position:bottom,
+							bottom center;
+		background-repeat: no-repeat;
+	}
+	&__panel04 {
+		background-image: 	url('../../img/artwork/toy-planes/page05__panel04--cockpit.png');
+		background-size: 	cover;
+		background-repeat: no-repeat;
 	}
 }
 
@@ -544,7 +685,6 @@
 	.caption {
 		border: 1px solid $color-main;
 		background-color: white;
-		opacity: .8;
 	}
 	.narrator {
 		color: black;
@@ -560,7 +700,6 @@
 		color: black;
 		border: 1px solid $color-main;
 		background-color: white;
-		opacity: .5;
 	}
 	.shopkeeper {
 		color: black;
