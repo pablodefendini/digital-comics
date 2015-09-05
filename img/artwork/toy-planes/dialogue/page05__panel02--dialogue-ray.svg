@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="150px" height="85px" viewBox="0 0 150 85" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <!-- Generator: Sketch 3.3.3 (12072) - http://www.bohemiancoding.com/sketch -->
+    <title>page05__panel02--dialogue-ray</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="page05__panel02--dialogue-ray" sketch:type="MSArtboardGroup">
+            <path d="M37.6356574,18.3575583 C48.6364465,15.3439214 61.395192,13.6201335 75,13.6201335 C116.421356,13.6201335 150,29.5990609 150,49.3100668 C150,69.0210726 116.421356,85 75,85 C33.5786438,85 0,69.0210726 0,49.3100668 C0,37.5574556 11.9375256,27.1316336 30.3573019,20.6285794 L21.20832,-0.00569602628 L37.6356574,18.3575583 Z" id="balloon" stroke="#000000" fill="#FFFFFF" sketch:type="MSShapeGroup"></path>
+            <text id="Yes,-I-do-think--thi" sketch:type="MSTextLayer" font-family="CCSoliloquous" font-size="12" font-weight="normal" sketch:alignment="middle" line-spacing="14" fill="#000000">
+                <tspan x="28.068" y="39.5476505">Yes, I </tspan>
+                <tspan x="67.296" y="39.5476505" font-style="italic" font-weight="bold">do</tspan>
+                <tspan x="88.044" y="39.5476505"> think </tspan>
+                <tspan x="15.258" y="53.5476505">this is a </tspan>
+                <tspan x="75.402" y="53.5476505" font-weight="bold">good</tspan>
+                <tspan x="111.99" y="53.5476505"> use </tspan>
+                <tspan x="42.408" y="67.5476505">of </tspan>
+                <tspan x="63.336" y="67.5476505" font-weight="bold">money</tspan>
+                <tspan x="110.556" y="67.5476505">.</tspan>
+            </text>
+        </g>
+    </g>
+</svg>

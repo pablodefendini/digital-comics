@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="184px" height="69px" viewBox="0 0 184 69" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <!-- Generator: Sketch 3.3.3 (12072) - http://www.bohemiancoding.com/sketch -->
+    <title>page04__panel05--dialogue-ray</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="page04__panel05--dialogue-ray" sketch:type="MSArtboardGroup">
+            <path d="M114.315584,55.5039227 C102.662892,63.7105091 84.3442938,69 63.7430897,69 C28.5387533,69 0,53.5538239 0,34.5 C0,15.4461761 28.5387533,0 63.7430897,0 C98.947426,0 127.486179,15.4461761 127.486179,34.5 C127.486179,39.720238 125.344022,44.6696812 121.509525,49.1048725 C130.358957,52.2657386 155.493079,60.427111 184.286417,62.4949419 C149.725631,62.4271014 121.967487,57.1188656 114.315584,55.5039227 Z" id="balloon" stroke="#000000" fill="#FFFFFF" sketch:type="MSShapeGroup"></path>
+            <text id="Can-you-wrap-that-up" sketch:type="MSTextLayer" font-family="CCSoliloquous" font-size="12" font-weight="normal" sketch:alignment="middle" line-spacing="14" fill="#000000">
+                <tspan x="36.3312198" y="22.3083857">Can you </tspan>
+                <tspan x="18.6612198" y="36.3083857">wrap that up </tspan>
+                <tspan x="36.0252198" y="50.3083857">for me?</tspan>
+            </text>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="64px" height="80px" viewBox="0 0 64 80" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <!-- Generator: Sketch 3.3.3 (12072) - http://www.bohemiancoding.com/sketch -->
+    <title>page05__panel01--dialogue-ray-1</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="page05__panel01--dialogue-ray-1" sketch:type="MSArtboardGroup">
+            <path d="M33.8668469,38.7029969 C31.8571288,39.0334356 29.763354,39.208097 27.6121206,39.208097 C12.3623675,39.208097 0,30.4310655 0,19.6040485 C0,8.77703149 12.3623675,0 27.6121206,0 C42.8618738,0 55.2242413,8.77703149 55.2242413,19.6040485 C55.2242413,27.2248562 49.0995245,33.8300347 40.1542041,37.0737303 C44.47005,47.6621785 52.2654953,64.215501 64.0247117,80.0019981 C50.1728068,64.1311168 40.0211573,48.8662961 33.8668469,38.7029969 Z" id="balloon" stroke="#000000" fill="#FFFFFF" sketch:type="MSShapeGroup"></path>
+            <text id="Yes." sketch:type="MSTextLayer" font-family="CCSoliloquous" font-size="12" font-weight="normal" sketch:alignment="middle" line-spacing="14" fill="#000000">
+                <tspan x="14.216" y="21.948">Yes.</tspan>
+            </text>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="110px" height="73px" viewBox="0 0 110 73" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <!-- Generator: Sketch 3.3.3 (12072) - http://www.bohemiancoding.com/sketch -->
+    <title>page04__panel02--dialogue-shopkeeper</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="page04__panel02--dialogue-shopkeeper" sketch:type="MSArtboardGroup">
+            <path d="M25.082611,48.2590271 C9.98536907,43.5813698 0,35.4661548 0,26.2383351 C0,11.7473028 24.6243388,0 55,0 C85.3756612,0 110,11.7473028 110,26.2383351 C110,40.7293675 85.3756612,52.4766702 55,52.4766702 C46.5345367,52.4766702 38.5157752,51.5642642 31.3522382,49.9343423 C24.7719166,56.2092812 14.545957,64.9193966 1.29592146,72.9987816 C11.9799385,64.938894 19.9689132,55.3876333 25.082611,48.2590271 Z" id="balloon" stroke="#000000" fill="#FFFFFF" sketch:type="MSShapeGroup"></path>
+            <text id="Hey-spaceman!" sketch:type="MSTextLayer" font-family="CCSoliloquous" font-size="12" font-weight="normal" sketch:alignment="middle" line-spacing="14" fill="#000000">
+                <tspan x="43.3622759" y="19.3593232">Hey </tspan>
+                <tspan x="17.3162759" y="33.3593232" font-weight="bold">spaceman</tspan>
+                <tspan x="89.2922759" y="33.3593232">!</tspan>
+            </text>
+        </g>
+    </g>
+</svg>

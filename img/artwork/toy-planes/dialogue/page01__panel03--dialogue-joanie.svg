@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="112px" height="108px" viewBox="0 0 112 108" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <!-- Generator: Sketch 3.3.3 (12072) - http://www.bohemiancoding.com/sketch -->
+    <title>page01__panel03--dialogue-joanie</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="page01__panel03--dialogue-joanie" sketch:type="MSArtboardGroup">
+            <path d="M65.6741903,34.2736193 C91.9916147,37.3130992 112,52.5372787 112,70.8607357 C112,91.372185 86.927946,108 56,108 C25.072054,108 0,91.372185 0,70.8607357 C0,50.3492863 25.072054,33.7214713 56,33.7214713 C57.3291188,33.7214713 58.6474228,33.75218 59.9533869,33.8125858 L72.5332448,0 L65.6741903,34.2736193 Z" id="balloon" stroke="#000000" fill="#FFFFFF" sketch:type="MSShapeGroup"></path>
+            <text id="Then-you--really-sur" sketch:type="MSTextLayer" font-family="CCSoliloquous" font-size="12" font-weight="normal" sketch:alignment="middle" line-spacing="14" fill="#000000">
+                <tspan x="26.648" y="59">Then you </tspan>
+                <tspan x="20.924" y="73" font-weight="bold">really</tspan>
+                <tspan x="59.612" y="73"> sure </tspan>
+                <tspan x="16.862" y="87">about this?</tspan>
+            </text>
+        </g>
+    </g>
+</svg>

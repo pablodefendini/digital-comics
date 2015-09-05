@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="128px" height="112px" viewBox="0 0 128 112" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <!-- Generator: Sketch 3.3.3 (12072) - http://www.bohemiancoding.com/sketch -->
+    <title>page02__panel01--dialogue-joanie-2</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="page02__panel01--dialogue-joanie-2" sketch:type="MSArtboardGroup">
+            <path d="M101.820121,34.9239847 C117.694402,42.6870843 128,55.2119239 128,69.3411375 C128,92.9009767 99.346224,112 64,112 C28.653776,112 0,92.9009767 0,69.3411375 C0,45.7812982 28.653776,26.6822749 64,26.6822749 C74.6568242,26.6822749 84.705297,28.4183988 93.5435341,31.4894639 L112.481841,5.32907052e-15 L101.820121,34.9239795 Z" id="balloon" stroke="#000000" fill="#FFFFFF" sketch:type="MSShapeGroup"></path>
+            <text id="Now-you--ready-to-fl" sketch:type="MSTextLayer" font-family="CCSoliloquous" font-size="12" font-weight="normal" sketch:alignment="middle" line-spacing="14" fill="#000000">
+                <tspan x="34.432" y="50.8956497">Now you </tspan>
+                <tspan x="21.832" y="64.8956497">ready to fly </tspan>
+                <tspan x="12.28" y="78.8956497">away to </tspan>
+                <tspan x="73.612" y="78.8956497" font-weight="bold">space</tspan>
+                <tspan x="115.72" y="78.8956497"> </tspan>
+                <tspan x="32.536" y="92.8956497">from me.</tspan>
+            </text>
+        </g>
+    </g>
+</svg>
