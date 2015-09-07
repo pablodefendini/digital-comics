@@ -6,22 +6,18 @@
     <defs></defs>
     <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
         <g id="page01__panel05--dialogue-joanie" sketch:type="MSArtboardGroup">
-            <path d="M55.7396624,44.1840998 C51.6473481,39.6313947 49.2479409,34.097255 49.2479409,28.128983 C49.2479409,12.5937747 65.5049595,0 85.5590083,0 C105.613057,0 121.870076,12.5937747 121.870076,28.128983 C121.870076,42.0680779 108.781997,53.6391055 91.6064124,55.8696201 L91.6064124,55.8696201 C93.6552897,61.8968941 95.6939812,70.3286011 95.8683438,80.3178259 C96.0604596,91.324133 93.929822,100.815216 91.9099792,107.255795 C139.206864,108.593582 177,137.642307 177,173.281267 L177,213.999998 C177,213.999998 18.797768,213.999998 18.7977678,214 C7.02097905,202.778825 0,188.642193 0,173.281267 C0,137.600831 37.8811533,108.525978 85.2551886,107.251236 C87.1763923,101.182568 89.0737044,92.1440171 88.8694099,80.4399928 C88.6871345,69.9974423 86.9106113,61.9443476 85.0188709,56.2549172 C75.6197106,56.1487463 67.0852324,53.2760611 60.7116873,48.6410242 L22.1391936,65.1333004 L55.7396624,44.1840998 Z" id="balloon" stroke="#000000" fill="#FFFFFF" sketch:type="MSShapeGroup"></path>
-            <text id="How-come--you-ain't-" sketch:type="MSTextLayer" font-family="CCSoliloquous" font-size="12" font-weight="normal" sketch:alignment="middle" line-spacing="14" fill="#000000">
+            <path d="M55.7396624,44.1840998 C51.6473481,39.6313947 49.2479409,34.097255 49.2479409,28.128983 C49.2479409,12.5937747 65.5049595,0 85.5590083,0 C105.613057,0 121.870076,12.5937747 121.870076,28.128983 C121.870076,42.0680779 108.781997,53.6391055 91.6064124,55.8696201 L91.6064124,55.8696201 C93.6552897,61.8968941 95.6939812,70.3286011 95.8683438,80.3178259 C96.0604596,91.324133 93.929822,100.815216 91.9099792,107.255795 C139.206864,108.593582 177,137.642307 177,173.281267 L177,213.999998 C177,213.999998 18.797768,213.999998 18.7977678,214 C7.02097905,202.778825 0,188.642193 0,173.281267 C0,137.600831 37.8811533,108.525978 85.2551886,107.251236 C87.1763923,101.182568 89.0737044,92.1440171 88.8694099,80.4399928 C88.6871345,69.9974423 86.9106113,61.9443476 85.0188709,56.2549172 C75.6197106,56.1487463 67.0852324,53.2760611 60.7116873,48.6410242 L22.1391936,65.1333004 L55.7396624,44.1840998 Z" id="balloon" stroke="#4C2B10" fill="#F1EEEC" sketch:type="MSShapeGroup"></path>
+            <text id="How-come-" sketch:type="MSTextLayer" font-family="CCSoliloquous" font-size="12" font-weight="normal" sketch:alignment="middle" line-spacing="14" fill="#4C2B10">
                 <tspan x="52.294" y="132">How come </tspan>
-                <tspan x="26.788" y="146">you ain't </tspan>
-                <tspan x="91.42" y="146" font-weight="bold">insulted</tspan>
-                <tspan x="149.212" y="146"> </tspan>
+                <tspan x="27.748" y="146">you ain't insulted </tspan>
                 <tspan x="16.714" y="160">they don't think you </tspan>
-                <tspan x="6.832" y="174" font-weight="bold">smart enough</tspan>
-                <tspan x="106.576" y="174"> to make </tspan>
+                <tspan x="8.272" y="174">smart enough to make </tspan>
                 <tspan x="17.992" y="188">sure you know what </tspan>
                 <tspan x="49.69" y="202">you doing?</tspan>
             </text>
-            <text id="*ttch*-" sketch:type="MSTextLayer" font-family="CCSoliloquous" font-size="12" font-style="italic" font-weight="normal" sketch:alignment="middle" line-spacing="14" fill="#000000">
-                <tspan x="62.988" y="25">*ttch*</tspan>
-                <tspan x="108.012" y="25"> </tspan>
-                <tspan x="70.908" y="39" font-weight="bold">Ras.</tspan>
+            <text id="*ttch*-" sketch:type="MSTextLayer" font-family="CCSoliloquous" font-size="12" font-weight="normal" sketch:alignment="middle" line-spacing="14" fill="#4C2B10">
+                <tspan x="63.228" y="25">*ttch* </tspan>
+                <tspan x="71.388" y="39">Ras.</tspan>
             </text>
         </g>
     </g>

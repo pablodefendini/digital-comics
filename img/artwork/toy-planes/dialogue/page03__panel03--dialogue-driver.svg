@@ -1,15 +1,6 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<svg width="90px" height="47px" viewBox="0 0 90 47" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
-    <!-- Generator: Sketch 3.3.3 (12072) - http://www.bohemiancoding.com/sketch -->
-    <title>page03__panel03--dialogue-driver</title>
-    <desc>Created with Sketch.</desc>
-    <defs></defs>
-    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
-        <g id="page03__panel03--dialogue-driver" sketch:type="MSArtboardGroup">
-            <path d="M64.0263535,38.2853967 C57.2580374,42.5741805 47.7375407,45.2438132 37.1919254,45.2438132 C16.6513922,45.2438132 0,35.1156406 0,22.6219066 C0,10.1281726 16.6513922,0 37.1919254,0 C57.7324587,0 74.3838509,10.1281726 74.3838509,22.6219066 C74.3838509,26.9609755 72.3754096,31.0147175 68.8931409,34.4579548 C74.4643346,39.1386959 81.6382574,43.8752243 90.3356274,47.0542827 C79.8764624,44.8270987 71.0298105,41.5443297 64.0263535,38.2853967 Z" id="balloon" stroke="#000000" fill="#FFFFFF" sketch:type="MSShapeGroup"></path>
-            <text id="Maybe." sketch:type="MSTextLayer" font-family="CCSoliloquous" font-size="12" font-weight="normal" sketch:alignment="middle" line-spacing="14" fill="#000000">
-                <tspan x="14.64" y="25.4818648">Maybe.</tspan>
-            </text>
-        </g>
-    </g>
+<svg class="driver maybe" width="90px" height="47px" viewBox="0 0 90 47">
+    <path d="M64.0263535,38.2853967 C57.2580374,42.5741805 47.7375407,45.2438132 37.1919254,45.2438132 C16.6513922,45.2438132 0,35.1156406 0,22.6219066 C0,10.1281726 16.6513922,0 37.1919254,0 C57.7324587,0 74.3838509,10.1281726 74.3838509,22.6219066 C74.3838509,26.9609755 72.3754096,31.0147175 68.8931409,34.4579548 C74.4643346,39.1386959 81.6382574,43.8752243 90.3356274,47.0542827 C79.8764624,44.8270987 71.0298105,41.5443297 64.0263535,38.2853967 Z"></path>
+    <text>
+        <tspan x="14.64" y="25.4818648">Maybe.</tspan>
+    </text>
 </svg>

@@ -6,8 +6,8 @@
     <defs></defs>
     <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
         <g id="page05__panel02--dialogue-ray" sketch:type="MSArtboardGroup">
-            <path d="M37.6356574,18.3575583 C48.6364465,15.3439214 61.395192,13.6201335 75,13.6201335 C116.421356,13.6201335 150,29.5990609 150,49.3100668 C150,69.0210726 116.421356,85 75,85 C33.5786438,85 0,69.0210726 0,49.3100668 C0,37.5574556 11.9375256,27.1316336 30.3573019,20.6285794 L21.20832,-0.00569602628 L37.6356574,18.3575583 Z" id="balloon" stroke="#000000" fill="#FFFFFF" sketch:type="MSShapeGroup"></path>
-            <text id="Yes,-I-do-think--thi" sketch:type="MSTextLayer" font-family="CCSoliloquous" font-size="12" font-weight="normal" sketch:alignment="middle" line-spacing="14" fill="#000000">
+            <path d="M37.6356574,18.3575583 C48.6364465,15.3439214 61.395192,13.6201335 75,13.6201335 C116.421356,13.6201335 150,29.5990609 150,49.3100668 C150,69.0210726 116.421356,85 75,85 C33.5786438,85 0,69.0210726 0,49.3100668 C0,37.5574556 11.9375256,27.1316336 30.3573019,20.6285794 L21.20832,-0.00569602628 L37.6356574,18.3575583 Z" id="balloon" stroke="#1E3702" fill="#F8F9F6" sketch:type="MSShapeGroup"></path>
+            <text id="Yes,-I-do-think--thi" sketch:type="MSTextLayer" font-family="CCSoliloquous" font-size="12" font-weight="normal" sketch:alignment="middle" line-spacing="14" fill="#1E3702">
                 <tspan x="28.068" y="39.5476505">Yes, I </tspan>
                 <tspan x="67.296" y="39.5476505" font-style="italic" font-weight="bold">do</tspan>
                 <tspan x="88.044" y="39.5476505"> think </tspan>

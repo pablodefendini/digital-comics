@@ -6,14 +6,14 @@
     <defs></defs>
     <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
         <g id="page01__panel03--dialogue-ray-1" sketch:type="MSArtboardGroup">
-            <path d="M205.700282,96.8744642 C222.840703,90.1683725 234,79.2339112 234,66.8837264 C234,46.4846533 203.555363,29.9479372 166,29.9479372 C155.107081,29.9479372 144.812379,31.3391511 135.685276,33.8123051 L135.685276,33.8123051 C132.767532,14.8750472 103.561321,-1.42108547e-14 67.9624288,-1.42108547e-14 C30.4278158,-1.42108547e-14 0,16.5367161 0,36.9357892 C0,57.3348623 30.4278158,73.8715784 67.9624288,73.8715784 C78.8414297,73.8715784 89.1234118,72.4823827 98.2405445,70.0125924 C101.164607,88.9472867 130.384802,103.819516 166,103.819516 C177.446722,103.819516 188.232854,102.283245 197.697678,99.5695884 C222.182452,182.715229 204.695067,238.005377 204.695067,238.005377 C204.695067,238.005377 227.447226,202.401505 205.700286,96.8744852 Z" id="balloon" stroke="#000000" fill="#FFFFFF" sketch:type="MSShapeGroup"></path>
-            <text id="I-was-starting-" sketch:type="MSTextLayer" font-family="CCSoliloquous" font-size="12" font-weight="normal" sketch:alignment="middle" line-spacing="14" fill="#000000">
+            <path d="M205.700282,96.8744642 C222.840703,90.1683725 234,79.2339112 234,66.8837264 C234,46.4846533 203.555363,29.9479372 166,29.9479372 C155.107081,29.9479372 144.812379,31.3391511 135.685276,33.8123051 L135.685276,33.8123051 C132.767532,14.8750472 103.561321,-1.42108547e-14 67.9624288,-1.42108547e-14 C30.4278158,-1.42108547e-14 0,16.5367161 0,36.9357892 C0,57.3348623 30.4278158,73.8715784 67.9624288,73.8715784 C78.8414297,73.8715784 89.1234118,72.4823827 98.2405445,70.0125924 C101.164607,88.9472867 130.384802,103.819516 166,103.819516 C177.446722,103.819516 188.232854,102.283245 197.697678,99.5695884 C222.182452,182.715229 204.695067,238.005377 204.695067,238.005377 C204.695067,238.005377 227.447226,202.401505 205.700286,96.8744852 Z" id="balloon" stroke="#1E3702" fill="#F8F9F6" sketch:type="MSShapeGroup"></path>
+            <text id="I-was-starting-" sketch:type="MSTextLayer" font-family="CCSoliloquous" font-size="12" font-weight="normal" sketch:alignment="middle" line-spacing="14" fill="#1E3702">
                 <tspan x="19.652" y="28">I was starting </tspan>
                 <tspan x="30.86" y="42">to lose my </tspan>
                 <tspan x="41.288" y="56" font-weight="bold">accent</tspan>
                 <tspan x="91.676" y="56">.</tspan>
             </text>
-            <text id="-I-didn't-want--to-f" sketch:type="MSTextLayer" font-family="CCSoliloquous" font-size="12" font-weight="normal" sketch:alignment="middle" line-spacing="14" fill="#000000">
+            <text id="-I-didn't-want--to-f" sketch:type="MSTextLayer" font-family="CCSoliloquous" font-size="12" font-weight="normal" sketch:alignment="middle" line-spacing="14" fill="#1E3702">
                 <tspan x="119.362" y="56"> I didn't want </tspan>
                 <tspan x="108.49" y="70">to </tspan>
                 <tspan x="129.274" y="70" font-weight="bold">forget</tspan>

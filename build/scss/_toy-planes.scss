@@ -41,13 +41,11 @@
  	}
  }
 
- .dialogue {
- 	text-align: center;
- }
-
- .joanie {
- 	font-family: 'CCSoliloquous';
- }
+.joanie, .ray, .driver {
+	font-family: CCSoliloquous; 
+	font-size: 1em;
+	font-weight: normal;
+}
 
 // 4.0 layout
 // -----------------------------------------------------------------------------
@@ -96,15 +94,10 @@
 		position: relative;
 		.grew {
 			position: absolute;
-			width: 11em;
 			top: 1em;
 			right: 1em;
-		}
-		.sure {
-			position: absolute;
-			width: 11em;
-			top: 9em;
-			right: 1em;
+			width: 186px; 
+			height: 218px;
 		}
 	}
 	&__panel03 {
@@ -115,27 +108,24 @@
 		}
 		.accent {
 			position: absolute;
-			width: 15em;
 			top: 1em;
 			right: 1em;
+			width: 234px;
+			height: 238px;
 		}
 		.really {
 			position: absolute;
-			width: 11em;
-			right: 1em;
-			top:12em;
+			left: 1em;
+			top:32em;
+			width: 112px;
+			height: 108px;
 		}
 		.sponsoring {
 			position: absolute;
-			width: 20em;
-			bottom: 7em;
-			right: 1em;
-		}
-		.disaster {
-			position: absolute;
-			width: 20em;
-			bottom: 1em;
-			right: 1em;
+			bottom: 0em;
+			right: 0em;
+			width: 352px;
+			height: 159px;
 		}
 	}
 	&__panel04 {
@@ -150,22 +140,16 @@
 		position: relative;
 		.ras {
 			position: absolute;
-			width: 5em;
-			right: 6em;
-			top:3em;
-		}
-		.insulted {
-			position: absolute;
-			width:12em;
-			right: 1em;
-			bottom: 1em;
+			right: 0;
+			bottom:0;
+			width: 176px;
+			height: 213px;
 		}
 	}
 	&__panel06 {
 		position: relative;
 		.need {
 			position: absolute;
-			width: 15em;
 			bottom: 1em;
 			left: 1em;
 		}
@@ -248,7 +232,6 @@
 		height: 500px;
 		.leaving {
 			position: absolute;
-			width: 6em;
 			left: 2em;
 			top: 1em;
 		}
@@ -258,21 +241,16 @@
 			left: 11em;
 			top: 5em;
 		}
-		.ready {
+		.fly {
 			position: absolute;
-			width: 7em;
 			left: 2em;
-			bottom: 8em;
+			bottom: 3em;
 		}
 		.future {
 			position: absolute;
 			width: 19em;
-			right: 3em;
+			left: 20em;
 			bottom:2em;
-			@media (min-width: 700px) {
-				right: 12em;
-				bottom: 3em;
-			}
 		}
 	}
 	&__panel02 {
@@ -347,30 +325,18 @@
 		}
 		.ask {
 			position: absolute;
-			width: 24em;
 			left: 1em;
 			top: 1em;
-			@media (min-width: 700px) {
-				left: 0em;
-				top: 0em;
-				width: 25em;
-			}
 		}
 		.government {
 			position: absolute;
-			width: 11em;
 			right: 3em;
 			top: 10em;
-			@media (min-width: 700px) {
-				right: 0em;
-				width: 9em;
-			}
 		}
 		.private {
 			position: absolute;
-			width: 20em;
-			right: 4em;
-			bottom: 1em;
+			left: 2em;
+			bottom: 0em;
 		}
 	}
 	&__panel02 {
@@ -409,19 +375,11 @@
 		height: 300px;
 		.wait {
 			position: absolute;
-			width: 20em;
-			left: 1em;
+			left: 0em;
 			top: 0em;
-		}
-		.good {
-			position: absolute;
-			width: 22em;
-			left: 3em;
-			top: 4em;
 		}
 		.maybe {
 			position: absolute;
-			width: 7em;
 			right: 2em;
 			bottom: 1em;
 		}
@@ -431,13 +389,11 @@
 		height: 300px;
 		.dropped {
 			position: absolute;
-			width: 17em;
 			left: 2em;
 			top: 1em;
 		}
 		.yes {
 			position: absolute;
-			width: 4em;
 			right: 2em;
 			bottom: 1em;
 		}
@@ -500,13 +456,8 @@
 		height: 300px;
 		.spaceman {
 			position: absolute;
-			right: 2em;
-			top: 2em;
-			width: 8em;
-			@media (min-width: 700px) {
-				right: 8em;
-				top: 10em;
-			}
+			right: 8em;
+			top: 10em;
 		}
 	}
 	&__panel03 {
@@ -520,13 +471,8 @@
 		min-height: 150px;
 		.wrap {
 			position: absolute;
-			left: 1em;
-			bottom: 2em;
-			width: 11em;
-			@media (min-width: 700px) {
-				left: 4em;
-				bottom: 3em;
-			}
+			left: 4em;
+			bottom: 3em;
 		}
 	}
 }
@@ -598,13 +544,11 @@
 		position: relative;
 		.yes {
 			position: absolute;
-			width: 2em;
 			top: 1em;
 			left: 3em;
 		}
 		.agreed {
 			position: absolute;
-			width: 12em;
 			top: 1em;
 			right: 2em;
 		}
@@ -613,7 +557,6 @@
 		position: relative;
 		.money {
 			position: absolute;
-			width: 10em;
 			bottom: 1em;
 			right: 5em;
 		}
@@ -836,30 +779,35 @@
 // the other categories
 // -----------------------------------------------------------------------------
 .toy-planes {
-	//background-color: black;
 	.panel-description {
 		color: black;
 		border: 1px solid $color-main;
 		background-color: white;
 	}
 	.caption {
-		border: 1px solid $color-main;
-		background-color: white;
-	}
-	.narrator {
 		color: black;
 		border: 1px solid $color-main;
 		background-color: white;
+	}
+	.ray {
+		fill: #1E3702;
+		path {
+			stroke: #1E3702;
+			fill: #F8F9F6;
+		}
 	}
 	.joanie {
-		color: black;
-		border: 1px solid $color-main;
-		background-color: white;
+	 	fill: #4C2B10;
+	 	path {
+	 		 stroke: #4C2B10;
+	 		 fill: #F1EEEC;
+	 	}
 	}
 	.driver {
-		color: black;
-		border: 1px solid $color-main;
-		background-color: white;
+		path {
+	 		 stroke: #2B0308;
+	 		 fill: #F5F2F2;
+	 	}
 	}
 	.shopkeeper {
 		color: black;

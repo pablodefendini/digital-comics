@@ -1,28 +1,19 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<svg width="206px" height="132px" viewBox="0 0 206 132" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
-    <!-- Generator: Sketch 3.3.3 (12072) - http://www.bohemiancoding.com/sketch -->
-    <title>page02__panel01--dialogue-ray</title>
-    <desc>Created with Sketch.</desc>
-    <defs></defs>
-    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
-        <g id="page02__panel01--dialogue-ray" sketch:type="MSArtboardGroup">
-            <path d="M59.5264429,72.677066 C68.8753618,74.8121702 79.2437908,76 90.1582658,76 C94.5874986,76 98.9268063,75.8043835 103.144547,75.429227 L103.144547,75.429227 C98.6901298,80.9204484 96.1500796,87.2549997 96.1500796,94 C96.1500796,114.98682 120.740822,132 151.07504,132 C181.409258,132 206,114.98682 206,94 C206,74.1356688 183.969404,57.8312821 155.890182,56.1440133 C161.667692,50.7523677 164.950314,44.5709539 164.950314,38 C164.950314,17.0131795 131.464773,0 90.1582658,0 C48.8517582,0 15.3662177,17.0131795 15.3662177,38 C15.3662177,51.3440202 28.9036843,63.0815848 49.3815006,69.8608611 C33.9109468,103.084298 -0.0412784586,113.174439 -0.0412784586,113.174439 C-0.0412784586,113.174439 38.8777392,107.475814 59.5264429,72.677066 Z" id="balloon" stroke="#000000" fill="#FFFFFF" sketch:type="MSShapeGroup"></path>
-            <text id="I-guess-this--could-" sketch:type="MSTextLayer" font-family="CCSoliloquous" font-size="12" font-weight="normal" sketch:alignment="middle" line-spacing="14" fill="#000000">
-                <tspan x="50.7714422" y="24">I guess this </tspan>
-                <tspan x="33.6894422" y="38">could have been </tspan>
-                <tspan x="33.3114422" y="52" font-style="italic" font-weight="bold">my</tspan>
-                <tspan x="56.5074422" y="52"> </tspan>
-                <tspan x="61.3074422" y="52" font-weight="bold">future</tspan>
-                <tspan x="107.447442" y="52"> too…</tspan>
-            </text>
-            <text id="…the-house,-a-job-te" sketch:type="MSTextLayer" font-family="CCSoliloquous" font-size="12" font-weight="normal" sketch:alignment="middle" line-spacing="14" fill="#000000">
-                <tspan x="109.395442" y="83.948">…the </tspan>
-                <tspan x="147.975442" y="83.948" font-weight="bold">house</tspan>
-                <tspan x="190.059442" y="83.948">, </tspan>
-                <tspan x="134.097442" y="97.948">a job </tspan>
-                <tspan x="118.479442" y="111.948" font-weight="bold">teaching</tspan>
-                <tspan x="181.047442" y="111.948">.</tspan>
-            </text>
-        </g>
-    </g>
+<svg class="ray future" width="206px" height="132px" viewBox="0 0 206 132">
+    <path d="M59.5264429,72.677066 C68.8753618,74.8121702 79.2437908,76 90.1582658,76 C94.5874986,76 98.9268063,75.8043835 103.144547,75.429227 L103.144547,75.429227 C98.6901298,80.9204484 96.1500796,87.2549997 96.1500796,94 C96.1500796,114.98682 120.740822,132 151.07504,132 C181.409258,132 206,114.98682 206,94 C206,74.1356688 183.969404,57.8312821 155.890182,56.1440133 C161.667692,50.7523677 164.950314,44.5709539 164.950314,38 C164.950314,17.0131795 131.464773,0 90.1582658,0 C48.8517582,0 15.3662177,17.0131795 15.3662177,38 C15.3662177,51.3440202 28.9036843,63.0815848 49.3815006,69.8608611 C33.9109468,103.084298 -0.0412784586,113.174439 -0.0412784586,113.174439 C-0.0412784586,113.174439 38.8777392,107.475814 59.5264429,72.677066 Z"></path>
+    <text>
+        <tspan x="50.7714422" y="24">I guess this </tspan>
+        <tspan x="33.6894422" y="38">could have been </tspan>
+        <tspan x="33.3114422" y="52" font-style="italic" font-weight="bold">my</tspan>
+        <tspan x="56.5074422" y="52"> </tspan>
+        <tspan x="61.3074422" y="52" font-weight="bold">future</tspan>
+        <tspan x="107.447442" y="52"> too…</tspan>
+    </text>
+    <text>
+        <tspan x="109.395442" y="83.948">…the </tspan>
+        <tspan x="147.975442" y="83.948" font-weight="bold">house</tspan>
+        <tspan x="190.059442" y="83.948">, </tspan>
+        <tspan x="134.097442" y="97.948">a job </tspan>
+        <tspan x="118.479442" y="111.948" font-weight="bold">teaching</tspan>
+        <tspan x="181.047442" y="111.948">.</tspan>
+    </text>
 </svg>

@@ -6,21 +6,15 @@
     <defs></defs>
     <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
         <g id="page01__panel02--dialogue-joanie" sketch:type="MSArtboardGroup">
-            <path d="M101.786959,38.6672301 C94.0088221,37.0989323 85.67182,36.2483113 77,36.2483113 C34.4740743,36.2483113 0,56.7044257 0,81.9383215 C0,107.172217 34.4740743,127.628332 77,127.628332 C84.63741,127.628332 92.015115,126.968539 98.9800603,125.739771 L98.9800603,125.739771 L105.265163,150.947942 C88.4293909,156.899062 77,168.507729 77,181.853838 C77,201.264527 101.176624,217 131,217 C160.823376,217 185,201.264527 185,181.853838 C185,162.443149 160.823376,146.707677 131,146.707677 C124.306078,146.707677 117.896632,147.500411 111.981192,148.949506 L105.839298,124.315711 C134.077075,117.543017 154,101.121234 154,81.9383215 C154,63.7850023 136.158306,48.1043735 110.312413,40.7337768 C126.090685,14.3229833 155.860703,-8.91887496e-16 155.860703,-8.91887496e-16 C155.860703,-8.91887496e-16 121.614263,11.4984272 101.786959,38.6672301 Z" id="balloon" stroke="#000000" fill="#FFFFFF" sketch:type="MSShapeGroup"></path>
-            <text id="You-grew-these--at-c" sketch:type="MSTextLayer" font-family="CCSoliloquous" font-size="12" font-weight="normal" sketch:alignment="middle" line-spacing="14" fill="#000000">
+            <path d="M101.786959,38.6672301 C94.0088221,37.0989323 85.67182,36.2483113 77,36.2483113 C34.4740743,36.2483113 0,56.7044257 0,81.9383215 C0,107.172217 34.4740743,127.628332 77,127.628332 C84.63741,127.628332 92.015115,126.968539 98.9800603,125.739771 L98.9800603,125.739771 L105.265163,150.947942 C88.4293909,156.899062 77,168.507729 77,181.853838 C77,201.264527 101.176624,217 131,217 C160.823376,217 185,201.264527 185,181.853838 C185,162.443149 160.823376,146.707677 131,146.707677 C124.306078,146.707677 117.896632,147.500411 111.981192,148.949506 L105.839298,124.315711 C134.077075,117.543017 154,101.121234 154,81.9383215 C154,63.7850023 136.158306,48.1043735 110.312413,40.7337768 C126.090685,14.3229833 155.860703,-8.91887496e-16 155.860703,-8.91887496e-16 C155.860703,-8.91887496e-16 121.614263,11.4984272 101.786959,38.6672301 Z" id="balloon" stroke="#4C2B10" fill="#F1EEEC" sketch:type="MSShapeGroup"></path>
+            <text id="You-grew-these--at-c" sketch:type="MSTextLayer" font-family="CCSoliloquous" font-size="12" font-weight="normal" sketch:alignment="middle" line-spacing="14" fill="#4C2B10">
                 <tspan x="23.65" y="67">You grew these </tspan>
-                <tspan x="21.34" y="81">at </tspan>
-                <tspan x="41.776" y="81" font-weight="bold">college</tspan>
-                <tspan x="92.764" y="81"> when </tspan>
+                <tspan x="22.18" y="81">at college when </tspan>
                 <tspan x="34.906" y="95">you went to </tspan>
-                <tspan x="37.822" y="109">the </tspan>
-                <tspan x="66.286" y="109" font-weight="bold">states</tspan>
-                <tspan x="114.142" y="109">.</tspan>
+                <tspan x="38.542" y="109">the states.</tspan>
             </text>
-            <text id="You-sure--you-want-m" sketch:type="MSTextLayer" font-family="CCSoliloquous" font-size="12" font-weight="normal" sketch:alignment="middle" line-spacing="14" fill="#000000">
-                <tspan x="101.982" y="170">You </tspan>
-                <tspan x="131.394" y="170" font-weight="bold">sure</tspan>
-                <tspan x="162.018" y="170"> </tspan>
+            <text id="You-sure--you-want-m" sketch:type="MSTextLayer" font-family="CCSoliloquous" font-size="12" font-weight="normal" sketch:alignment="middle" line-spacing="14" fill="#4C2B10">
+                <tspan x="102.462" y="170">You sure </tspan>
                 <tspan x="86.946" y="184">you want me </tspan>
                 <tspan x="92.784" y="198">doing this?</tspan>
             </text>

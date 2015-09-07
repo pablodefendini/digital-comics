@@ -547,11 +547,10 @@ body {
   .toy-planes .page-nav {
     font-size: 1em; }
 
-.dialogue {
-  text-align: center; }
-
-.joanie {
-  font-family: 'CCSoliloquous'; }
+.joanie, .ray, .driver {
+  font-family: CCSoliloquous;
+  font-size: 1em;
+  font-weight: normal; }
 
 .toy-planes {
   padding: 0em; }
@@ -582,14 +581,10 @@ body {
   position: relative; }
   #page01__panel02 .grew {
     position: absolute;
-    width: 11em;
     top: 1em;
-    right: 1em; }
-  #page01__panel02 .sure {
-    position: absolute;
-    width: 11em;
-    top: 9em;
-    right: 1em; }
+    right: 1em;
+    width: 186px;
+    height: 218px; }
 #page01__panel03 {
   position: relative;
   height: 500px; }
@@ -598,24 +593,22 @@ body {
       height: 765px; } }
   #page01__panel03 .accent {
     position: absolute;
-    width: 15em;
     top: 1em;
-    right: 1em; }
+    right: 1em;
+    width: 234px;
+    height: 238px; }
   #page01__panel03 .really {
     position: absolute;
-    width: 11em;
-    right: 1em;
-    top: 12em; }
+    left: 1em;
+    top: 32em;
+    width: 112px;
+    height: 108px; }
   #page01__panel03 .sponsoring {
     position: absolute;
-    width: 20em;
-    bottom: 7em;
-    right: 1em; }
-  #page01__panel03 .disaster {
-    position: absolute;
-    width: 20em;
-    bottom: 1em;
-    right: 1em; }
+    bottom: 0em;
+    right: 0em;
+    width: 352px;
+    height: 159px; }
 #page01__panel04 {
   position: relative;
   height: 250px; }
@@ -626,19 +619,14 @@ body {
   position: relative; }
   #page01__panel05 .ras {
     position: absolute;
-    width: 5em;
-    right: 6em;
-    top: 3em; }
-  #page01__panel05 .insulted {
-    position: absolute;
-    width: 12em;
-    right: 1em;
-    bottom: 1em; }
+    right: 0;
+    bottom: 0;
+    width: 176px;
+    height: 213px; }
 #page01__panel06 {
   position: relative; }
   #page01__panel06 .need {
     position: absolute;
-    width: 15em;
     bottom: 1em;
     left: 1em; }
 
@@ -689,7 +677,6 @@ body {
   height: 500px; }
   #page02__panel01 .leaving {
     position: absolute;
-    width: 6em;
     left: 2em;
     top: 1em; }
   #page02__panel01 .remember {
@@ -697,20 +684,15 @@ body {
     width: 15em;
     left: 11em;
     top: 5em; }
-  #page02__panel01 .ready {
+  #page02__panel01 .fly {
     position: absolute;
-    width: 7em;
     left: 2em;
-    bottom: 8em; }
+    bottom: 3em; }
   #page02__panel01 .future {
     position: absolute;
     width: 19em;
-    right: 3em;
+    left: 20em;
     bottom: 2em; }
-    @media (min-width: 700px) {
-      #page02__panel01 .future {
-        right: 12em;
-        bottom: 3em; } }
 #page02__panel02 {
   position: relative;
   min-height: 200px; }
@@ -746,28 +728,16 @@ body {
       height: 650px; } }
   #page03__panel01 .ask {
     position: absolute;
-    width: 24em;
     left: 1em;
     top: 1em; }
-    @media (min-width: 700px) {
-      #page03__panel01 .ask {
-        left: 0em;
-        top: 0em;
-        width: 25em; } }
   #page03__panel01 .government {
     position: absolute;
-    width: 11em;
     right: 3em;
     top: 10em; }
-    @media (min-width: 700px) {
-      #page03__panel01 .government {
-        right: 0em;
-        width: 9em; } }
   #page03__panel01 .private {
     position: absolute;
-    width: 20em;
-    right: 4em;
-    bottom: 1em; }
+    left: 2em;
+    bottom: 0em; }
 #page03__panel02 {
   position: relative;
   height: 500px; }
@@ -800,17 +770,10 @@ body {
   height: 300px; }
   #page03__panel03 .wait {
     position: absolute;
-    width: 20em;
-    left: 1em;
+    left: 0em;
     top: 0em; }
-  #page03__panel03 .good {
-    position: absolute;
-    width: 22em;
-    left: 3em;
-    top: 4em; }
   #page03__panel03 .maybe {
     position: absolute;
-    width: 7em;
     right: 2em;
     bottom: 1em; }
 #page03__panel04 {
@@ -818,12 +781,10 @@ body {
   height: 300px; }
   #page03__panel04 .dropped {
     position: absolute;
-    width: 17em;
     left: 2em;
     top: 1em; }
   #page03__panel04 .yes {
     position: absolute;
-    width: 4em;
     right: 2em;
     bottom: 1em; }
 
@@ -862,13 +823,8 @@ body {
   height: 300px; }
   #page04__panel02 .spaceman {
     position: absolute;
-    right: 2em;
-    top: 2em;
-    width: 8em; }
-    @media (min-width: 700px) {
-      #page04__panel02 .spaceman {
-        right: 8em;
-        top: 10em; } }
+    right: 8em;
+    top: 10em; }
 #page04__panel03 {
   min-height: 150px; }
 #page04__panel04 {
@@ -878,13 +834,8 @@ body {
   min-height: 150px; }
   #page04__panel05 .wrap {
     position: absolute;
-    left: 1em;
-    bottom: 2em;
-    width: 11em; }
-    @media (min-width: 700px) {
-      #page04__panel05 .wrap {
-        left: 4em;
-        bottom: 3em; } }
+    left: 4em;
+    bottom: 3em; }
 
 #page04__panel01 {
   background-image: url("../../img/artwork/toy-planes/page04__panel01--background.png");
@@ -922,19 +873,16 @@ body {
   position: relative; }
   #page05__panel01 .yes {
     position: absolute;
-    width: 2em;
     top: 1em;
     left: 3em; }
   #page05__panel01 .agreed {
     position: absolute;
-    width: 12em;
     top: 1em;
     right: 2em; }
 #page05__panel02 {
   position: relative; }
   #page05__panel02 .money {
     position: absolute;
-    width: 10em;
     bottom: 1em;
     right: 5em; }
 #page05__panel03 {
@@ -1095,20 +1043,22 @@ body {
   border: 1px solid black;
   background-color: white; }
 .toy-planes .caption {
-  border: 1px solid black;
-  background-color: white; }
-.toy-planes .narrator {
   color: black;
   border: 1px solid black;
   background-color: white; }
+.toy-planes .ray {
+  fill: #1E3702; }
+  .toy-planes .ray path {
+    stroke: #1E3702;
+    fill: #F8F9F6; }
 .toy-planes .joanie {
-  color: black;
-  border: 1px solid black;
-  background-color: white; }
-.toy-planes .driver {
-  color: black;
-  border: 1px solid black;
-  background-color: white; }
+  fill: #4C2B10; }
+  .toy-planes .joanie path {
+    stroke: #4C2B10;
+    fill: #F1EEEC; }
+.toy-planes .driver path {
+  stroke: #2B0308;
+  fill: #F5F2F2; }
 .toy-planes .shopkeeper {
   color: black;
   border: 1px solid black;

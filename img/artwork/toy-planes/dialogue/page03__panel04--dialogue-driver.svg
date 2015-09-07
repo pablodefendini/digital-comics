@@ -1,17 +1,8 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<svg width="140px" height="144px" viewBox="0 0 140 144" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
-    <!-- Generator: Sketch 3.3.3 (12072) - http://www.bohemiancoding.com/sketch -->
-    <title>page03__panel04--dialogue-driver</title>
-    <desc>Created with Sketch.</desc>
-    <defs></defs>
-    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
-        <g id="page03__panel04--dialogue-driver" sketch:type="MSArtboardGroup">
-            <path d="M90.6524512,73.4964436 C84.1243539,74.5770259 77.1887247,75.1587715 70,75.1587715 C31.3400675,75.1587715 0,58.3339074 0,37.5793858 C0,16.8248641 31.3400675,0 70,0 C108.659932,0 140,16.8248641 140,37.5793858 C140,52.7168554 123.328256,65.7638941 99.3043898,71.7172776 C103.43998,84.7333829 113.984835,114.580529 131.87783,144.00341 C111.27394,114.547112 97.2807892,87.3613183 90.6524512,73.4964436 Z" id="balloon" stroke="#000000" fill="#FFFFFF" sketch:type="MSShapeGroup"></path>
-            <text id="You-still-want-dropp" sketch:type="MSTextLayer" font-family="CCSoliloquous" font-size="12" font-weight="normal" sketch:alignment="middle" line-spacing="14" fill="#000000">
-                <tspan x="21.672" y="27">You still want </tspan>
-                <tspan x="14.988" y="41">dropped off by </tspan>
-                <tspan x="25.164" y="55">the market?</tspan>
-            </text>
-        </g>
-    </g>
+<svg class="driver dropped" width="140px" height="144px" viewBox="0 0 140 144">
+    <path d="M90.6524512,73.4964436 C84.1243539,74.5770259 77.1887247,75.1587715 70,75.1587715 C31.3400675,75.1587715 0,58.3339074 0,37.5793858 C0,16.8248641 31.3400675,0 70,0 C108.659932,0 140,16.8248641 140,37.5793858 C140,52.7168554 123.328256,65.7638941 99.3043898,71.7172776 C103.43998,84.7333829 113.984835,114.580529 131.87783,144.00341 C111.27394,114.547112 97.2807892,87.3613183 90.6524512,73.4964436 Z"></path>
+    <text>
+        <tspan x="21.672" y="27">You still want </tspan>
+        <tspan x="14.988" y="41">dropped off by </tspan>
+        <tspan x="25.164" y="55">the market?</tspan>
+    </text>
 </svg>
