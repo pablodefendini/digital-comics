@@ -56,7 +56,7 @@ $color-main: #ffffff;
     }
  }
 
- p {
+ p, blockquote {
  	letter-spacing: 1.25px;
  }
 
@@ -136,6 +136,15 @@ $color-main: #ffffff;
  		}
  	}
  }
+
+.previous {
+	text-align: left;
+}
+
+.next {
+	text-align: right;
+}
+
 // 4.0 layout
 // -----------------------------------------------------------------------------
 // all layout rules, including floats, flexbox, position, overflow, z-index, 
@@ -150,6 +159,10 @@ header, section {
 	max-width: 36em;
 	margin: 0 auto;
 	padding: 0 1em;
+}
+
+blockquote {
+	margin: 1.4em;
 }
 
 .navigation {
@@ -231,6 +244,10 @@ p {
 body {
 	color: $color-main;
 	background-color: $color-background;
+}
+
+blockquote {
+	color: darken($color-main, 30%);
 }
 
 nav {
