@@ -20,12 +20,11 @@
 		<ul class="navigation">
 		    <h1 class="toc__title"><a href="index.html">Standards, Semantics, & Sequential Art</a></h1>
 		    <li class="toc__sub-heading">Contents</li>
-		    <li class="toc__entry"><a href="intro.html">Introduction: Toward a digital comics praxis</a></li>
 		    <li class="toc__entry"><a href="part-1.html">Current Approaches to Digital Comics</a></li>
 		    <li class="toc__sub-entry"><a href="part-1.html#panel-by-panel-presentation">Panel-by-Panel Presentation</a></li>
 		    <li class="toc__sub-entry"><a href="part-1.html#the-balak-framework">The Balak Framework</a></li>
 		    <li class="toc__entry"><a href="part-2.html">How Digital Comics are different from print comics</a></li>
-		    <li class="toc__sub-entry"><a href="part-2.html#viewing-surface">Viewing surface</a></li>
+		    <li class="toc__sub-entry"><a href="part-2.html#viewport-variance">Viewport-variance</a></li>
 		    <li class="toc__sub-entry"><a href="part-2.html#viewing-conditions">Viewing conditions</a></li>
 		    <li class="toc__sub-entry"><a href="part-2.html#the-static-page-metaphor">The static page metaphor</a></li>
 		    <li class="toc__sub-entry"><a href="part-2.html#undermining-page-level-storytelling">Undermining page-level storytelling</a></li>
@@ -58,9 +57,15 @@
                                     <section>
                 <h1 class="section-heading">A New Approach to Digital Comics</h1> 
                 <p>A networked, screen-based world calls for a networked, screen-based comic, and that, in turn, calls for a new approach toward actually <em>making</em> comics—how we write, lay out, draw, and build our comics.</p>
-                <p>There are three particular things we can focus on in order to address the unique conditions under which digital comics operate.</p>
+                <p>Fortunately, we can stand on the shoulders of giants. The web standards movement and the web design community has forged a path forward for us. All we need to do is apply the tools and techniques that already exist for wider web design and development to the comics-making process, and we're in business.</p>
+                <p>There are three particular techniques we can focus on in order to address the unique conditions under which digital comics operate: responsive layouts, live text, and resolution-independent artwork.</p>
                 <h2 class="section-sub-heading" id="responsive-layouts">Responsive layouts</h2>
-                <p></p>
+                <p>Responsive design has become the de facto standard for practicing web design, for good reason—responsive techniques offer the best way we know for one website to adapt and, well, respond to the unknowable combinations of devices, connectivity, and viewing conditions that exist across the internet. Responsive layouts adapt to their containing screen, and change based on the size and dimensions of the screen the reader is using.</p>
+                <p>We can apply responsive design techniques to comics on the web primarily by breaking a comics layout down into its components, that is, individual panels and discrete artwork elements within a composition, and then coding those components as you would any other modern web layout, using constraint-based layout techniques and measurements.</p>
+                <p>This approach has the added benefit of being highly semantic—which means that your comic is suddenly a lot more searchable, findable, and parseable by non-human actors on the network. This is great for both SEO, and, crucially, for accessibility.</p>
+                <p>Recent advances in CSS make creating complex responsive layouts much easier than it used to be—thanks in large part to the advent of the flexbox spec (and the upcoming grid spec, as well, but for the purposes of this demo we're limiting ourselves to flexbox, since that is an approved spec that now has wide browser support) we can create comics layouts that respond to their viewing context.</p>
+                <p>Using a tier(or row)-and-panels grid for laying out our elements on a page, we can code layouts from the very simple comicstrip-style three or four panel row, to multi-row webcomics-style layouts, to complicated layouts like the ones in floppy printed comic books.</p>
+                <p>Each of the icons below link to their corresponding example layout. Each layout is based on an existing layout used in print comics by either Jack Kirby or David Aja, and they are designed to respond to their viewport size: at small sizes, the layout reverts to a stacked panel layout, in order to maximize the space available. At larger viewport sizes, the panels are laid out according to the artists' original design for print.</p>
                 <div class="layout-icons">
                 	<a href="layout__1-row--3-panel.html"><img src="img/icons/icon__1-row--3-panel.svg"></a>
                     <a href="layout__1-row--4-panel.html"><img src="img/icons/icon__1-row--4-panel.svg"></a>
@@ -71,20 +76,25 @@
                     <a href="layout__4-row--11-panel.html"><img src="img/icons/icon__4-row--11-panel.svg"></a>
                     <a href="layout__4-row--10-panel.html"><img src="img/icons/icon__4-row--10-panel.svg"></a>
                 </div>
+                <p>Since the sample layouts are lifted from print comics, each layout is artificially constrained. They will stop responding to their viewport size when they reach roughly the proportions of a printed comics page. But since they are fluid, they avoid the 'lateral letterboxing' effect previously discussed, and properly fill up their viewport when viewed on an iPad.</p>
+                <p>Moving past the constraints of adapting pages from print to digital, we can start to think about what a page layout looks like at even larger viewport sizes—the Toy Planes demo at the end of this article starts to explore space.</p>
                 <h2 class="section-sub-heading" id="live-text">Live text</h2>
-                <p>working with live text is fundamental online. The days of text as image on websites is well in the past. Live text affords many basic benefits:</p>
-                <p>Scalability. Live text can be resized to suit many presentational contexts.</p>
-                <p>Searchability. Live text allows for search engines and other robots to parse content, making it easier to find, and more accessible to differently abled readers.</p>
-                <p>Localizeability. Live text can be translated into multiple languages, thereby making worldwide distribution and delivery of comics a lot more accessible.</p>
-                <p>Live text in comics can be achieved by using CSS to style caption boxes, word balloons, thought bubbles, and sound effects, in conjunction with SVG graphics to provide non standard shapes.</p>
+                <p>Working with live text is fundamental online—the days of text as image on websites is well in the past, thanks to advances in web typography.</p>
+                <p>Live text affords many basic benefits: it can be resized to suit many presentational contexts. It allows for search engines and other robots to parse content, making content easier to find, and more accessible to differently abled readers. Live text can also be translated into multiple languages, thereby making worldwide distribution and delivery of comics a lot more achievable.</p>
+                <p>Digital comics have mostly sidestepped the issue of live text by integrating captions and word balloons into flat, raster artwork. But live text in comics can be achieved relatively simply, and to great effect.</p>
+                <p>Using CSS, we can style simple caption boxes very easily. Along with regular CSS, SVG images can provide the graphic fidelity necessary for properly displaying word balloons, thought bubbles, sound effects, and other non standard shapes, while retaining resolution independence and proper semantics.</p>
                 <div class="layout-icons">
                     <a href="layout__4-row--7-panel--live-text.html"><img src="img/icons/icon__live-text--1.svg"></a>
                 </div>
+                <p>The <a href="layout__4-row--7-panel--live-text.html">example</a> at the link above shows a page using the responsive comics grid from above, along with various styles of word balloons and captions. The text is selectable, searchable, and scaleable—go ahead and try it out in your browser.</p>
+                <p>By including SVG inline in the markup of the html, we can also replace word balloons and other textual artwork with localized versions in multiple languages.</p>
                 <h2 class="section-sub-heading" id="resolution-independent-artwork">Resolution-independent Artwork</h2>
-                <p>The actual artwork we generate for comics should be as resolution independent as possible, as well.</p>
-                <p>The principal benefit of working in a resolution independent fashion is scalability, or the ability for a piece of artwork to change it size depending on its viewing context, and not lose its crispness and fidelity.</p>
-                <p>Additionally, resolution independent artwork allows for much better performance, especially in band with constrained contexts. A piece of vector artwork will download much faster than its raster based counterpart.</p>
-                <p>SVG graphics also hold the key here. Much ink based comic art out there today can be expressed as vector rather than raster artwork, by making changes to the artwork creation and production process.</p>
+                <p>A large part of making accessible, responsive websites is making us that imagery is as lightweight and versatile as possible. More and more, this entails relying on resolution-independent, vector-based artwork. As such, the actual drawings that creators generate for comics should be as resolution independent as possible.</p>
+                <p>The principal benefit of working with vector images is scalability, or the ability for a piece of artwork to change its size depending on it's viewing context, and not lose its crispness and fidelity. If you've ever been bothered by fuzzy or crunchy-looking images on a high-solution iPad or iPhone, you know how crucial it is to serve up high resolution, or resolution independent, imagery.</p>
+                <p>Additionally, resolution independent artwork allows for much better performance, especially in bandwidth-constrained contexts. A piece of vector artwork will download much faster than its raster based counterpart. This improves load times for the reader, and reduces bandwidth costs for the publisher.</p>
+                <p>SVG graphics also provide a solution here. While some artwork will always need to be raster-based, much more of the ink-based comic art out there today can be expressed as vector artwork than most artists suspect. By making some changes to the artwork creation and production process, artists can generate much more versatile, optimized assets for building comics.</p>
+                <p>This is by far the most controversial aspect of the approach to digital comics outlined in this article, since it directly infringes on working artists' process and workflow. There's no doubt about it: this entails a rethinking of process and technique, but the end result—crisper artwork at all sizes, and lower bandwidth costs—is absolutely worth the effort.</p>
+                <p></p>
                 				<div class="page-nav">
             		<ul>
             			<li><a href="part-2.html">Previous</a></li>
