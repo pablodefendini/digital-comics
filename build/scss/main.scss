@@ -41,15 +41,19 @@ $color-main: #ffffff;
  body {
  	font-family: "jubilat", Georgia, serif;
 	font-size: 18px;
- 	line-height: 1.4em;
+ 	line-height: 1.6em;
  	font-weight: 100;
+ 	letter-spacing: 1px;
  }
 
- nav {
+li a {
+	text-decoration: none;
+	} 
+
+nav {
  	p, a {
         font-size: 1em;
         letter-spacing: .75px;
-        text-decoration: none;
     }
     li {
     	margin: .8em 0 0 0;
@@ -57,7 +61,6 @@ $color-main: #ffffff;
  }
 
  p, blockquote {
- 	letter-spacing: 1.25px;
  }
 
  footer {
@@ -67,36 +70,35 @@ $color-main: #ffffff;
  .title {
  	font-size: 3em;
  	line-height: 1.1em;
+ 	text-align: center;
  }
 
- .subtitle {
+.subtitle {
 	font-size: 2em;
  	line-height: 1.4em;
- }
+	text-align: center;
+}
 
- .section-heading{
+.byline {
+	font-size: 1.2em;
+ 	line-height: 3em;
+	text-align: center;
+}
+
+.section-heading{
  	font-size: 2em;
  	line-height: 1.2em;
- 	letter-spacing: 1px;
- }
-
- .intro-text {
- 	font-size: 1.5em;
- 	line-height: 1.2em;
- 	letter-spacing: 1px;
  }
 
 .section-sub-heading {
- 	font-size: 1.2em;
- 	line-height: 2em;
-  	letter-spacing: 1px;
+ 	font-size: 1.6em;
+ 	line-height: 1.8em;
 	a {
  		text-decoration: none;
  	}
  }
 
  .running-head, .page-title, .comic-title, .page-nav {
-  	font-family: "jubilat", Georgia, serif;
 	font-size: .7em;
 	text-transform: uppercase;
  	letter-spacing: 2px;
@@ -143,6 +145,7 @@ $color-main: #ffffff;
 
 .next {
 	text-align: right;
+ 	font-size: 1.3em;
 }
 
 // 4.0 layout
@@ -156,9 +159,14 @@ nav {
 
 header, section {
 	width: 100%;
-	max-width: 36em;
+	max-width: 34em;
 	margin: 0 auto;
 	padding: 0 1em;
+}
+
+figure img{
+	width: 100%;
+	max-width: 1900px;
 }
 
 blockquote {
@@ -226,6 +234,7 @@ footer {
 
 .section-heading {
 	padding-top: 4em;	
+	padding-bottom: .8em;	
 }
 
 .section-sub-heading {
@@ -243,6 +252,7 @@ p {
 // -----------------------------------------------------------------------------
 body {
 	color: $color-main;
+	opacity: .9;
 	background-color: $color-background;
 }
 
