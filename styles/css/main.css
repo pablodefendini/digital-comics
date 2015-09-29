@@ -1089,7 +1089,7 @@ nav p, nav a {
 nav li {
   margin: .8em 0 0 0; }
 
-p {
+p, blockquote {
   letter-spacing: 1.25px; }
 
 footer {
@@ -1151,6 +1151,12 @@ footer {
     display: block;
     line-height: 0; }
 
+.previous {
+  text-align: left; }
+
+.next {
+  text-align: right; }
+
 nav {
   max-width: 300px; }
 
@@ -1159,6 +1165,9 @@ header, section {
   max-width: 36em;
   margin: 0 auto;
   padding: 0 1em; }
+
+blockquote {
+  margin: 1.4em; }
 
 .navigation {
   padding: 1em 1em 5em 1em; }
@@ -1220,6 +1229,9 @@ p {
 body {
   color: #ffffff;
   background-color: #4d4d4d; }
+
+blockquote {
+  color: #b3b3b3; }
 
 nav {
   background: #343434; }

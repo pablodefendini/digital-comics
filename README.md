@@ -1,6 +1,7 @@
 # Digital Comics
 This site depicts one possible approach to building comics directly out of HTML, CSS, SVG, and vector images, using responsive design techniques.
 It's built using [CodeKit](https://incident57.com/codekit/), for ease of development, and [the output demo site](http://pablodefendini.github.io/digital-comics/index.html) is hosted on a Github page.
+The top level of the repo is the output of CodeKit, and the source for the Github page. All the action happens in the ~/build directory, so that's where you'll want to look for code examples.
 ## Background
 Most comics made for digital delivery still cling to the metaphor of the static page as a framework for designing, displaying, and consuming comics on a screen. This means flat, pixel-based (or raster) artwork displayed within a static content frame, either inside a web browser, or in an app. The comics created for these media are mostly created with specific ‘page’ dimensions in mind.
 Meanwhile, the world of web design and development has moved on from a static page/screen paradigm, and embraced the fluidity inherent in digital media designed for the screen. Techniques such as responsive web design, and resources such as vector-based images have made for content that adapts to its specific viewing context, regardless of screen size, display resolution, computing platform, or bandwidth conditions.
