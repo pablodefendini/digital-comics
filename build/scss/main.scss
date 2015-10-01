@@ -244,6 +244,10 @@ footer {
 p {
 	margin-top: .4em;
 }
+
+.warning span {
+	display: block;
+}
 // 5.0 style
 // -----------------------------------------------------------------------------
 // global colors, decorations like shadows, gradients, etc., 
@@ -279,7 +283,6 @@ a {
 
 .running-head {
 	color: $color-main;
-	background-color: $color-background;
 	opacity: .9;
 }
 

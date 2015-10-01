@@ -1228,6 +1228,9 @@ footer {
 p {
   margin-top: .4em; }
 
+.warning span {
+  display: block; }
+
 body {
   color: #ffffff;
   opacity: .9;
@@ -1254,5 +1257,4 @@ a {
 
 .running-head {
   color: #ffffff;
-  background-color: #4d4d4d;
   opacity: .9; }
