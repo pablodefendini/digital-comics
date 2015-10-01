@@ -13,8 +13,41 @@
                 <p>We can apply responsive design techniques to comics on the web primarily by breaking a comics layout down into its components, that is, individual panels and discrete artwork elements within a composition, and then coding those components as you would any other modern web layout, using constraint-based layout techniques and measurements.</p>
                 <p>This approach has the added benefit of being highly semantic—which means that your comic is suddenly a lot more searchable, findable, and parseable by non-human actors on the network. This is great for both SEO, and, crucially, for accessibility.</p>
                 <p>Recent advances in CSS make creating complex responsive layouts much easier than it used to be—thanks in large part to the advent of the flexbox spec (and the upcoming grid spec, as well, but for the purposes of this demo we're limiting ourselves to flexbox, since that is an approved spec that now has wide browser support) we can create comics layouts that respond to their viewing context.</p>
-                <p>Using a tier(or row)-and-panels grid for laying out our elements on a page, we can code layouts from the very simple comicstrip-style three or four panel row, to multi-row webcomics-style layouts, to complicated layouts like the ones in floppy printed comic books.</p>
-                <p>Each of the icons below link to their corresponding example layout. Each layout is based on an existing layout used in print comics by either Jack Kirby or David Aja, and they are designed to respond to their viewport size: at small sizes, the layout reverts to a stacked panel layout, in order to maximize the space available. At larger viewport sizes, the panels are laid out according to the artists' original design for print.</p>
+                <p>Using a tier(or row)-and-panels grid for laying out our elements on a page, we can code layouts from the very simple comic strip-style three or four panel row...</p>
+                <section class="comic-page__strip one-row">
+                    <div class="row">
+                        <div class="panel">Panel 1</div>
+                        <div class="panel">Panel 2</div>
+                        <div class="panel">Panel 3</div>
+                    </div>
+                </section> 
+                <p>...to multi-row webcomics-style layouts, to complicated layouts like the ones in floppy printed comic books:</p>
+                <section class="comic-page__full four-row aja-2">
+                    <div class="row">
+                        <div class="panel" id="aja-2-panel-1">Panel 1</div>
+                    </div>
+                    <div class="row">
+                        <div class="panel" id="aja-2-panel-2">Panel 2</div>
+                        <div class="panel" id="aja-2-panel-3">Panel 3</div>
+                        <div class="panel" id="aja-2-panel-4">Panel 4</div>
+                        <div class="panel" id="aja-2-panel-5">Panel 5</div>
+                    </div>
+                    <div class="row">
+                        <div class="column" id="aja-2-column-1">
+                            <div class="panel" id="aja-2-panel-6">Panel 6</div>
+                            <div class="panel" id="aja-2-panel-7">Panel 7</div>
+                        </div>
+                        <div class="panel" id="aja-2-panel-8">Panel 8</div>
+                        <div class="column" id="aja-2-column-2">
+                            <div class="panel" id="aja-2-panel-9">Panel 9</div>
+                            <div class="panel" id="aja-2-panel-10">Panel 10</div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="panel" id="aja-2-panel-11">Panel 11</div>
+                    </div>
+                </section>
+                <p id="responsive-icons">Each of the icons below link to their corresponding example layout. Each layout is based on an existing layout used in print comics by either Jack Kirby or David Aja, and they are designed to respond to their viewport size: at small sizes, the layout reverts to a stacked panel layout, in order to maximize the space available. At larger viewport sizes, the panels are laid out according to the artists' original design for print.</p>
                 <div class="layout-icons">
                 	<a href="layout__1-row--3-panel.html"><img src="img/icons/icon__1-row--3-panel.svg"></a>
                     <a href="layout__1-row--4-panel.html"><img src="img/icons/icon__1-row--4-panel.svg"></a>
@@ -31,6 +64,27 @@
                 <p>Working with live text is fundamental online—the days of text as image on websites is well in the past, thanks to advances in web typography.</p>
                 <p>Live text affords many basic benefits: it can be resized to suit many presentational contexts. It allows for search engines and other robots to parse content, making content easier to find, and more accessible to differently abled readers. Live text can also be translated into multiple languages, thereby making worldwide distribution and delivery of comics a lot more achievable.</p>
                 <p>Digital comics have mostly sidestepped the issue of live text by integrating captions and word balloons into flat, raster artwork. But live text in comics can be achieved relatively simply, and to great effect.</p>
+                <section class="comic-page__full three-row live-text">
+                    <div class="row">
+                        <div class="panel" id="live-text__panel-1">
+                            <div class="caption">You can use CSS to set any text you want to place in a box, like caption text, or narration...</div>
+                            <svg>
+                                <path d="M145.49018,29.1214038 C167.071187,34.6017157 181,43.2586498 181,53 C181,69.5685425 140.705627,83 91,83 C41.2943725,83 1,69.5685425 1,53 C1,36.4314575 41.2943725,23 91,23 C107.293179,23 122.575132,24.4431905 135.758127,26.9669942 C149.726887,14.753199 163.772052,6.04955424 173.1685,0.866249083 C160.274443,10.9534905 151.332943,21.1623321 145.49018,29.1214038 Z" id="Oval-1" stroke="#000000" fill="#FFFFFF" sketch:type="MSShapeGroup"></path>
+                                <text id="...and-use-SVG-when-" sketch:type="MSTextLayer" font-family="CCMonologous" font-size="10" font-weight="normal" sketch:alignment="middle" fill="#000000">
+                                    <tspan x="30.515" y="46">...and use </tspan>
+                                    <tspan x="91.135" y="46" font-style="italic" font-weight="bold">SVG </tspan>
+                                    <tspan x="115.555" y="46"> when </tspan>
+                                    <tspan x="10.43" y="57">you need more </tspan>
+                                    <tspan x="107.4" y="57" font-style="italic" font-weight="bold">control</tspan>
+                                    <tspan x="171.57" y="57"> </tspan>
+                                    <tspan x="44.78" y="68">over </tspan>
+                                    <tspan x="79.2" y="68" font-style="italic" font-weight="bold">visuals</tspan>
+                                    <tspan x="134.69" y="68">.</tspan>
+                                </text>
+                            </svg>
+                        </div>
+                    </div>
+                </section>
                 <p>Using CSS, we can style simple caption boxes very easily. Along with regular CSS, SVG images can provide the graphic fidelity necessary for properly displaying word balloons, thought bubbles, sound effects, and other non standard shapes, while retaining resolution independence and proper semantics.</p>
                 <div class="layout-icons">
                     <a href="layout__4-row--7-panel--live-text.html"><img src="img/icons/icon__live-text--1.svg"></a>

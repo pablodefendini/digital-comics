@@ -550,7 +550,8 @@ body {
 .joanie, .ray, .driver {
   font-family: CCSoliloquous;
   font-size: 1em;
-  font-weight: normal; }
+  font-weight: normal;
+  word-spacing: 0; }
 
 .toy-planes {
   padding: 0em; }
@@ -632,30 +633,26 @@ body {
 
 #page01__panel01 {
   background-image: url("../../img/artwork/toy-planes/page01__panel01--tree.svg"), url("../../img/artwork/toy-planes/page01__panel01--sky.svg");
-  background-size: 180px, contain;
+  background-size: contain, contain;
   background-position: bottom left, top left;
   background-repeat: no-repeat; }
 #page01__panel02 {
-  background-image: url("../../img/artwork/toy-planes/page01__panel02--hair.svg"), url("../../img/artwork/toy-planes/page01__panel02--clippers.svg");
-  background-size: cover, 75%;
-  background-position: top left, top right;
+  background-image: url("../../img/artwork/toy-planes/page01__panel02--clippers.svg"), url("../../img/artwork/toy-planes/page01__panel02--hair.svg");
+  background-size: 50%, 110%;
+  background-position: top left, bottom left;
   background-repeat: no-repeat; }
 #page01__panel03 {
   background-image: url("../../img/artwork/toy-planes/page01__panel03--ray.svg"), url("../../img/artwork/toy-planes/page01__panel03--joanie.svg");
   background-repeat: no-repeat;
-  background-size: 70%, 65%;
-  background-position: bottom right, top left; }
-  @media (min-width: 550px) {
-    #page01__panel03 {
-      background-size: 70%, 45%;
-      background-position: top right, top left; } }
+  background-size: 65%, 65%;
+  background-position: bottom right, bottom left; }
   @media (min-width: 700px) {
     #page01__panel03 {
-      background-size: 100%, 85%;
-      background-position: bottom right, top left; } }
+      background-size: 90%, 90%;
+      background-position: bottom 10%, bottom left; } }
 #page01__panel04 {
   background-image: url("../../img/artwork/toy-planes/page01__panel04--toy.svg");
-  background-size: contain;
+  background-size: cover;
   background-repeat: no-repeat; }
 #page01__panel05 {
   background-image: url("../../img/artwork/toy-planes/page01__panel05--joanie.svg");
