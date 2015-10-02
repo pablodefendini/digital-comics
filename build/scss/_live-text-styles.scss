@@ -29,11 +29,13 @@ $color-main: black;
 // all typographic rules, including colors, text-transforms, and bottom margins
 // -----------------------------------------------------------------------------
 .live-text {
-	.caption {
-		font-family: CCSoliloquous, "Helvetica Neue", "Helvetica", sans-serif;
-		font-size: .8em;
-		line-height: 1.3em;
-	}
+ 		letter-spacing: 0;
+ 		.caption {
+			font-family: CCSoliloquous, "Helvetica Neue", "Helvetica", sans-serif;
+			font-size: .8em;
+			line-height: 1.3em;
+	 		letter-spacing: 0;
+		}
 }
 
 // 4.0 layout

@@ -384,10 +384,13 @@ body {
   border: 1px solid black;
   background-color: gray; }
 
-.live-text .caption {
-  font-family: CCSoliloquous, "Helvetica Neue", "Helvetica", sans-serif;
-  font-size: .8em;
-  line-height: 1.3em; }
+.live-text {
+  letter-spacing: 0; }
+  .live-text .caption {
+    font-family: CCSoliloquous, "Helvetica Neue", "Helvetica", sans-serif;
+    font-size: .8em;
+    line-height: 1.3em;
+    letter-spacing: 0; }
 
 .live-text .caption {
   margin: .5em .5em;
@@ -543,7 +546,8 @@ body {
 .toy-planes {
   font-family: 'CCMonologous';
   font-size: .7em;
-  line-height: 1.4em; }
+  line-height: 1.4em;
+  letter-spacing: 0; }
   .toy-planes .page-nav {
     font-size: 1em; }
 
