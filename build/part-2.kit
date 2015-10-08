@@ -3,7 +3,7 @@
             <section>
                 <h1 class="section-heading">Embrace the Chaos</h1>
                 <figure>
-                <img src="img/article-illustrations/static-displays.gif">
+                    <img src="img/article-illustrations/static-displays.gif">
                 </figure>
                 <p>Most of the approaches taken toward creating digital comics so far fail to take advantage of the medium. In trying to adapt the known experience of printed comics for a screen, artists design comics layouts as if they were still designing for a static, one-size page. The metaphor of the page is a tough one to break—we've been living with it for 500 years. But a screen—or rather, a continuum of screens—has very different characteristics from a printed page in a book.</p>
                 <p>The printed page is immutable, and fixed in size. It is also static. An individual screen on a particular reader's device is also immutable and fixed in size, but it's not static, and this is the place where most comics are playing these days—taking advantage of the internal fluidity of the screen to do things like displaying an infinite canvas, light interaction and animations, superimposing panel states to depict action over time, to name a few examples—but always within the context of a fixed viewport size. Creating comics for individual viewports imposes a new set of limitations: storytellers end up designing page layouts for, say, an iPad, a Kindle Fire, or another, arbitrary screen size defined by a single target platform. But this approach isn't scalable: any comic created this way will always be  bespoke to a particular screen—or more accurately, viewport size, to use web design parlance.</p>
@@ -25,7 +25,7 @@
                 <p>The comics created in this way are mostly designed with a specific page dimension in mind—usually six by nine inches, the size of an American print comic. While creating for a known, fixed canvas size can certainly be convenient, especially when repurposing the digital comic for a print run, it can be an awkward fit when reading on digital devices.</p>
                 <p>For example, when viewing full-page comics created for a six- by nine-inch page on an iPad Air, the sides of the device's screen are effectively wasted, creating an odd “lateral letterboxing” effect which underscores the fact that the comic has been awkwardly adapted to fit the viewport.</p>
                 <figure>
-                [FIXME ADD ART: IPAD FLOPPY FIASCO]
+                    <img src="img/article-illustrations/ipad-floppy-fiasco.gif">
                 </figure>
                 <h3 class="section-sub-heading" id="undermining-page-level-storytelling">Undermining page-level storytelling</h3>
                 <p>Panel-by-panel presentations of digital comics, like ComiXology's Guided View, often undermine one of the fundamental (yet sometimes overlooked) aspects of sequential art, and arguably one of the attributes that makes a comic, a comic: the use of a full-page layout design to create a visual rhythm that reinforces the narrative being depicted from panel to panel.</p>
@@ -33,12 +33,9 @@
                 <blockquote>Comics live in the expressive, representative and symbolic nature of a drawing, in the comic page when treated as an interconnected piece of art, in the reader’s ability to “pause”, “rewind”, “rewatch” and linger on a moment at their hearts content. Comics thrive when each panel doesn’t just represent a mechanical shot-by-shot advancing of the plot, but a carefully considered and timed “beat” which enforces an emotion, underlines a joke or teases out a dramatic moment. Comics excel when the artist understands how to guide the reader’s eye around the page, when a layout does more than frame a sequence of images, when the story is expressed non-photographically and when the qualities of the artwork beam the characters’ emotional states right into the reader’s head before they read a word of dialogue.</blockquote>
                 <p>For example, using Guided View for reading a page from Matt Fraction and David Aja’s excellent <em>Hawkeye</em> gets the job done.</p>
                 <figure>
-                [FIXME ADD ART: REPEAT GUIDED VIEW HAWKEYE]
+                    <img src="img/article-illustrations/guided-view-v-full-page.gif" alt="Hawkeye on Guided View">
                 </figure>
                 <p>But readers are missing out—there's a rhythm to a page on <em>Hawkeye</em>, and Aja and Fraction have worked to guide the reader’s eye through the sequence of panels in a particular order. The size and placement of the panels in relation to each other works almost subliminally to convey an emotional state to the reader, and the reader needs to do the work of parsing the page<sup><a href="#comics-literacy">*</a></sup> as it has been designed by the storyteller in order to fully appreciate the tone of the story.</p>
-                <figure>
-                [FIXME ADD ART: PANELS IN A LINE MOVE TO THE ACTUAL LAYOUT AND FADE OUT, THEN FADE IN IN READING ORDER]
-                </figure>
                 <p>Nowadays, high-resolution tablets like the Retina iPad Air make viewing a print comic as a series of consecutive panels unnecessary, since the screen is large enough and sharp enough to legibly render a full-page print comic. While techniques like Guided View continues to be useful in adapting printed comics to small-screened devices, we need a better solution for building digital-native comics to small screens, one that doesn’t undermine a crucial aspect of comics storytelling.</p>
 			    <h3 class="section-sub-heading" id="un-semantic-blobs">Un-semantic blobs</h3>
                 <p>Both these methods also rely on compound, raster image files for presentation. Each page (or each state of a page, in the case of the Balak framework) is a discrete raster image file. Image file formats are for the most part flat and lack any semantic information, what developers call a “blob”: you can’t tell what the content of a JPG file is from looking at its data, and neither can a robot or a database or a translator. Additionally, these types of files are usually larger than their semantic alternatives. That means that they take longer to download, especially on slow or metered connections.</p>

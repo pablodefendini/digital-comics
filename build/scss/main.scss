@@ -164,9 +164,13 @@ header, section {
 	padding: 0 1em;
 }
 
-figure img{
-	width: 100%;
-	max-width: 1900px;
+figure { 
+	@include display-flex;
+	@include justify-content(center);
+	@include flex-wrap(wrap);
+	img {
+		margin: 3em;
+	}
 }
 
 blockquote {

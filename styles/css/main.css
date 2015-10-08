@@ -1167,9 +1167,15 @@ header, section {
   margin: 0 auto;
   padding: 0 1em; }
 
-figure img {
-  width: 100%;
-  max-width: 1900px; }
+figure {
+  display: -webkit-flex;
+  display: flex;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-flex-wrap: wrap;
+  flex-wrap: wrap; }
+  figure img {
+    margin: 3em; }
 
 blockquote {
   margin: 1.4em; }
