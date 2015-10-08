@@ -58,50 +58,51 @@
 	<label for="toc-toggle"></label>        <div class="site-wrap">            			<header class="site-header warning">
 	        	<h3 class="page-title">version 0.8 <span>Warning: Incomplete Draft</span></h3>
 	   		</header>
-            <section>
-                <h1 class="title">Standards, Semantics, & Sequential Art</h1>
-                <h2 class="subtitle">Toward a Digital Comics Praxis</h2>
-                <h3 class="byline">by Pablo Defendini</h2>
-                <p>Digital comics generally look to the static page as a framework for designing, laying out, displaying, and reading comics on a screen. Applying common web design and development techniques to how we make and display comics on screens can dramatically improve the reading experience, and also decrease complexity when trying to deliver a comic across a wide gamut of devices, platforms, and network conditions.</p>
-                <p>Naturally, using these techniques will also affect the way comics creators design their stories. Keeping these technical capabilities in mind can open up storytelling possibilities that wouldn't be possible using a static page paradigm.</p>
-                <p>This site depicts one possible approach to building comics with HTML, CSS, and SVG, using responsive design techniques. It's meant to be a starting point for further explorations of the ways in which we can create and display comics on screens.</p>
-                <p>I hope that these investigations, and the accompanying proofs-of-concept, raise new questions, especially from comics creators, as they explore how using these techniques can change their storytelling processes. So if you have questions, objections, suggestions for improvement, ideas for further exploration, or otherwise want to get in touch, please <a href="mailto:pablo@defendini.com">drop me an email</a>, or <a href="http://www.twitter.com/pablod">ping me on twitter</a>.</p>
-                <p>Additionally, the source code for this entire site is available as a <a href="https://github.com/pablodefendini/digital-comics">public GitHub repository</a>, both as a way to expose the inner workings of the examples to anyone curious as to how things work, and as an invitation to others to create pull requests for improving the work.</p>
-            </section>
-            <section>
+            <article>
+                <section class="text">
+                    <h1 class="title">Standards, Semantics, & Sequential Art</h1>
+                    <h2 class="subtitle">Toward a Digital Comics Praxis</h2>
+                    <h3 class="byline">by Pablo Defendini</h2>
+                    <p>Digital comics generally look to the static page as a framework for designing, laying out, displaying, and reading comics on a screen. Applying common web design and development techniques to how we make and display comics on screens can dramatically improve the reading experience, and also decrease complexity when trying to deliver a comic across a wide gamut of devices, platforms, and network conditions.</p>
+                    <p>Naturally, using these techniques will also affect the way comics creators design their stories. Keeping these technical capabilities in mind can open up storytelling possibilities that wouldn't be possible using a static page paradigm.</p>
+                    <p>This site depicts one possible approach to building comics with HTML, CSS, and SVG, using responsive design techniques. It's meant to be a starting point for further explorations of the ways in which we can create and display comics on screens.</p>
+                    <p>I hope that these investigations, and the accompanying proofs-of-concept, raise new questions, especially from comics creators, as they explore how using these techniques can change their storytelling processes. So if you have questions, objections, suggestions for improvement, ideas for further exploration, or otherwise want to get in touch, please <a href="mailto:pablo@defendini.com">drop me an email</a>, or <a href="http://www.twitter.com/pablod">ping me on twitter</a>.</p>
+                    <p>Additionally, the source code for this entire site is available as a <a href="https://github.com/pablodefendini/digital-comics">public GitHub repository</a>, both as a way to expose the inner workings of the examples to anyone curious as to how things work, and as an invitation to others to create pull requests for improving the work.</p>
+                </section>
+            <section class="text">
                 <ul class="navigation">
                     <li class="byline">Contents</li>
-            <li class="toc__sub-heading">Part 1</li>
-            <li class="toc__sub-entry"><a href="part-1.html">Current Approaches to Digital Comics</a></li>
-            <li class="toc__sub-entry"><a href="part-1.html#panel-by-panel-presentation">Panel-by-Panel Presentation</a></li>
-            <li class="toc__sub-entry"><a href="part-1.html#the-balak-framework">The Balak Framework</a></li>
-            <li class="toc__sub-heading">Part 2</li>
-            <li class="toc__sub-entry"><a href="part-2.html">Embrace the Chaos</a></li>
-            <li class="toc__sub-entry"><a href="part-2.html#viewport-variance">Viewport variance</a></li>
-            <li class="toc__sub-entry"><a href="part-2.html#viewing-conditions">Viewing conditions</a></li>
-            <li class="toc__sub-entry"><a href="part-2.html#the-static-page-metaphor">The static page metaphor</a></li>
-            <li class="toc__sub-entry"><a href="part-2.html#undermining-page-level-storytelling">Undermining page-level storytelling</a></li>
-            <li class="toc__sub-entry"><a href="part-2.html#un-semantic-blobs">Un-semantic blobs</a></li>
-            <li class="toc__sub-heading">Part 3</li>
-            <li class="toc__sub-entry"><a href="part-3.html">An Alternative Approach to Digital Comics</a></li>
-            <li class="toc__sub-entry"><a href="part-3.html#responsive-layouts">Responsive Layouts</a></li>
-            <li class="toc__demo-entry"><a href="layout__1-row--3-panel.html">Demo: 3-panel strip</a></li>
-            <li class="toc__demo-entry"><a href="layout__1-row--4-panel.html">Demo: 4-panel strip</a></li>
-            <li class="toc__demo-entry"><a href="layout__3-row--3-panel.html">Demo: 3-row, 3-panel layout</a></li>
-            <li class="toc__demo-entry"><a href="layout__2-row--4-panel.html">Demo: 2-row, 4-panel layout</a></li>
-            <li class="toc__demo-entry"><a href="layout__3-row--7-panel.html">Demo: 3-row, 7-panel layout</a></li>
-            <li class="toc__demo-entry"><a href="layout__3-row--5-panel.html">Demo: 3-row, 5-panel layout</a></li>
-            <li class="toc__demo-entry"><a href="layout__4-row--11-panel.html">Demo: 4-row, 11-panel layout</a></li>
-            <li class="toc__demo-entry"><a href="layout__4-row--10-panel.html">Demo: 4-row, 10-panel layout</a></li>
-            <li class="toc__sub-entry"><a href="part-3.html#live-text">Live Text</a></li>
-            <li class="toc__demo-entry"><a href="layout__4-row--7-panel--live-text.html">Demo: Live text word balloons</a></li>
-            <li class="toc__sub-entry"><a href="part-3.html#resolution-independent-artwork">Resolution-independent Artwork</a></li>
-            <li class="toc__sub-heading">Part 4</li>
-            <li class="toc__sub-entry"><a href="part-4.html">Storytelling implications of digital comics</a></li>
-            <li class="toc__demo-entry"><a href="toy-planes__page-1.html">Demo: Toy Planes</a></li>
-            <li class="toc__sub-heading">Notes & Resources</li>
-            <li class="toc__sub-entry"><a href="acknowledgements.html">Acknowledgements</a></li>
-            <li class="toc__sub-entry"><a href="https://github.com/pablodefendini/digital-comics">Github Repo for this site</a></li>
+                    <li class="toc__sub-heading">Part 1</li>
+                    <li class="toc__sub-entry"><a href="part-1.html">Current Approaches to Digital Comics</a></li>
+                    <li class="toc__sub-entry"><a href="part-1.html#panel-by-panel-presentation">Panel-by-Panel Presentation</a></li>
+                    <li class="toc__sub-entry"><a href="part-1.html#the-balak-framework">The Balak Framework</a></li>
+                    <li class="toc__sub-heading">Part 2</li>
+                    <li class="toc__sub-entry"><a href="part-2.html">Embrace the Chaos</a></li>
+                    <li class="toc__sub-entry"><a href="part-2.html#viewport-variance">Viewport variance</a></li>
+                    <li class="toc__sub-entry"><a href="part-2.html#viewing-conditions">Viewing conditions</a></li>
+                    <li class="toc__sub-entry"><a href="part-2.html#the-static-page-metaphor">The static page metaphor</a></li>
+                    <li class="toc__sub-entry"><a href="part-2.html#undermining-page-level-storytelling">Undermining page-level storytelling</a></li>
+                    <li class="toc__sub-entry"><a href="part-2.html#un-semantic-blobs">Un-semantic blobs</a></li>
+                    <li class="toc__sub-heading">Part 3</li>
+                    <li class="toc__sub-entry"><a href="part-3.html">An Alternative Approach to Digital Comics</a></li>
+                    <li class="toc__sub-entry"><a href="part-3.html#responsive-layouts">Responsive Layouts</a></li>
+                    <li class="toc__demo-entry"><a href="layout__1-row--3-panel.html">Demo: 3-panel strip</a></li>
+                    <li class="toc__demo-entry"><a href="layout__1-row--4-panel.html">Demo: 4-panel strip</a></li>
+                    <li class="toc__demo-entry"><a href="layout__3-row--3-panel.html">Demo: 3-row, 3-panel layout</a></li>
+                    <li class="toc__demo-entry"><a href="layout__2-row--4-panel.html">Demo: 2-row, 4-panel layout</a></li>
+                    <li class="toc__demo-entry"><a href="layout__3-row--7-panel.html">Demo: 3-row, 7-panel layout</a></li>
+                    <li class="toc__demo-entry"><a href="layout__3-row--5-panel.html">Demo: 3-row, 5-panel layout</a></li>
+                    <li class="toc__demo-entry"><a href="layout__4-row--11-panel.html">Demo: 4-row, 11-panel layout</a></li>
+                    <li class="toc__demo-entry"><a href="layout__4-row--10-panel.html">Demo: 4-row, 10-panel layout</a></li>
+                    <li class="toc__sub-entry"><a href="part-3.html#live-text">Live Text</a></li>
+                    <li class="toc__demo-entry"><a href="layout__4-row--7-panel--live-text.html">Demo: Live text word balloons</a></li>
+                    <li class="toc__sub-entry"><a href="part-3.html#resolution-independent-artwork">Resolution-independent Artwork</a></li>
+                    <li class="toc__sub-heading">Part 4</li>
+                    <li class="toc__sub-entry"><a href="part-4.html">Storytelling implications of digital comics</a></li>
+                    <li class="toc__demo-entry"><a href="toy-planes__page-1.html">Demo: Toy Planes</a></li>
+                    <li class="toc__sub-heading">Notes & Resources</li>
+                    <li class="toc__sub-entry"><a href="acknowledgements.html">Acknowledgements</a></li>
+                    <li class="toc__sub-entry"><a href="https://github.com/pablodefendini/digital-comics">Github Repo for this site</a></li>
                </ul>
 			</section>
             <footer>

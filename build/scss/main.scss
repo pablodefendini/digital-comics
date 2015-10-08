@@ -60,11 +60,15 @@ nav {
     }
  }
 
- p, blockquote {
- }
+figure {
+	p {
+		font-size: .8em;
+	}
+}
 
- footer {
- 	text-align: center;
+ .text {
+ 	max-width: 30em;
+ 	margin: 0 auto;
  }
 
  .title {
@@ -88,7 +92,7 @@ nav {
 .section-heading{
  	font-size: 2em;
  	line-height: 1.2em;
- }
+}
 
 .section-sub-heading {
  	font-size: 1.6em;
@@ -158,23 +162,22 @@ nav {
 }
 
 header, section {
-	width: 100%;
-	max-width: 34em;
 	margin: 0 auto;
 	padding: 0 1em;
 }
 
-figure { 
-	@include display-flex;
-	@include justify-content(center);
-	@include flex-wrap(wrap);
-	img {
-		margin: 3em;
-	}
-}
-
 blockquote {
 	margin: 1.4em;
+}
+
+figure {
+	padding: 2em 0em 1em 0em;
+	img {
+		width: 100%;
+	}
+	p {
+		padding: 0em 1.7em 0em 1.7em;
+	}
 }
 
 .navigation {
@@ -288,6 +291,12 @@ a {
 .running-head {
 	color: $color-main;
 	opacity: .9;
+}
+
+figure {
+	p {
+		color: darken($color-main, 30%);
+	}
 }
 
 // 6.0 animation
