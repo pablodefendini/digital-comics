@@ -1093,8 +1093,12 @@ nav p, nav a {
 nav li {
   margin: .8em 0 0 0; }
 
-footer {
-  text-align: center; }
+figure p {
+  font-size: .8em; }
+
+.text {
+  max-width: 30em;
+  margin: 0 auto; }
 
 .title {
   font-size: 3em;
@@ -1162,23 +1166,18 @@ nav {
   max-width: 300px; }
 
 header, section {
-  width: 100%;
-  max-width: 34em;
   margin: 0 auto;
   padding: 0 1em; }
 
-figure {
-  display: -webkit-flex;
-  display: flex;
-  -webkit-justify-content: center;
-  justify-content: center;
-  -webkit-flex-wrap: wrap;
-  flex-wrap: wrap; }
-  figure img {
-    margin: 3em; }
-
 blockquote {
   margin: 1.4em; }
+
+figure {
+  padding: 2em 0em 1em 0em; }
+  figure img {
+    width: 100%; }
+  figure p {
+    padding: 0em 1.7em 0em 1.7em; }
 
 .navigation {
   padding: 1em 1em 5em 1em; }
@@ -1268,3 +1267,6 @@ a {
 .running-head {
   color: #ffffff;
   opacity: .9; }
+
+figure p {
+  color: #b3b3b3; }
