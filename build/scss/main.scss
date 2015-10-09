@@ -63,11 +63,13 @@ nav {
 figure {
 	p {
 		font-size: .8em;
+		max-width: 34em;
+		line-height: 1.2em;
 	}
 }
 
  .text {
- 	max-width: 30em;
+ 	max-width: 34em;
  	margin: 0 auto;
  }
 
@@ -172,11 +174,14 @@ blockquote {
 
 figure {
 	padding: 2em 0em 1em 0em;
+	max-width: 1000px;
+	margin: 0 auto;
 	img {
 		width: 100%;
 	}
 	p {
 		padding: 0em 1.7em 0em 1.7em;
+		margin: 1em auto;
 	}
 }
 
