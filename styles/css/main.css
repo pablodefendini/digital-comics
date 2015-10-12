@@ -295,14 +295,18 @@ body {
     margin-top: -104px;
     min-height: 250px; } }
 
-@media (min-width: 520px) {
-  #aja-3-row-4 {
-    margin-top: -100px;
-    min-height: 470px;
-    border: 0.4em solid #4d4d4d;
-    box-sizing: border-box;
-    background-color: gray;
-    text-align: center; } }
+#aja-3-row-4 {
+  border: 0.4em solid #4d4d4d;
+  box-sizing: border-box;
+  background-color: gray;
+  text-align: center;
+  max-height: 240px;
+  margin-bottom: 680px; }
+  @media (min-width: 520px) {
+    #aja-3-row-4 {
+      min-height: 470px;
+      margin-top: -100px;
+      margin-bottom: 0px; } }
 
 @media (min-width: 520px) {
   #aja-3-panel-1 {
@@ -411,7 +415,10 @@ body {
     height: 84px;
     position: absolute;
     bottom: 10px;
-    right: 120px; }
+    right: -60px; }
+    @media (min-width: 680px) {
+      #live-text__panel-1 svg {
+        right: 150px; } }
 
 @media (min-width: 680px) {
   #live-text__panel-2 {
@@ -445,8 +452,8 @@ body {
   top: 150px; }
   @media (min-width: 680px) {
     #live-text__panel-5 svg {
-      top: 160px;
-      left: -50px; } }
+      top: 130px;
+      left: 10px; } }
 
 #live-text__panel-6 {
   position: relative; }
@@ -455,7 +462,8 @@ body {
     bottom: 0px;
     right: 0px; }
   #live-text__panel-6 svg {
-    margin-top: 10px; }
+    margin-top: 10px;
+    margin-left: 10px; }
 
 #live-text__panel-7 {
   position: relative; }
@@ -471,11 +479,18 @@ body {
     bottom: 0; }
   #live-text__panel-7--1 {
     left: 17%; }
+  #live-text__panel-7--2 {
+    left: 70%; }
+    @media (min-width: 680px) {
+      #live-text__panel-7--2 {
+        left: 50%; } }
 
 #live-text__panel-1 {
   background-image: url("../../img/artwork/background-spidey.gif");
-  background-size: cover;
-  background-position: right -40px; }
+  background-size: cover; }
+  @media (min-width: 680px) {
+    #live-text__panel-1 {
+      background-position: right -40px; } }
 
 #live-text__panel-2 {
   background-image: url("../../img/artwork/background-asterios-polyp.gif");
@@ -524,8 +539,11 @@ body {
   background-color: brown;
   background-image: url("../../img/artwork/background-yuri.gif"), url("../../img/artwork/background-laika.gif");
   background-size: 200px, 240px;
-  background-position: 0px bottom, 260px bottom;
-  background-repeat: no-repeat; }
+  background-repeat: no-repeat;
+  background-position: 0px bottom, right bottom; }
+  @media (min-width: 680px) {
+    #live-text__panel-7 {
+      background-position: 0px bottom, 260px bottom; } }
 
 .live-text .caption {
   color: black;
@@ -1237,7 +1255,7 @@ footer {
   padding-bottom: .8em; }
 
 .section-sub-heading {
-  margin: 1em 0 0 0; }
+  margin: 1em 2em 0 0; }
 
 p {
   margin-top: .4em; }

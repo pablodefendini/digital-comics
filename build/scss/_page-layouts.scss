@@ -247,14 +247,17 @@ $color-main: black;
 	}
 }
 #aja-3-row-4 {
+	border: .4em solid lighten($color-main, 30%);
+	box-sizing: border-box;
+	background-color: lighten($color-main, 50%);
+	//color: $color-background;
+	text-align: center;
+	max-height: 240px;
+	margin-bottom: 680px;
 	@media (min-width: 520px) {
-		margin-top: -100px;
 		min-height: 470px;
-		border: .4em solid lighten($color-main, 30%);
-		box-sizing: border-box;
-		background-color: lighten($color-main, 50%);
-		//color: $color-background;
-		text-align: center;
+		margin-top: -100px;
+		margin-bottom: 0px;
 	}
 }
 #aja-3-panel-1 {
