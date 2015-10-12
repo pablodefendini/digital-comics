@@ -185,6 +185,12 @@ figure {
 	}
 }
 
+.two-up {
+		@include display-flex;
+		@include justify-content(space-around);
+		@include flex-wrap(no-wrap);
+}
+
 .navigation {
 	padding: 1em 1em 5em 1em;
 }

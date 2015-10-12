@@ -1202,6 +1202,14 @@ figure {
     padding: 0em 1.7em 0em 1.7em;
     margin: 1em auto; }
 
+.two-up {
+  display: -webkit-flex;
+  display: flex;
+  -webkit-justify-content: space-around;
+  justify-content: space-around;
+  -webkit-flex-wrap: no-wrap;
+  flex-wrap: no-wrap; }
+
 .navigation {
   padding: 1em 1em 5em 1em; }
 
