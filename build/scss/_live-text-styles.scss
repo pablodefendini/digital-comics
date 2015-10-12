@@ -68,8 +68,10 @@ $color-main: black;
 		height: 84px;
 		position: absolute;
 		bottom: 10px;
-		right: 120px;
-
+		right: -60px;
+		@media (min-width: 680px) {
+			right: 150px;
+		}
 	}
 }
 
@@ -113,8 +115,8 @@ $color-main: black;
 		position: relative;
 		top: 150px;
 		@media (min-width: 680px) {
-		    top: 160px;
-		    left: -50px;
+		    top: 130px;
+		    left: 10px;
 		}
 	}
 }
@@ -128,6 +130,7 @@ $color-main: black;
 	}
 	svg {
 		margin-top: 10px;
+		margin-left: 10px;
 	}
 }
 
@@ -149,13 +152,21 @@ $color-main: black;
 	&--1 {
 		left: 17%;
 	}
+	&--2 {
+		left: 70%;
+		@media (min-width: 680px) {
+			left: 50%
+		}
+	}
 }
 
 // layout of images inside panels on the live text example page
 #live-text__panel-1 {
 	background-image: url('../../img/artwork/background-spidey.gif');
 	background-size: cover;
-	background-position: right -40px;
+	@media (min-width: 680px) {
+		background-position: right -40px;
+	}
 }
 
 #live-text__panel-2 {
@@ -210,8 +221,11 @@ $color-main: black;
 	background-color: brown;
 	background-image: url('../../img/artwork/background-yuri.gif'), url('../../img/artwork/background-laika.gif');
 	background-size: 200px, 240px;
-    background-position: 0px bottom, 260px bottom;
 	background-repeat: no-repeat;
+    background-position: 0px bottom, right bottom;
+    @media (min-width: 680px) {
+	    background-position: 0px bottom, 260px bottom;    	
+    }
 }
 
 // -----------------------------------------------------------------------------
