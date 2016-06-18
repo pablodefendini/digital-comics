@@ -116,6 +116,9 @@ label[for="toc-toggle"] {
 body {
   overflow-x: hidden; }
 
+.text .navigation .toc__title {
+  display: none; }
+
 .comic-page__strip, .comic-page__full {
   width: 98%;
   margin: 1em auto 0em;
