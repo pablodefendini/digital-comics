@@ -565,16 +565,14 @@ body {
   background-color: yellow; }
 
 .toy-planes .panel {
-  border: solid 1px red;
   padding: 0; }
 
 .toy-planes {
   font-family: 'CCSoliloquous', Helvetica, sans-serif; }
   .toy-planes .masthead {
-    padding: 0; }
+    padding: .9em 0; }
     .toy-planes .masthead h1, .toy-planes .masthead h2 {
-      text-align: center;
-      margin: .3em auto 0; }
+      text-align: center; }
     .toy-planes .masthead h1 {
       font-family: 'Bungee Hairline', Helvetica, sans-serif;
       text-transform: uppercase;
@@ -583,9 +581,13 @@ body {
     .toy-planes .masthead h2 {
       font-family: 'Pragati Narrow', Helvetica, sans-serif;
       font-size: .8em;
-      line-height: 1.2em; }
+      line-height: 1.2em;
+      opacity: .8; }
     .toy-planes .masthead .page-nav {
       font-family: 'Bungee Inline', Helvetica, sans-serif; }
+  .toy-planes section, .toy-planes .comic-page__full {
+    margin: 0;
+    padding: 0; }
 
 .joanie, .ray, .driver {
   font-family: CCSoliloquous;
@@ -595,11 +597,14 @@ body {
 
 .toy-planes {
   padding: 0em;
-  min-width: 108%; }
+  margin: 0;
+  min-width: 100%; }
+  .toy-planes .masthead h2 {
+    margin: .8em auto; }
   .toy-planes .masthead li {
-    margin: 0; }
+    margin: .4em 0 0; }
   .toy-planes .masthead .page-nav {
-    margin: 1em 0 1em -1em; }
+    margin: 1em 0 1em -1; }
   .toy-planes .caption, .toy-planes .panel-description, .toy-planes .dialogue {
     margin: .4em .4em;
     padding: .4em .6em;
@@ -944,8 +949,7 @@ body {
   background-repeat: no-repeat; }
 
 .toy-planes {
-  background-color: black;
-  border: solid white 1px; }
+  background-color: black; }
   .toy-planes .panel-description {
     color: black;
     border: 1px solid black;

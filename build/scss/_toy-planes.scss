@@ -28,7 +28,6 @@
 // all variables used in this file
 // -----------------------------------------------------------------------------
 .toy-planes .panel {
-  border: solid 1px red;
   padding: 0;
 }
 // 3.0 typography
@@ -38,10 +37,9 @@
  .toy-planes {
  	font-family: 'CCSoliloquous', Helvetica, sans-serif;
   .masthead {
-    padding: 0;
+    padding: .9em 0;
     h1, h2 {
       text-align: center;
-      margin: .3em auto 0;
     }
     h1 {
       font-family: 'Bungee Hairline', Helvetica, sans-serif;
@@ -53,10 +51,15 @@
       font-family: 'Pragati Narrow', Helvetica, sans-serif;
       font-size: .8em;
       line-height: 1.2em;
+      opacity: .8;
     }
     .page-nav {
       font-family: 'Bungee Inline', Helvetica, sans-serif;
     }
+  }
+  section, .comic-page__full {
+    margin: 0;
+    padding: 0;
   }
  }
 
@@ -74,13 +77,17 @@
 // -----------------------------------------------------------------------------
 .toy-planes {
 	padding: 0em;
-  min-width: 108%;
+  margin: 0;
+  min-width: 100%;
   .masthead {
+    h2 {
+      margin: .8em auto;
+    }
     li {
-      margin: 0;
+      margin: .4em 0 0;
     }
     .page-nav {
-      margin: 1em 0 1em -1em;
+      margin: 1em 0 1em -1;
     }
   }
 	.caption, .panel-description, .dialogue {
@@ -642,7 +649,6 @@
 // -----------------------------------------------------------------------------
 .toy-planes {
   background-color: black;
-  border: solid white 1px;
 	.panel-description {
 		color: black;
 		border: 1px solid $color-main;
