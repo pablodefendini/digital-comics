@@ -564,13 +564,28 @@ body {
 #live-text__panel-4 .caption {
   background-color: yellow; }
 
+.toy-planes .panel {
+  border: solid 1px red;
+  padding: 0; }
+
 .toy-planes {
-  font-family: 'CCMonologous';
-  font-size: .7em;
-  line-height: 1.4em;
-  letter-spacing: 0; }
-  .toy-planes .page-nav {
-    font-size: 1em; }
+  font-family: 'CCSoliloquous', Helvetica, sans-serif; }
+  .toy-planes .masthead {
+    padding: 0; }
+    .toy-planes .masthead h1, .toy-planes .masthead h2 {
+      text-align: center;
+      margin: .3em auto 0; }
+    .toy-planes .masthead h1 {
+      font-family: 'Bungee Hairline', Helvetica, sans-serif;
+      text-transform: uppercase;
+      font-size: 2.8em;
+      letter-spacing: -.15em; }
+    .toy-planes .masthead h2 {
+      font-family: 'Pragati Narrow', Helvetica, sans-serif;
+      font-size: .8em;
+      line-height: 1.2em; }
+    .toy-planes .masthead .page-nav {
+      font-family: 'Bungee Inline', Helvetica, sans-serif; }
 
 .joanie, .ray, .driver {
   font-family: CCSoliloquous;
@@ -579,7 +594,12 @@ body {
   word-spacing: 0; }
 
 .toy-planes {
-  padding: 0em; }
+  padding: 0em;
+  min-width: 108%; }
+  .toy-planes .masthead li {
+    margin: 0; }
+  .toy-planes .masthead .page-nav {
+    margin: 1em 0 1em -1em; }
   .toy-planes .caption, .toy-planes .panel-description, .toy-planes .dialogue {
     margin: .4em .4em;
     padding: .4em .6em;
@@ -604,37 +624,24 @@ body {
     margin-top: -772px; } }
 
 #page01__panel02 {
-  position: relative; }
-  #page01__panel02 .grew {
-    position: absolute;
-    top: 1em;
-    right: 1em;
-    width: 186px;
-    height: 218px; }
-#page01__panel03 {
   position: relative;
   height: 500px; }
   @media (min-width: 700px) {
-    #page01__panel03 {
+    #page01__panel02 {
       height: 765px; } }
-  #page01__panel03 .accent {
-    position: absolute;
-    top: 1em;
-    right: 1em;
-    width: 234px;
-    height: 238px; }
-  #page01__panel03 .really {
-    position: absolute;
-    left: 1em;
-    top: 32em;
-    width: 112px;
-    height: 108px; }
-  #page01__panel03 .sponsoring {
-    position: absolute;
-    bottom: 0em;
-    right: 0em;
-    width: 352px;
-    height: 159px; }
+
+#page01__panel03 .really {
+  position: absolute;
+  left: 1em;
+  top: 32em;
+  width: 112px;
+  height: 108px; }
+#page01__panel03 .sponsoring {
+  position: absolute;
+  bottom: 0em;
+  right: 0em;
+  width: 352px;
+  height: 159px; }
 #page01__panel04 {
   position: relative;
   height: 250px; }
@@ -656,38 +663,6 @@ body {
     bottom: 1em;
     left: 1em; }
 
-#page01__panel01 {
-  background-image: url("../../img/artwork/toy-planes/page01__panel01--tree.svg"), url("../../img/artwork/toy-planes/page01__panel01--sky.svg");
-  background-size: contain, contain;
-  background-position: bottom left, top left;
-  background-repeat: no-repeat; }
-#page01__panel02 {
-  background-image: url("../../img/artwork/toy-planes/page01__panel02--clippers.svg"), url("../../img/artwork/toy-planes/page01__panel02--hair.svg");
-  background-size: 50%, 110%;
-  background-position: top left, bottom left;
-  background-repeat: no-repeat; }
-#page01__panel03 {
-  background-image: url("../../img/artwork/toy-planes/page01__panel03--ray.svg"), url("../../img/artwork/toy-planes/page01__panel03--joanie.svg");
-  background-repeat: no-repeat;
-  background-size: 65%, 65%;
-  background-position: bottom right, bottom left; }
-  @media (min-width: 700px) {
-    #page01__panel03 {
-      background-size: 90%, 90%;
-      background-position: bottom 10%, bottom left; } }
-#page01__panel04 {
-  background-image: url("../../img/artwork/toy-planes/page01__panel04--toy.svg");
-  background-size: cover;
-  background-repeat: no-repeat; }
-#page01__panel05 {
-  background-image: url("../../img/artwork/toy-planes/page01__panel05--joanie.svg");
-  background-size: contain;
-  background-repeat: no-repeat; }
-#page01__panel06 {
-  background-image: url("../../img/artwork/toy-planes/page01__panel06--hair.svg");
-  background-size: cover;
-  background-repeat: no-repeat; }
-
 #page02__row01 {
   display: -webkit-flex;
   display: flex;
@@ -695,8 +670,7 @@ body {
   flex-direction: column; }
 
 #page02__panel01 {
-  position: relative;
-  height: 500px; }
+  position: relative; }
   #page02__panel01 .leaving {
     position: absolute;
     left: 2em;
@@ -716,38 +690,15 @@ body {
     left: 20em;
     bottom: 2em; }
 #page02__panel02 {
-  position: relative;
-  min-height: 200px; }
+  position: relative; }
   #page02__panel02 .glad {
     position: absolute;
     width: 25em;
     right: 1em;
     bottom: 1em; }
-#page02__panel03 {
-  height: 300px; }
-
-#page02__panel01 {
-  background-image: url("../../img/artwork/toy-planes/page02__panel01--embrace.svg"), url("../../img/artwork/toy-planes/page02__panel01--house-and-road.svg");
-  background-size: 30%, 100%;
-  background-position: bottom left, bottom right;
-  background-repeat: no-repeat; }
-#page02__panel02 {
-  background-image: url("../../img/artwork/toy-planes/page02__panel02--van.svg"), url("../../img/artwork/toy-planes/page02__panel02--background.svg");
-  background-size: 30%, 100%;
-  background-position: 10px 10px, top;
-  background-repeat: no-repeat; }
-#page02__panel03 {
-  background-image: url("../../img/artwork/toy-planes/page02__panel03--van.svg"), url("../../img/artwork/toy-planes/page02__panel03--background.svg");
-  background-size: 30%, 100%;
-  background-position: 40% 80%, top;
-  background-repeat: no-repeat; }
 
 #page03__panel01 {
-  position: relative;
-  height: 500px; }
-  @media (min-width: 700px) {
-    #page03__panel01 {
-      height: 650px; } }
+  position: relative; }
   #page03__panel01 .ask {
     position: absolute;
     left: 1em;
@@ -761,11 +712,7 @@ body {
     left: 2em;
     bottom: 0em; }
 #page03__panel02 {
-  position: relative;
-  height: 500px; }
-  @media (min-width: 700px) {
-    #page03__panel02 {
-      height: 650px; } }
+  position: relative; }
   #page03__panel02 .people {
     position: absolute;
     width: 20em;
@@ -788,8 +735,7 @@ body {
       #page03__panel02 .spinoff {
         right: 1em; } }
 #page03__panel03 {
-  position: relative;
-  height: 300px; }
+  position: relative; }
   #page03__panel03 .wait {
     position: absolute;
     left: 0em;
@@ -799,8 +745,7 @@ body {
     right: 2em;
     bottom: 1em; }
 #page03__panel04 {
-  position: relative;
-  height: 300px; }
+  position: relative; }
   #page03__panel04 .dropped {
     position: absolute;
     left: 2em;
@@ -885,12 +830,6 @@ body {
   background-position: top left, right;
   background-repeat: no-repeat; }
 
-#page05__row02 {
-  display: -webkit-flex;
-  display: flex;
-  -webkit-flex-direction: column;
-  flex-direction: column; }
-
 #page05__panel01 {
   position: relative; }
   #page05__panel01 .yes {
@@ -908,8 +847,7 @@ body {
     bottom: 1em;
     right: 5em; }
 #page05__panel03 {
-  position: relative;
-  height: 400px; }
+  position: relative; }
   #page05__panel03 .deserve {
     position: absolute;
     width: 25em;
@@ -952,107 +890,52 @@ body {
   background-repeat: no-repeat; }
 
 #page06__row01 {
-  position: relative;
-  height: 330px; }
+  position: relative; }
 #page06__row02 {
-  position: relative;
-  height: 330px; }
+  position: relative; }
 #page06__row03 {
-  position: relative;
-  height: 330px; }
+  position: relative; }
 
 #page06 {
   position: relative; }
-  #page06__panel01 {
-    position: relative;
-    margin: 0; }
-    @media (min-width: 700px) {
-      #page06__panel01 {
-        width: 100%; } }
-    #page06__panel01 .ten {
-      position: absolute;
-      width: 8em;
-      top: 1em;
-      left: 3em; }
-  #page06__panel02 {
+  #page06__panel01 .ten {
     position: absolute;
-    top: 2em;
-    right: 2em;
-    width: 33%;
-    height: 26em;
-    z-index: 2; }
-    #page06__panel02 .seven {
-      position: absolute;
-      width: 3em;
-      top: 1em;
-      left: 2em; }
-    #page06__panel02 .cheapest {
-      position: absolute;
-      bottom: 0; }
-  #page06__panel03 {
-    position: absolute; }
-    @media (min-width: 700px) {
-      #page06__panel03 {
-        width: 99%;
-        height: 32em;
-        margin: 0; } }
-    #page06__panel03 .five {
-      position: absolute;
-      width: 4em;
-      top: 10em;
-      left: 1em; }
-    #page06__panel03 .scavenged {
-      position: absolute;
-      width: 27em;
-      top: 1em;
-      left: 1em; }
-  #page06__panel04 {
-    position: relative;
-    z-index: 1; }
-    @media (min-width: 700px) {
-      #page06__panel04 {
-        height: 52em;
-        margin: 0; } }
-    #page06__panel04 .three {
-      position: absolute;
-      width: 5em;
-      top: 15em;
-      right: 23em; }
-    #page06__panel04 .betting {
-      position: absolute;
-      width: 25em;
-      top: 3em;
-      right: 1em; }
-  #page06__panel05 {
+    width: 8em;
+    top: 1em;
+    left: 3em; }
+  #page06__panel02 .seven {
     position: absolute;
-    top: 12em;
-    right: 2em;
-    width: 29%;
-    height: 14em;
-    min-height: 14em;
-    z-index: 2; }
-    #page06__panel05 .launch {
-      position: absolute;
-      bottom: 0; }
-  #page06__panel06 {
+    width: 3em;
+    top: 1em;
+    left: 2em; }
+  #page06__panel02 .cheapest {
     position: absolute;
-    bottom: 0;
-    left: 0;
-    width: 25%;
-    height: 24em;
-    z-index: 2; }
-  #page06__panel07 {
+    bottom: 0; }
+  #page06__panel03 .five {
     position: absolute;
-    bottom: 0;
+    width: 4em;
+    top: 10em;
+    left: 1em; }
+  #page06__panel03 .scavenged {
+    position: absolute;
+    width: 27em;
+    top: 1em;
+    left: 1em; }
+  #page06__panel04 .three {
+    position: absolute;
+    width: 5em;
+    top: 15em;
+    right: 23em; }
+  #page06__panel04 .betting {
+    position: absolute;
+    width: 25em;
+    top: 3em;
+    right: 1em; }
+  #page06 .hello {
+    position: absolute;
+    width: 12em;
     right: 0;
-    width: 70%;
-    height: 23em;
-    z-index: 0; }
-    #page06__panel07 .hello {
-      position: absolute;
-      width: 12em;
-      right: 0;
-      bottom: 0; }
+    bottom: 0; }
 
 #page06__panel04 {
   background-image: url("../../img/artwork/toy-planes/page06__panel04--background.png");
@@ -1060,43 +943,40 @@ body {
   background-position: center -6em;
   background-repeat: no-repeat; }
 
-.toy-planes .panel-description {
-  color: black;
-  border: 1px solid black;
-  background-color: white; }
-.toy-planes .caption {
-  color: black;
-  border: 1px solid black;
-  background-color: white; }
-.toy-planes .ray {
-  fill: #1E3702; }
-  .toy-planes .ray path {
-    stroke: #1E3702;
-    fill: #F8F9F6; }
-.toy-planes .joanie {
-  fill: #4C2B10; }
-  .toy-planes .joanie path {
-    stroke: #4C2B10;
-    fill: #F1EEEC; }
-.toy-planes .driver path {
-  stroke: #2B0308;
-  fill: #F5F2F2; }
-.toy-planes .shopkeeper {
-  color: black;
-  border: 1px solid black;
-  background-color: white; }
-.toy-planes .announcer {
-  color: black;
-  border: 1px solid black;
-  background-color: white; }
-.toy-planes .panel {
-  background-color: white; }
-
-#page01__panel01 {
-  background-color: black; }
-
-#page06__panel04 {
-  background-color: rgba(255, 255, 255, 0); }
+.toy-planes {
+  background-color: black;
+  border: solid white 1px; }
+  .toy-planes .panel-description {
+    color: black;
+    border: 1px solid black;
+    background-color: white; }
+  .toy-planes .caption {
+    color: black;
+    border: 1px solid black;
+    background-color: white; }
+  .toy-planes .ray {
+    fill: #1E3702; }
+    .toy-planes .ray path {
+      stroke: #1E3702;
+      fill: #F8F9F6; }
+  .toy-planes .joanie {
+    fill: #4C2B10; }
+    .toy-planes .joanie path {
+      stroke: #4C2B10;
+      fill: #F1EEEC; }
+  .toy-planes .driver path {
+    stroke: #2B0308;
+    fill: #F5F2F2; }
+  .toy-planes .shopkeeper {
+    color: black;
+    border: 1px solid black;
+    background-color: white; }
+  .toy-planes .announcer {
+    color: black;
+    border: 1px solid black;
+    background-color: white; }
+  .toy-planes .panel {
+    background-color: white; }
 
 body {
   font-family: "jubilat", Georgia, serif;
@@ -1148,7 +1028,7 @@ figure p {
   .section-sub-heading a {
     text-decoration: none; }
 
-.running-head, .page-title, .comic-title, .page-nav {
+.running-head, .page-title {
   font-size: .7em;
   text-transform: uppercase;
   letter-spacing: 2px;

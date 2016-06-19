@@ -13,7 +13,7 @@
 
 // 1.0 imports
 // -----------------------------------------------------------------------------
-// defines any imported .scss files. Compass imports go first, then all others. 
+// defines any imported .scss files. Compass imports go first, then all others.
 // Separated by a line break for easier readability
 // -----------------------------------------------------------------------------
 @import 'compass/reset';
@@ -48,7 +48,7 @@ $color-main: #ffffff;
 
 li a {
 	text-decoration: none;
-	} 
+	}
 
 nav {
  	p, a {
@@ -104,7 +104,7 @@ figure {
  	}
  }
 
- .running-head, .page-title, .comic-title, .page-nav {
+ .running-head, .page-title {
 	font-size: .7em;
 	text-transform: uppercase;
  	letter-spacing: 2px;
@@ -156,7 +156,7 @@ figure {
 
 // 4.0 layout
 // -----------------------------------------------------------------------------
-// all layout rules, including floats, flexbox, position, overflow, z-index, 
+// all layout rules, including floats, flexbox, position, overflow, z-index,
 // widths, heights, margins, padding, etc.
 // -----------------------------------------------------------------------------
 nav {
@@ -251,8 +251,8 @@ footer {
 }
 
 .section-heading {
-	padding-top: 4em;	
-	padding-bottom: .8em;	
+	padding-top: 4em;
+	padding-bottom: .8em;
 }
 
 .section-sub-heading {
@@ -268,8 +268,8 @@ p {
 }
 // 5.0 style
 // -----------------------------------------------------------------------------
-// global colors, decorations like shadows, gradients, etc., 
-// and any other styles that don't fit comfortably in any of 
+// global colors, decorations like shadows, gradients, etc.,
+// and any other styles that don't fit comfortably in any of
 // the other categories
 // -----------------------------------------------------------------------------
 body {

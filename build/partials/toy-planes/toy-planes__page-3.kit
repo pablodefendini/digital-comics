@@ -1,12 +1,16 @@
 <!-- @import '../site-header' -->
-            <header class="site-header">
-	            <!-- $prev = toy-planes__page-2.html"><< Page 2  -->
-		        <!-- $next = toy-planes__page-4.html">Page 4 >> -->
-	        	<h3 class="comic-title">Toy Planes, page 3</h3>
-	   		</header>
-	   		<section class="comic-page__full toy-planes">
-	        	<!-- @import '../page-nav' -->
-				<div class="row" id="page03__row01">
+<article class="toy-planes">
+  <!-- $prev = "toy-planes__page-2.html"><< 2  -->
+  <!-- $current = 3 -->
+  <!-- $next = "toy-planes__page-4.html">4 >> -->
+  <section class="masthead">
+    <h1 class="comic-title">Toy Planes</h1>
+    <h2 class="bylines">Story by Tobias S. Buckell <br/> Art and Code by Pablo Defendini</h2>
+    <!-- @import '../page-nav' -->
+  </section>
+  <section>
+    <section class="comic-page__full">
+      <div class="row" id="page03__row01">
 					<div class="panel" id="page03__panel01">
 					<!--Panel 1: INT. Mini-bus driver looks back in mirror at head-shaved NARRATOR.-->
 						<svg class="driver ask">
@@ -43,7 +47,12 @@
 						        <tspan x="185.27" y="160">.</tspan>
 						    </text>
 						</svg>
+            <div>
+              <img src="img/artwork/toy-planes/page03__panel01—background.svg" />
+            </div>
 					</div>
+        </div>
+        <div class="row" id="page03__row02">
 					<div class="panel" id="page03__panel02">
 					<!--Panel 2: EXT. Satellite shot of island from space, with tech numbers and false colors overlaying. Dialogue laid over.-->
 						<div class="caption ray people">
@@ -55,10 +64,16 @@
 						<div class="caption ray spinoff">
 							"...that use spinoff technologies developed from studying recycling that you need in space."
 						</div>
+            <div>
+              <img src="img/artwork/toy-planes/page03__panel02—background.svg" />
+            </div>
+            <div>
+              <img src="img/artwork/toy-planes/page03__panel02—satellite.svg" />
+            </div>
 					</div>
-				</div>
-				<div class="row" id="page03__row02">
-					<div class="panel" id="page03__panel03">
+        </div>
+        <div class="row" id="page03__row03">
+          <div class="panel" id="page03__panel03">
 					<!--Panel 3: INT. Driver looks dubious.-->
 						<svg class="ray wait" width="300px" height="132px" viewBox="0 0 300 132">
 						    <path d="M258.19138,87.6913613 C283.497798,80.4332023 300,68.5269926 300,55.0700104 C300,34.6835398 262.12692,17.8561418 213.145322,15.356519 C215.016752,12.9909746 216,10.5406499 216,8.03036597 C216,-11.8686557 154.215295,-28 78,-28 C1.78470453,-28 -60,-11.8686557 -60,8.03036597 C-60,27.9293876 1.78470453,44.0607319 78,44.0607319 C87.3561397,44.0607319 96.4948125,43.8176349 105.328415,43.3543132 L105.32842,43.3543065 C102.514122,47.059866 101,50.9937944 101,55.0700104 C101,77.1800345 145.547667,95.1037504 200.5,95.1037504 C217.355441,95.1037504 233.231988,93.4174457 247.14435,90.4412666 C249.367064,97.3856257 253.392897,113.968937 248.521853,132 C257.144149,111.942081 258.195346,94.8698716 258.19138,87.6913613 Z"></path>
@@ -74,16 +89,7 @@
 						        <tspan x="152.4" y="75.448">invent things.</tspan>
 						    </text>
 						</svg>
-						<svg class="driver maybe" width="90px" height="47px" viewBox="0 0 90 47">
-						    <path d="M64.0263535,38.2853967 C57.2580374,42.5741805 47.7375407,45.2438132 37.1919254,45.2438132 C16.6513922,45.2438132 0,35.1156406 0,22.6219066 C0,10.1281726 16.6513922,0 37.1919254,0 C57.7324587,0 74.3838509,10.1281726 74.3838509,22.6219066 C74.3838509,26.9609755 72.3754096,31.0147175 68.8931409,34.4579548 C74.4643346,39.1386959 81.6382574,43.8752243 90.3356274,47.0542827 C79.8764624,44.8270987 71.0298105,41.5443297 64.0263535,38.2853967 Z"></path>
-						    <text>
-						        <tspan x="14.64" y="25.4818648">Maybe.</tspan>
-						    </text>
-						</svg>
-					</div>
-					<div class="panel" id="page03__panel04">
-					<!--Panel 4: EXT. Mini-bus busting through the roads in Caribbean traffic. (To save time you could delete this EXT and just add a third word bubble to previous INT with 'yes')-->
-						<svg class="driver dropped" width="140px" height="144px" viewBox="0 0 140 144">
+            <svg class="driver dropped" width="140px" height="144px" viewBox="0 0 140 144">
 						    <path d="M90.6524512,73.4964436 C84.1243539,74.5770259 77.1887247,75.1587715 70,75.1587715 C31.3400675,75.1587715 0,58.3339074 0,37.5793858 C0,16.8248641 31.3400675,0 70,0 C108.659932,0 140,16.8248641 140,37.5793858 C140,52.7168554 123.328256,65.7638941 99.3043898,71.7172776 C103.43998,84.7333829 113.984835,114.580529 131.87783,144.00341 C111.27394,114.547112 97.2807892,87.3613183 90.6524512,73.4964436 Z"></path>
 						    <text>
 						        <tspan x="21.672" y="27">You still want </tspan>
@@ -91,14 +97,17 @@
 						        <tspan x="25.164" y="55">the market?</tspan>
 						    </text>
 						</svg>
-						<svg class="ray yes" width="78px" height="90px" viewBox="0 0 78 90">
-						    <path d="M38.2433527,51.3856811 C40.9067008,50.9256304 43.7119555,50.6798679 46.608862,50.6798679 C63.9457088,50.6798679 78,59.4819793 78,70.339934 C78,81.1978886 63.9457088,90 46.608862,90 C29.2720153,90 15.2177241,81.1978886 15.2177241,70.339934 C15.2177241,63.0876542 21.487644,56.7525302 30.8177779,53.3447798 C26.7082354,43.5977928 16.3256004,21.1869095 -0.20121982,-0.0147853362 C18.885614,21.2156887 32.1275177,41.3937089 38.2433527,51.3856811 Z"></path>
+            <svg class="driver maybe" width="90px" height="47px" viewBox="0 0 90 47">
+						    <path d="M64.0263535,38.2853967 C57.2580374,42.5741805 47.7375407,45.2438132 37.1919254,45.2438132 C16.6513922,45.2438132 0,35.1156406 0,22.6219066 C0,10.1281726 16.6513922,0 37.1919254,0 C57.7324587,0 74.3838509,10.1281726 74.3838509,22.6219066 C74.3838509,26.9609755 72.3754096,31.0147175 68.8931409,34.4579548 C74.4643346,39.1386959 81.6382574,43.8752243 90.3356274,47.0542827 C79.8764624,44.8270987 71.0298105,41.5443297 64.0263535,38.2853967 Z"></path>
 						    <text>
-						        <tspan x="34.216" y="73">Yes.</tspan>
+						        <tspan x="14.64" y="25.4818648">Maybe.</tspan>
 						    </text>
 						</svg>
+            <div>
+              <img src="img/artwork/toy-planes/page03__panel03—background.svg" />
+            </div>
 					</div>
 				</div>
-				<!-- @import '../page-nav' -->
-			</section>
+      </section>
+  </article>
 <!-- @ import '../site-footer' -->
