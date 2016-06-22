@@ -27,9 +27,7 @@
 // -----------------------------------------------------------------------------
 // all variables used in this file
 // -----------------------------------------------------------------------------
-.toy-planes .panel {
-  padding: 0;
-}
+
 // 3.0 typography
 // -----------------------------------------------------------------------------
 // all typographic rules, including colors, text-transforms, and bottom margins
@@ -58,7 +56,7 @@
     }
   }
   section, .comic-page__full {
-    margin: 0;
+    margin: 0 auto;
     padding: 0;
   }
  }
@@ -100,16 +98,39 @@
 	}
 	.panel {
 		min-height: 250px;
+    overflow: hidden;
 	}
 }
 
-// PAGE 01 ROW LAYOUTS
+// PAGE 01 LAYOUTS
+svg {
+  display: inline;
+}
 #page01 {
 	&__row01 {
 		@media (min-width: 550px) {
 			@include display-flex;
 		}
 	}
+  &__panel01 {
+    .background {
+      margin-top: -3em;
+      margin-bottom: -1em;
+    }
+  }
+  &__panel02 {
+    position: relative;
+		height: 500px;
+		@media (min-width: 700px) {
+			height: 765px;
+		}
+    .background {
+      margin-top: -32em;
+    }
+    .figures {
+      margin-top: -25em;
+    }
+  }
 	&__row02, &__row03 {
 		@media (min-width: 700px) {
 			width: 50%;
@@ -121,83 +142,20 @@
 			float: right;
 			margin-top: -772px;
 		}
+    .joanie {
+      margin-top: -3em;
+      margin-bottom: -1em;
+    }
+    .ray {
+      margin-top: -4em;
+      margin-bottom: -1em;
+      img {
+        max-width: 13em;
+      }
+    }
 	}
 }
 
-// PAGE 01 PANEL LAYOUTS
-#page01 {
-  &__panel02 {
-    position: relative;
-		height: 500px;
-		@media (min-width: 700px) {
-			height: 765px;
-		}
-  }
-  &__panel03 {
-  }
-  &__panel04 {
-  }
-  &__panel05 {
-  }
-}
-
-
-
-// PAGE 1 PANEL AND TEXT LAYOUTS
-//Panel 1
-.grew {
-
-}
-.accent {
-
-}
-
-
-#page01 {
-	&__panel03 {
-
-		.really {
-			position: absolute;
-			left: 1em;
-			top:32em;
-			width: 112px;
-			height: 108px;
-		}
-		.sponsoring {
-			position: absolute;
-			bottom: 0em;
-			right: 0em;
-			width: 352px;
-			height: 159px;
-		}
-	}
-	&__panel04 {
-		position: relative;
-		height: 250px;
-		.decompression {
-			position: absolute;
-			bottom: 0;
-		}
-	}
-	&__panel05 {
-		position: relative;
-		.ras {
-			position: absolute;
-			right: 0;
-			bottom:0;
-			width: 176px;
-			height: 213px;
-		}
-	}
-	&__panel06 {
-		position: relative;
-		.need {
-			position: absolute;
-			bottom: 1em;
-			left: 1em;
-		}
-	}
-}
 
 // PAGE 02 ROW LAYOUTS
 #page02 {
@@ -333,40 +291,6 @@
 	}
 }
 
-// PAGE 3 BACKGROUND IMAGE POSITIONING
-#page03 {
-	&__panel01 {
-		background-image: 	url('../../img/artwork/toy-planes/page03__panel01--driver.svg'),
-							url('../../img/artwork/toy-planes/page03__panel01--ray.svg');
-		background-size: 	90%,
-							80%;
-		background-position:bottom right,
-							bottom left;
-		background-repeat: no-repeat;
-	}
-	&__panel02 {
-		background-image: 	url('../../img/artwork/toy-planes/page03__panel02--satellite.svg'),
-							url('../../img/artwork/toy-planes/page03__panel02--background.svg');
-		background-size: 	100%,
-							contain;
-		background-position:top right,
-							bottom center;
-		background-repeat: no-repeat;
-	}
-	&__panel03 {
-		background-image: url('../../img/artwork/toy-planes/page03__panel03--ray.svg');
-		background-size: 80%;
-		background-position:bottom center;
-		background-repeat: no-repeat;
-	}
-	&__panel04 {
-		background-image: url('../../img/artwork/toy-planes/page03__panel04--traffic.svg');
-		background-size: cover;
-		background-position:top center;
-		background-repeat: no-repeat;
-	}
-}
-
 // PAGE 04 ROW LAYOUTS
 #page04 {
 	&__row01 {
@@ -406,60 +330,6 @@
 		}
 	}
 }
-
-// PAGE 4 BACKGROUND IMAGE POSITIONING
-#page04 {
-	&__panel01 {
-		background-image: url('../../img/artwork/toy-planes/page04__panel01--background.png');
-		background-size: cover;
-		background-position:top center;
-		background-repeat: no-repeat;
-	}
-	&__panel02 {
-		background-image: 	url('../../img/artwork/toy-planes/page04__panel02--shopkeeper.svg'),
-							url('../../img/artwork/toy-planes/page04__panel02--background.png');
-		background-size: 	90%,
-							cover;
-		background-position:bottom center,
-							top center;
-		background-repeat: no-repeat;
-	}
-	&__panel03 {
-		background-image: 	url('../../img/artwork/toy-planes/page04__panel03--toy-car.png'),
-							url('../../img/artwork/toy-planes/page04__panel03--toy-train.png'),
-							url('../../img/artwork/toy-planes/page04__panel03--toy-plane.png'),
-							url('../../img/artwork/toy-planes/page04__panel03--background.png');
-		background-size: 	25%,
-							25%,
-							25%,
-							cover;
-		background-position:center,
-		                    left,
-		                    right;
-		background-repeat: no-repeat;
-	}
-	&__panel04 {
-		background-image: 	url('../../img/artwork/toy-planes/page04__panel04--ray.svg'),
-							url('../../img/artwork/toy-planes/page04__panel04--background.png');
-		background-size: 	65%,
-							cover;
-		background-position:bottom,
-		                    left;
-		background-repeat: no-repeat;
-	}
-	&__panel05 {
-		background-image: 	url('../../img/artwork/toy-planes/page04__panel05--hand.svg'),
-							url('../../img/artwork/toy-planes/page04__panel03--toy-plane.png'),
-							url('../../img/artwork/toy-planes/page04__panel03--background.png');
-		background-size: 	50%,
-							25%,
-							cover;
-		background-position:top left,
-		                    right;
-		background-repeat: no-repeat;
-	}
-}
-
 // PAGE 05 ROW LAYOUTS
 #page05 {
 	&__row02 {
@@ -514,38 +384,6 @@
 				left: 5em;
 			}
 		}
-	}
-}
-
-// PAGE 5 BACKGROUND IMAGE POSITIONING
-#page05 {
-	&__panel01 {
-		background-image: 	url('../../img/artwork/toy-planes/page05__panel01--podium-side.svg');
-		background-size: 	50%;
-		background-position:bottom center;
-		background-repeat: no-repeat;
-	}
-	&__panel02 {
-		background-image: 	url('../../img/artwork/toy-planes/page05__panel02--ray.svg');
-		background-size: 	90%;
-		background-position:top center;
-		background-repeat: no-repeat;
-	}
-	&__panel03 {
-		background-image: 	url('../../img/artwork/toy-planes/page05__panel03--foreground.png'),
-							url('../../img/artwork/toy-planes/page05__panel03--ray.svg'),
-							url('../../img/artwork/toy-planes/page05__panel03--background.png');
-		background-size: 	contain,
-							40%,
-							contain;
-		background-position:bottom,
-							top center;
-		background-repeat: no-repeat;
-	}
-	&__panel04 {
-		background-image: 	url('../../img/artwork/toy-planes/page05__panel04--cockpit.svg');
-		background-size: 	cover;
-		background-repeat: no-repeat;
 	}
 }
 
@@ -628,19 +466,6 @@
 		bottom: 0;
 	}
 }
-
-// PAGE 6 BACKGROUND IMAGE POSITIONING
-#page06 {
-	&__panel01 {
-	}
-	&__panel04 {
-		background-image: 	url('../../img/artwork/toy-planes/page06__panel04--background.png');
-		background-size: 	110%;
-		background-position: center -6em;
-		background-repeat: no-repeat;
-	}
-}
-
 // 5.0 style
 // -----------------------------------------------------------------------------
 // global colors, decorations like shadows, gradients, etc.,

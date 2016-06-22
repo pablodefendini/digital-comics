@@ -564,9 +564,6 @@ body {
 #live-text__panel-4 .caption {
   background-color: yellow; }
 
-.toy-planes .panel {
-  padding: 0; }
-
 .toy-planes {
   font-family: 'CCSoliloquous', Helvetica, sans-serif; }
   .toy-planes .masthead {
@@ -586,7 +583,7 @@ body {
     .toy-planes .masthead .page-nav {
       font-family: 'Bungee Inline', Helvetica, sans-serif; }
   .toy-planes section, .toy-planes .comic-page__full {
-    margin: 0;
+    margin: 0 auto;
     padding: 0; }
 
 .joanie, .ray, .driver {
@@ -612,12 +609,29 @@ body {
   .toy-planes .panel-description {
     display: none; }
   .toy-planes .panel {
-    min-height: 250px; }
+    min-height: 250px;
+    overflow: hidden; }
+
+svg {
+  display: inline; }
 
 @media (min-width: 550px) {
   #page01__row01 {
     display: -webkit-flex;
     display: flex; } }
+#page01__panel01 .background {
+  margin-top: -3em;
+  margin-bottom: -1em; }
+#page01__panel02 {
+  position: relative;
+  height: 500px; }
+  @media (min-width: 700px) {
+    #page01__panel02 {
+      height: 765px; } }
+  #page01__panel02 .background {
+    margin-top: -32em; }
+  #page01__panel02 .figures {
+    margin-top: -25em; }
 @media (min-width: 700px) {
   #page01__row02, #page01__row03 {
     width: 50%; } }
@@ -627,46 +641,14 @@ body {
     flex-direction: column;
     float: right;
     margin-top: -772px; } }
-
-#page01__panel02 {
-  position: relative;
-  height: 500px; }
-  @media (min-width: 700px) {
-    #page01__panel02 {
-      height: 765px; } }
-
-#page01__panel03 .really {
-  position: absolute;
-  left: 1em;
-  top: 32em;
-  width: 112px;
-  height: 108px; }
-#page01__panel03 .sponsoring {
-  position: absolute;
-  bottom: 0em;
-  right: 0em;
-  width: 352px;
-  height: 159px; }
-#page01__panel04 {
-  position: relative;
-  height: 250px; }
-  #page01__panel04 .decompression {
-    position: absolute;
-    bottom: 0; }
-#page01__panel05 {
-  position: relative; }
-  #page01__panel05 .ras {
-    position: absolute;
-    right: 0;
-    bottom: 0;
-    width: 176px;
-    height: 213px; }
-#page01__panel06 {
-  position: relative; }
-  #page01__panel06 .need {
-    position: absolute;
-    bottom: 1em;
-    left: 1em; }
+#page01__row03 .joanie {
+  margin-top: -3em;
+  margin-bottom: -1em; }
+#page01__row03 .ray {
+  margin-top: -4em;
+  margin-bottom: -1em; }
+  #page01__row03 .ray img {
+    max-width: 13em; }
 
 #page02__row01 {
   display: -webkit-flex;
@@ -760,27 +742,6 @@ body {
     right: 2em;
     bottom: 1em; }
 
-#page03__panel01 {
-  background-image: url("../../img/artwork/toy-planes/page03__panel01--driver.svg"), url("../../img/artwork/toy-planes/page03__panel01--ray.svg");
-  background-size: 90%, 80%;
-  background-position: bottom right, bottom left;
-  background-repeat: no-repeat; }
-#page03__panel02 {
-  background-image: url("../../img/artwork/toy-planes/page03__panel02--satellite.svg"), url("../../img/artwork/toy-planes/page03__panel02--background.svg");
-  background-size: 100%, contain;
-  background-position: top right, bottom center;
-  background-repeat: no-repeat; }
-#page03__panel03 {
-  background-image: url("../../img/artwork/toy-planes/page03__panel03--ray.svg");
-  background-size: 80%;
-  background-position: bottom center;
-  background-repeat: no-repeat; }
-#page03__panel04 {
-  background-image: url("../../img/artwork/toy-planes/page03__panel04--traffic.svg");
-  background-size: cover;
-  background-position: top center;
-  background-repeat: no-repeat; }
-
 #page04__row01 {
   display: -webkit-flex;
   display: flex;
@@ -808,32 +769,6 @@ body {
     position: absolute;
     left: 4em;
     bottom: 3em; }
-
-#page04__panel01 {
-  background-image: url("../../img/artwork/toy-planes/page04__panel01--background.png");
-  background-size: cover;
-  background-position: top center;
-  background-repeat: no-repeat; }
-#page04__panel02 {
-  background-image: url("../../img/artwork/toy-planes/page04__panel02--shopkeeper.svg"), url("../../img/artwork/toy-planes/page04__panel02--background.png");
-  background-size: 90%, cover;
-  background-position: bottom center, top center;
-  background-repeat: no-repeat; }
-#page04__panel03 {
-  background-image: url("../../img/artwork/toy-planes/page04__panel03--toy-car.png"), url("../../img/artwork/toy-planes/page04__panel03--toy-train.png"), url("../../img/artwork/toy-planes/page04__panel03--toy-plane.png"), url("../../img/artwork/toy-planes/page04__panel03--background.png");
-  background-size: 25%, 25%, 25%, cover;
-  background-position: center, left, right;
-  background-repeat: no-repeat; }
-#page04__panel04 {
-  background-image: url("../../img/artwork/toy-planes/page04__panel04--ray.svg"), url("../../img/artwork/toy-planes/page04__panel04--background.png");
-  background-size: 65%, cover;
-  background-position: bottom, left;
-  background-repeat: no-repeat; }
-#page04__panel05 {
-  background-image: url("../../img/artwork/toy-planes/page04__panel05--hand.svg"), url("../../img/artwork/toy-planes/page04__panel03--toy-plane.png"), url("../../img/artwork/toy-planes/page04__panel03--background.png");
-  background-size: 50%, 25%, cover;
-  background-position: top left, right;
-  background-repeat: no-repeat; }
 
 #page05__panel01 {
   position: relative; }
@@ -873,26 +808,6 @@ body {
       #page05__panel04 .all {
         top: 7em;
         left: 5em; } }
-
-#page05__panel01 {
-  background-image: url("../../img/artwork/toy-planes/page05__panel01--podium-side.svg");
-  background-size: 50%;
-  background-position: bottom center;
-  background-repeat: no-repeat; }
-#page05__panel02 {
-  background-image: url("../../img/artwork/toy-planes/page05__panel02--ray.svg");
-  background-size: 90%;
-  background-position: top center;
-  background-repeat: no-repeat; }
-#page05__panel03 {
-  background-image: url("../../img/artwork/toy-planes/page05__panel03--foreground.png"), url("../../img/artwork/toy-planes/page05__panel03--ray.svg"), url("../../img/artwork/toy-planes/page05__panel03--background.png");
-  background-size: contain, 40%, contain;
-  background-position: bottom, top center;
-  background-repeat: no-repeat; }
-#page05__panel04 {
-  background-image: url("../../img/artwork/toy-planes/page05__panel04--cockpit.svg");
-  background-size: cover;
-  background-repeat: no-repeat; }
 
 #page06__row01 {
   position: relative; }
@@ -941,12 +856,6 @@ body {
     width: 12em;
     right: 0;
     bottom: 0; }
-
-#page06__panel04 {
-  background-image: url("../../img/artwork/toy-planes/page06__panel04--background.png");
-  background-size: 110%;
-  background-position: center -6em;
-  background-repeat: no-repeat; }
 
 .toy-planes {
   background-color: black; }
