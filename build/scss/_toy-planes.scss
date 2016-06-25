@@ -27,13 +27,13 @@
 // -----------------------------------------------------------------------------
 // all variables used in this file
 // -----------------------------------------------------------------------------
+$iphone-small: 550px;
 
 // 3.0 typography
 // -----------------------------------------------------------------------------
 // all typographic rules, including colors, text-transforms, and bottom margins
 // -----------------------------------------------------------------------------
  .toy-planes {
- 	font-family: 'CCSoliloquous', Helvetica, sans-serif;
   .masthead {
     padding: .9em 0;
     h1, h2 {
@@ -48,7 +48,7 @@
     h2 {
       font-family: 'Pragati Narrow', Helvetica, sans-serif;
       font-size: .8em;
-      line-height: 1.2em;
+      line-height: .5em;
       opacity: .8;
     }
     .page-nav {
@@ -60,13 +60,6 @@
     padding: 0;
   }
  }
-
-.joanie, .ray, .driver {
-	font-family: CCSoliloquous;
-	font-size: 1em;
-	font-weight: normal;
-	word-spacing: 0;
-}
 
 // 4.0 layout
 // -----------------------------------------------------------------------------
@@ -97,38 +90,42 @@
 		display: none;
 	}
 	.panel {
-		min-height: 250px;
     overflow: hidden;
 	}
 }
 
-// PAGE 01 LAYOUTS
 svg {
-  display: inline;
+  position: absolute;
 }
+// PAGE 01 LAYOUTS
+
 #page01 {
 	&__row01 {
-		@media (min-width: 550px) {
-			@include display-flex;
-		}
+    @include display-flex;
 	}
   &__panel01 {
     .background {
-      margin-top: -3em;
-      margin-bottom: -1em;
+      margin-top: 14em;
+      margin-bottom: -.5em;
+      @media (min-width: 550px) {
+        margin-top: 6em;
+        margin-bottom: -4em;
+  		}
     }
   }
   &__panel02 {
-    position: relative;
-		height: 500px;
-		@media (min-width: 700px) {
-			height: 765px;
-		}
     .background {
-      margin-top: -32em;
+      margin-top: -1em;
+      @media (min-width: 550px) {
+        margin-top: 0em;
+  		}
     }
     .figures {
-      margin-top: -25em;
+      margin-top: -22em;
+      margin-bottom: -6em;
+      @media (min-width: 550px) {
+        margin-top: -26em;
+  		}
     }
   }
 	&__row02, &__row03 {
@@ -137,335 +134,57 @@ svg {
 		}
 	}
 	&__row03 {
-		@media (min-width: 700px) {
-			@include flex-direction(column);
-			float: right;
-			margin-top: -772px;
-		}
+		@include flex-direction(column);
+    .cockpit {
+      margin-bottom: -2em;
+      @media (min-width: 700px) {
+  			margin-top: -2em;
+      }
+    }
     .joanie {
-      margin-top: -3em;
-      margin-bottom: -1em;
+      margin-top: 2em;
+      margin-bottom: -2em;
+      margin-left: -2em;
     }
     .ray {
-      margin-top: -4em;
-      margin-bottom: -1em;
+      margin-top: 4em;
+      margin-bottom: -3.5em;
       img {
         max-width: 13em;
       }
     }
 	}
 }
-
-
-// PAGE 02 ROW LAYOUTS
-#page02 {
-	&__row01 {
-		@include display-flex;
-		@include flex-direction(column);
-	}
+// PAGE 01 WORD BALLOONS
+#page01__panel01—01 {
+  margin-top: 1em;
+  margin-left: 1em;
+}
+#page01__panel01—02 {
+  margin-top: 7em;
+  margin-left: 4em;
+}
+#page01__panel02—01 {
+  margin-top: 1em;
+  margin-left: .5em;
+}
+#page01__panel02—02 {
+  margin-top: 2em;
+  margin-left: 10em;
+}
+#page01__panel03—01 {
+  margin-top: 0em;
+  margin-left: 0em;
+}
+#page01__panel04—01 {
+  margin-top: .5em;
+  margin-left: 8em;
+}
+#page01__panel05—01 {
+  margin-top: .5em;
+  margin-left: 5.5em;
 }
 
-// PAGE 02 PANEL LAYOUTS
-#page02 {
-	&__panel01 {
-		position: relative;
-		.leaving {
-			position: absolute;
-			left: 2em;
-			top: 1em;
-		}
-		.remember {
-			position: absolute;
-			width: 15em;
-			left: 11em;
-			top: 5em;
-		}
-		.fly {
-			position: absolute;
-			left: 2em;
-			bottom: 3em;
-		}
-		.future {
-			position: absolute;
-			width: 19em;
-			left: 20em;
-			bottom:2em;
-		}
-	}
-	&__panel02 {
-		position: relative;
-		.glad {
-			position: absolute;
-			width: 25em;
-			right: 1em;
-			bottom: 1em;
-		}
-	}
-	&__panel03 {
-	}
-}
-
-// PAGE 03 ROW LAYOUTS
-#page03 {
-	&__row01 {
-
-	}
-}
-
-// PAGE 03 PANEL LAYOUTS
-#page03 {
-	&__panel01 {
-		position: relative;
-		@media (min-width: 700px) {
-		}
-		.ask {
-			position: absolute;
-			left: 1em;
-			top: 1em;
-		}
-		.government {
-			position: absolute;
-			right: 3em;
-			top: 10em;
-		}
-		.private {
-			position: absolute;
-			left: 2em;
-			bottom: 0em;
-		}
-	}
-	&__panel02 {
-		position: relative;
-		@media (min-width: 700px) {
-		}
-		.people {
-			position: absolute;
-			width: 20em;
-			left: 2em;
-			top: 1em;
-		}
-		.food {
-			position: absolute;
-			width: 19em;
-			left: 5em;
-			top: 6em;
-			@media (min-width: 700px) {
-				top: 23em;
-			}
-		}
-		.spinoff {
-			position: absolute;
-			width: 23em;
-			right: 2em;
-			bottom: 1em;
-			@media (min-width: 700px) {
-				right: 1em;
-			}
-		}
-	}
-	&__panel03 {
-		position: relative;
-		.wait {
-			position: absolute;
-			left: 0em;
-			top: 0em;
-		}
-		.maybe {
-			position: absolute;
-			right: 2em;
-			bottom: 1em;
-		}
-	}
-	&__panel04 {
-		position: relative;
-		.dropped {
-			position: absolute;
-			left: 2em;
-			top: 1em;
-		}
-		.yes {
-			position: absolute;
-			right: 2em;
-			bottom: 1em;
-		}
-	}
-}
-
-// PAGE 04 ROW LAYOUTS
-#page04 {
-	&__row01 {
-		@include display-flex;
-		@include flex-direction(column);
-	}
-}
-
-// PAGE 04 PANEL LAYOUTS
-#page04 {
-	&__panel01 {
-		position: relative;
-		min-height: 200px;
-	}
-	&__panel02 {
-		position: relative;
-		height: 300px;
-		.spaceman {
-			position: absolute;
-			right: 8em;
-			top: 10em;
-		}
-	}
-	&__panel03 {
-		min-height: 150px;
-	}
-	&__panel04 {
-		height: 300px;
-	}
-	&__panel05 {
-		position: relative;
-		min-height: 150px;
-		.wrap {
-			position: absolute;
-			left: 4em;
-			bottom: 3em;
-		}
-	}
-}
-// PAGE 05 ROW LAYOUTS
-#page05 {
-	&__row02 {
-	}
-}
-
-// PAGE 05 PANEL LAYOUTS
-#page05 {
-	&__panel01 {
-		position: relative;
-		.yes {
-			position: absolute;
-			top: 1em;
-			left: 3em;
-		}
-		.agreed {
-			position: absolute;
-			top: 1em;
-			right: 2em;
-		}
-	}
-	&__panel02 {
-		position: relative;
-		.money {
-			position: absolute;
-			bottom: 1em;
-			right: 5em;
-		}
-	}
-	&__panel03 {
-		position: relative;
-		.deserve {
-			position: absolute;
-			width: 25em;
-			top: 1em;
-			left: 1em;
-			@media (min-width: 700px) {
-				top: 2em;
-				left: 2em;
-			}
-		}
-	}
-	&__panel04 {
-		position: relative;
-		.all {
-			position: absolute;
-			width: 15em;
-			top: 7em;
-			left: 2em;
-			@media (min-width: 700px) {
-				top: 7em;
-				left: 5em;
-			}
-		}
-	}
-}
-
-// PAGE 06 ROW LAYOUTS
-#page06 {
-	&__row01 {
-		position: relative;
-	}
-	&__row02 {
-		position: relative;
-	}
-	&__row03 {
-		position: relative;
-	}
-}
-
-// PAGE 06 PANEL LAYOUTS
-#page06 {
-	position: relative;
-	&__panel01 {
-		.ten {
-			position: absolute;
-			width: 8em;
-			top: 1em;
-			left: 3em;
-		}
-	}
-	&__panel02 {
-		.seven {
-			position: absolute;
-			width: 3em;
-			top: 1em;
-			left: 2em;
-		}
-		.cheapest {
-			position: absolute;
-			bottom: 0;
-		}
-	}
-	&__panel03 {
-		.five {
-			position: absolute;
-			width: 4em;
-			top: 10em;
-			left: 1em;
-			//@media (min-width: 700px) {
-			//	top: 2em;
-			//	left: 2em;
-			//}
-		}
-		.scavenged {
-			position: absolute;
-			width: 27em;
-			top: 1em;
-			left: 1em;
-		}
-	}
-	&__panel04 {
-		.three {
-			position: absolute;
-			width: 5em;
-			top: 15em;
-			right: 23em;
-		}
-		.betting {
-			position: absolute;
-			width: 25em;
-			top: 3em;
-			right: 1em;
-			//@media (min-width: 700px) {
-			//	top: 2em;
-			//	left: 2em;
-			//}
-		}
-	}
-	.hello {
-		position: absolute;
-		width: 12em;
-		right: 0;
-		bottom: 0;
-	}
-}
 // 5.0 style
 // -----------------------------------------------------------------------------
 // global colors, decorations like shadows, gradients, etc.,
@@ -474,60 +193,8 @@ svg {
 // -----------------------------------------------------------------------------
 .toy-planes {
   background-color: black;
-	.panel-description {
-		color: black;
-		border: 1px solid $color-main;
-		background-color: white;
-	}
-	.caption {
-		color: black;
-		border: 1px solid $color-main;
-		background-color: white;
-	}
-	.ray {
-		fill: #1E3702;
-		path {
-			stroke: #1E3702;
-			fill: #F8F9F6;
-		}
-	}
-	.joanie {
-	 	fill: #4C2B10;
-	 	path {
-	 		 stroke: #4C2B10;
-	 		 fill: #F1EEEC;
-	 	}
-	}
-	.driver {
-		path {
-	 		 stroke: #2B0308;
-	 		 fill: #F5F2F2;
-	 	}
-	}
-	.shopkeeper {
-		color: black;
-		border: 1px solid $color-main;
-		background-color: white;
-	}
-	.announcer {
-		color: black;
-		border: 1px solid $color-main;
-		background-color: white;
-	}
 	.panel {
 		background-color: white;
-	}
-}
-
-#page01 {
-	&__panel01 {
-		//background-color: black;
-	}
-}
-
-#page06 {
-	&__panel04 {
-	//	background-color: rgba(255, 255, 255, 0);
 	}
 }
 // 6.0 animation
