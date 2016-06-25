@@ -182,7 +182,7 @@ svg {
   margin-left: 5.5em;
 }
 
-// PAGE 01 LAYOUTS
+// PAGE 02 LAYOUTS
 #page02 {
 	&__panel01 {
     .background {
@@ -229,6 +229,66 @@ svg {
 #page02__panel03—01 {
   margin-top: .5em;
   margin-left: 7em;
+}
+
+// PAGE 03 LAYOUTS
+#page03 {
+	&__panel01 {
+    .driver {
+      margin-top: -6em;
+      margin-bottom: .8em;
+      margin-left: -4em;
+      width: 140%;
+    }
+  }
+  &__panel02 {
+    .ray {
+      margin-top: 6.6em;
+      margin-left: -6em;
+      width: 140%;
+    }
+    .satellite {
+      margin-top: -19em;
+      margin-left: 1em;
+      padding-bottom: 14em;
+      width: 30%;
+    }
+  }
+  &__panel03 {
+    .traffic {
+      margin-top: 8em;
+    }
+  }
+}
+
+// PAGE 03 WORD BALLOONS
+#page03__panel01—01 {
+  margin-top: 3em;
+  margin-left: .5em;
+}
+#page03__panel01—02 {
+  margin-top: .5em;
+  margin-left: 9em;
+}
+#page03__panel01—03 {
+  margin-top: 15em;
+  margin-left: 9.8em;
+}
+#page03__panel02—01 {
+  margin-top: 1em;
+  margin-left: 8.7em;
+}
+#page03__panel03—01 {
+  margin-top: 1em;
+  margin-left: 1em;
+}
+#page03__panel03—02 {
+  margin-top: 4em;
+  margin-left: 3em;
+}
+#page03__panel03—03 {
+  margin-top: 9em;
+  margin-left: -1em;
 }
 
 // 5.0 style
