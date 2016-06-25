@@ -579,8 +579,6 @@ body {
     font-size: .8em;
     line-height: .5em;
     opacity: .8; }
-  .toy-planes .masthead .page-nav {
-    font-family: 'Bungee Inline', Helvetica, sans-serif; }
 .toy-planes section, .toy-planes .comic-page__full {
   margin: 0 auto;
   padding: 0; }
@@ -676,6 +674,40 @@ svg {
 #page01__panel05—01 {
   margin-top: .5em;
   margin-left: 5.5em; }
+
+#page02__panel01 .background {
+  margin-top: 7em;
+  margin-left: -1.5em; }
+#page02__panel01 .embrace {
+  margin-top: -4em;
+  margin-left: .5em;
+  margin-bottom: -5em; }
+#page02__panel02 .switchback {
+  margin-top: 2em;
+  margin-bottom: -.5em; }
+#page02__panel03 .hilltop {
+  margin-top: .5em;
+  margin-bottom: -.5em; }
+
+#page02__panel01—01 {
+  margin-top: .5em;
+  margin-left: .5em; }
+
+#page02__panel01—02 {
+  margin-top: 3em;
+  margin-left: 3em; }
+
+#page02__panel01—03 {
+  margin-top: 28.5em;
+  margin-left: 7em; }
+
+#page02__panel02—01 {
+  margin-top: -.05em;
+  margin-left: -.05em; }
+
+#page02__panel03—01 {
+  margin-top: .5em;
+  margin-left: 7em; }
 
 .toy-planes {
   background-color: black; }
