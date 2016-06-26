@@ -837,6 +837,69 @@ svg {
   margin-top: -2em;
   margin-left: 4em; }
 
+#page06__panel01 .background {
+  margin-top: 3em;
+  margin-bottom: -17.5em;
+  width: 180%; }
+#page06__panel02 .platform {
+  margin-top: 1em;
+  margin-bottom: 4em;
+  margin-left: 1em; }
+#page06__panel03 .spaceplane {
+  margin-top: 1em;
+  margin-bottom: 1em;
+  width: 90%; }
+#page06__panel04 {
+  background-color: black; }
+  #page06__panel04 .ray {
+    margin-top: 8em;
+    margin-bottom: -1em;
+    width: 101%; }
+
+#page06__panel01—01 {
+  margin-top: 1em;
+  margin-left: 1em; }
+
+#page06__panel01—02 {
+  margin-top: 5em;
+  margin-left: 11em; }
+
+#page06__panel01—03 {
+  margin-top: 10em;
+  margin-left: .25em; }
+
+#page06__panel01—04 {
+  margin-top: 15em;
+  margin-left: .25em; }
+
+#page06__panel01—05 {
+  margin-top: 18em;
+  margin-left: .25em; }
+
+#page06__panel02—01 {
+  margin-top: .5em;
+  margin-left: .5em; }
+
+#page06__panel02—02 {
+  margin-top: 1em;
+  margin-left: 4.5em; }
+
+#page06__panel02—03 {
+  margin-top: 8em;
+  margin-left: 4em; }
+
+#page06__panel03—01 {
+  margin-top: .5em;
+  margin-left: .5em; }
+
+#page06__panel03—02 {
+  margin-top: 2em;
+  margin-left: 7em; }
+
+#page06__panel04—01 {
+  margin-top: 1em;
+  margin-left: 1em; }
+
 .toy-planes {
   background-color: black; }
   .toy-planes .panel {
