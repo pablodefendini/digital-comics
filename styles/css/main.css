@@ -632,7 +632,8 @@ svg {
       margin-top: 0em; } }
 #page01__panel02 .figures {
   margin-top: -22em;
-  margin-bottom: -6em; }
+  margin-bottom: -6em;
+  margin-left: -1em; }
   @media (min-width: 550px) {
     #page01__panel02 .figures {
       margin-top: -26em; } }
@@ -655,7 +656,7 @@ svg {
     margin-top: 4em;
     margin-bottom: -3.5em; }
     #page01__row03 .ray img {
-      max-width: 13em; }
+      max-width: 11em; }
 
 #page01__panel01—01 {
   margin-top: 1em;
@@ -671,7 +672,7 @@ svg {
 
 #page01__panel02—02 {
   margin-top: 2em;
-  margin-left: 10em; }
+  margin-left: 8.3em; }
 
 #page01__panel03—01 {
   margin-top: 0em;
@@ -679,11 +680,11 @@ svg {
 
 #page01__panel04—01 {
   margin-top: .5em;
-  margin-left: 8em; }
+  margin-left: 6.5em; }
 
 #page01__panel05—01 {
   margin-top: .5em;
-  margin-left: 5.5em; }
+  margin-left: 4em; }
 
 #page02__panel01 .background {
   margin-top: 7em;
@@ -693,7 +694,7 @@ svg {
   margin-left: .5em;
   margin-bottom: -5em; }
 #page02__panel02 .switchback {
-  margin-top: 2em;
+  margin-top: -1em;
   margin-bottom: -.5em; }
 #page02__panel03 .hilltop {
   margin-top: .5em;
@@ -720,37 +721,37 @@ svg {
   margin-left: 7em; }
 
 #page03__panel01 .driver {
-  margin-top: -6em;
-  margin-bottom: .8em;
+  margin-top: -3em;
+  margin-bottom: 2.5em;
   margin-left: -4em;
   width: 140%; }
 #page03__panel02 .ray {
-  margin-top: 6.6em;
-  margin-left: -6em;
+  margin-top: 5em;
+  margin-left: -4em;
   width: 140%; }
 #page03__panel02 .satellite {
-  margin-top: -19em;
+  margin-top: -14em;
   margin-left: 1em;
-  padding-bottom: 14em;
+  padding-bottom: 15.3em;
   width: 30%; }
 #page03__panel03 .traffic {
   margin-top: 8em; }
 
 #page03__panel01—01 {
-  margin-top: 3em;
+  margin-top: 2em;
   margin-left: .5em; }
 
 #page03__panel01—02 {
   margin-top: .5em;
-  margin-left: 9em; }
+  margin-left: 6em; }
 
 #page03__panel01—03 {
-  margin-top: 15em;
-  margin-left: 9.8em; }
+  margin-top: 13.1em;
+  margin-left: 4.1em; }
 
 #page03__panel02—01 {
   margin-top: 1em;
-  margin-left: 8.7em; }
+  margin-left: 3em; }
 
 #page03__panel03—01 {
   margin-top: 1em;
@@ -761,8 +762,8 @@ svg {
   margin-left: 3em; }
 
 #page03__panel03—03 {
-  margin-top: 9em;
-  margin-left: -1em; }
+  margin-top: 8em;
+  margin-left: -8em; }
 
 #page04__panel01 .market {
   margin-bottom: -.5em; }
@@ -791,7 +792,7 @@ svg {
 
 #page04__panel01—01 {
   margin-top: .5em;
-  margin-left: 14em; }
+  margin-left: 12em; }
 
 #page04__panel02—01 {
   margin-top: .5em;
