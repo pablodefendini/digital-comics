@@ -172,6 +172,9 @@ svg {
       margin-bottom: -3.5em;
       img {
         max-width: 11em;
+        @media (min-width: $iphone-large) {
+          max-width: 13em;
+        }
       }
     }
 	}
@@ -210,12 +213,18 @@ svg {
   @media (min-width: $iphone-med) {
     margin-left: 9em;
   }
+  @media (min-width: $iphone-large) {
+    margin-left: 11em;
+  }
 }
 #page01__panel05—01 {
   margin-top: .5em;
   margin-left: 4em;
   @media (min-width: $iphone-med) {
     margin-left: 6em;
+  }
+  @media (min-width: $iphone-large) {
+    margin-left: 8em;
   }
 }
 
@@ -250,12 +259,20 @@ svg {
 #page02__panel01—01 {
   margin-top: .5em;
   margin-left: .5em;
+  @media (min-width: $iphone-large) {
+    margin-top: 1em;
+    margin-left: 1em;
+  }
 }
 #page02__panel01—02 {
   margin-top: 3em;
   margin-left: 3em;
   @media (min-width: $iphone-med) {
     margin-left: 6em;
+  }
+  @media (min-width: $iphone-large) {
+    margin-top: 4em;
+    margin-left: 7em;
   }
 }
 #page02__panel01—03 {
@@ -264,6 +281,10 @@ svg {
   @media (min-width: $iphone-med) {
     margin-top: 34em;
     margin-left: 9em;
+  }
+  @media (min-width: $iphone-large) {
+    margin-top: 38em;
+    margin-left: 11em;
   }
 }
 #page02__panel02—01 {
@@ -275,6 +296,10 @@ svg {
   margin-left: 7em;
   @media (min-width: $iphone-med) {
     margin-left: 8em;
+  }
+  @media (min-width: $iphone-large) {
+    margin-top: 1em;
+    margin-left: 10em;
   }
 }
 
@@ -288,6 +313,10 @@ svg {
       width: 140%;
       @media (min-width: $iphone-med) {
         margin-top: -5em;
+      }
+      @media (min-width: $iphone-large) {
+        margin-top: -7em;
+        margin-bottom: 2em;
       }
     }
   }
@@ -305,6 +334,10 @@ svg {
       @media (min-width: $iphone-med) {
         margin-top: -16em;
         padding-bottom: 15.8em;
+      }
+      @media (min-width: $iphone-large) {
+        margin-top: -18em;
+        padding-bottom: 17.2em;
       }
     }
   }
@@ -327,6 +360,9 @@ svg {
   @media (min-width: $iphone-med) {
     margin-left: 7em;
   }
+  @media (min-width: $iphone-large) {
+    margin-left: 9em;
+  }
 }
 #page03__panel01—03 {
   margin-top: 13.1em;
@@ -335,6 +371,9 @@ svg {
     margin-top: 14.6em;
     margin-left: 7.1em;
   }
+  @media (min-width: $iphone-large) {
+    margin-left: 9.2em;
+  }
 }
 #page03__panel02—01 {
   margin-top: 1em;
@@ -342,6 +381,10 @@ svg {
   @media (min-width: $iphone-med) {
     margin-top: 2em;
     margin-left: 6em;
+  }
+  @media (min-width: $iphone-large) {
+    margin-top: 3em;
+    margin-left: 8.1em;
   }
 }
 #page03__panel03—01 {
@@ -357,6 +400,9 @@ svg {
   margin-left: -8em;
   @media (min-width: $iphone-med) {
     margin-left: -5em;
+  }
+  @media (min-width: $iphone-large) {
+    margin-left: -2em;
   }
 }
 
@@ -401,6 +447,9 @@ svg {
     }
     @media (min-width: $iphone-med) {
       margin-top: -14em;
+    }
+    @media (min-width: $iphone-large) {
+      margin-top: -15em;
     }
   }
   &__panel05 {
@@ -483,6 +532,9 @@ svg {
   @media (min-width: $iphone-med) {
     margin-left: 10em;
   }
+  @media (min-width: $iphone-large) {
+    margin-left: 12em;
+  }
 }
 #page05__panel02—01 {
   margin-top: 1em;
@@ -503,6 +555,9 @@ svg {
   @media (min-width: $iphone-med) {
     margin-left: 6em;
   }
+  @media (min-width: $iphone-large) {
+    margin-left: 7em;
+  }
 }
 
 // PAGE 06 LAYOUTS
@@ -515,6 +570,9 @@ svg {
       @media (min-width: $iphone-med) {
         margin-bottom: -22em;
       }
+      @media (min-width: $iphone-large) {
+        margin-bottom: -26em;
+      }
     }
   }
   &__panel02 {
@@ -522,6 +580,9 @@ svg {
       margin-top: 1em;
       margin-bottom: 4em;
       margin-left: 1em;
+      @media (min-width: $iphone-large) {
+        margin-bottom: 3em;
+      }
     }
   }
   &__panel03 {
@@ -559,6 +620,9 @@ svg {
   @media (min-width: $iphone-med) {
     margin-top: 11em;
   }
+  @media (min-width: $iphone-large) {
+    margin-top: 12em;
+  }
 }
 #page06__panel01—04 {
   margin-top: 15em;
@@ -566,12 +630,18 @@ svg {
   @media (min-width: $iphone-med) {
     margin-top: 16em;
   }
+  @media (min-width: $iphone-large) {
+    margin-top: 17em;
+  }
 }
 #page06__panel01—05 {
   margin-top: 18em;
   margin-left: .25em;
   @media (min-width: $iphone-med) {
     margin-top: 19em;
+  }
+  @media (min-width: $iphone-large) {
+    margin-top: 20em;
   }
 }
 #page06__panel02—01 {
@@ -581,6 +651,9 @@ svg {
 #page06__panel02—02 {
   margin-top: 1em;
   margin-left: 4.5em;
+  @media (min-width: $iphone-large) {
+    margin-left: 6em;
+  }
 }
 #page06__panel02—03 {
   margin-top: 8em;
@@ -588,6 +661,9 @@ svg {
   @media (min-width: $iphone-med) {
     margin-top: 9em;
     margin-left: 8em;
+  }
+  @media (min-width: $iphone-large) {
+    margin-left: 10em;
   }
 }
 #page06__panel03—01 {
@@ -597,6 +673,9 @@ svg {
 #page06__panel03—02 {
   margin-top: 2em;
   margin-left: 7em;
+  @media (min-width: $iphone-large) {
+    margin-left: 10em;
+  }
 }
 #page06__panel04—01 {
   margin-top: 1em;
