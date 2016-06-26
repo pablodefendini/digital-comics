@@ -27,12 +27,12 @@
 // -----------------------------------------------------------------------------
 // all variables used in this file
 // -----------------------------------------------------------------------------
-$iphone-small: 320px;
-$iphone-med: 375px;
-$iphone-large: 414px;
-$ipad-small: 507px;
-$ipad-med: 768px;
-$ipad-large: 1024px;
+$handheld-small: 320px;
+$handheld-med: 375px;
+$handheld-large: 414px;
+$tablet-small: 507px;
+$tablet-med: 768px;
+$tablet-large: 1024px;
 $desktop-small: 1080px;
 $desktop-med: 1224px;
 $desktop-large: 1920px;
@@ -127,25 +127,31 @@ svg {
     .background {
       margin-top: 14em;
       margin-bottom: -.5em;
-      @media (min-width: $ipad-small) {
-        margin-top: 6em;
-        margin-bottom: -4em;
+      @media (min-width: $tablet-small) {
+        margin-top: 7em;
+        margin-bottom: -2em;
   		}
     }
   }
   &__panel02 {
     .background {
       margin-top: -1em;
-      @media (min-width: 550px) {
-        margin-top: 0em;
+      @media (min-width: $tablet-small) {
+        margin-top: -2em;
   		}
     }
     .figures {
       margin-top: -22em;
       margin-bottom: -6em;
       margin-left: -1em;
-      @media (min-width: 550px) {
-        margin-top: -26em;
+      @media (min-width: $handheld-med) {
+        margin-top: -24em;
+  		}
+      @media (min-width: $handheld-large) {
+        margin-top: -27em;
+  		}
+      @media (min-width: $tablet-small) {
+        margin-top: -36em;
   		}
     }
   }
@@ -158,7 +164,7 @@ svg {
 		@include flex-direction(column);
     .cockpit {
       margin-bottom: -2em;
-      @media (min-width: $ipad-med) {
+      @media (min-width: $tablet-med) {
   			margin-top: -2em;
       }
     }
@@ -172,9 +178,12 @@ svg {
       margin-bottom: -3.5em;
       img {
         max-width: 11em;
-        @media (min-width: $iphone-large) {
+        @media (min-width: $handheld-large) {
           max-width: 13em;
         }
+      }
+      @media (min-width: $tablet-small) {
+        margin-top: 2em;
       }
     }
 	}
@@ -187,9 +196,13 @@ svg {
 #page01__panel01—02 {
   margin-top: 7em;
   margin-left: 4em;
-  @media (min-width: $iphone-med) {
+  @media (min-width: $handheld-med) {
     margin-top: 8em;
     margin-left: 9em;
+  }
+  @media (min-width: $tablet-small) {
+    margin-top: 2em;
+    margin-left: 16em;
   }
 }
 #page01__panel02—01 {
@@ -199,8 +212,12 @@ svg {
 #page01__panel02—02 {
   margin-top: 2em;
   margin-left: 8.3em;
-  @media (min-width: $iphone-med) {
+  @media (min-width: $handheld-med) {
     margin-left: 10em;
+  }
+  @media (min-width: $tablet-small) {
+    margin-top: 9em;
+    margin-left: 18em;
   }
 }
 #page01__panel03—01 {
@@ -210,21 +227,29 @@ svg {
 #page01__panel04—01 {
   margin-top: .5em;
   margin-left: 6.5em;
-  @media (min-width: $iphone-med) {
+  @media (min-width: $handheld-med) {
     margin-left: 9em;
   }
-  @media (min-width: $iphone-large) {
+  @media (min-width: $handheld-large) {
     margin-left: 11em;
+  }
+  @media (min-width: $tablet-small) {
+    margin-top: 3em;
+    margin-left: 15em;
   }
 }
 #page01__panel05—01 {
   margin-top: .5em;
   margin-left: 4em;
-  @media (min-width: $iphone-med) {
+  @media (min-width: $handheld-med) {
     margin-left: 6em;
   }
-  @media (min-width: $iphone-large) {
+  @media (min-width: $handheld-large) {
     margin-left: 8em;
+  }
+  @media (min-width: $tablet-small) {
+    margin-top: 1em;
+    margin-left: 12em;
   }
 }
 
@@ -234,11 +259,20 @@ svg {
     .background {
       margin-top: 7em;
       margin-left: -1.5em;
+      @media (min-width: $tablet-small) {
+        margin-top: 2em;
+      }
     }
     .embrace {
       margin-top: -4em;
       margin-left:.5em;
       margin-bottom: -5em;
+      @media (min-width: $tablet-small) {
+        margin-top: -8em;
+        margin-bottom: -9em;
+        margin-left:6em;
+        width: 75%;
+      }
     }
   }
   &__panel02 {
@@ -259,47 +293,67 @@ svg {
 #page02__panel01—01 {
   margin-top: .5em;
   margin-left: .5em;
-  @media (min-width: $iphone-large) {
+  @media (min-width: $handheld-large) {
     margin-top: 1em;
     margin-left: 1em;
+  }
+  @media (min-width: $tablet-small) {
+    margin-top: 10em;
+    margin-left: 2em;
   }
 }
 #page02__panel01—02 {
   margin-top: 3em;
   margin-left: 3em;
-  @media (min-width: $iphone-med) {
+  @media (min-width: $handheld-med) {
     margin-left: 6em;
   }
-  @media (min-width: $iphone-large) {
+  @media (min-width: $handheld-large) {
     margin-top: 4em;
     margin-left: 7em;
+  }
+  @media (min-width: $tablet-small) {
+    margin-top: 1em;
+    margin-left: 13em;
   }
 }
 #page02__panel01—03 {
   margin-top: 28.5em;
   margin-left: 7em;
-  @media (min-width: $iphone-med) {
+  @media (min-width: $handheld-med) {
     margin-top: 34em;
     margin-left: 9em;
   }
-  @media (min-width: $iphone-large) {
+  @media (min-width: $handheld-large) {
     margin-top: 38em;
     margin-left: 11em;
+  }
+  @media (min-width: $tablet-small) {
+    margin-top: 24em;
+    margin-left: 17em;
   }
 }
 #page02__panel02—01 {
   margin-top: -.05em;
   margin-left: -.05em;
+  @media (min-width: $tablet-small) {
+    margin-top: 2em;
+    margin-left: 2em;
+  }
 }
 #page02__panel03—01 {
   margin-top: .5em;
   margin-left: 7em;
-  @media (min-width: $iphone-med) {
+  @media (min-width: $handheld-med) {
     margin-left: 8em;
   }
-  @media (min-width: $iphone-large) {
+  @media (min-width: $handheld-large) {
     margin-top: 1em;
     margin-left: 10em;
+  }
+  @media (min-width: $tablet-small) {
+    margin-top: 1.5em;
+    margin-left: 14em;
   }
 }
 
@@ -311,12 +365,17 @@ svg {
       margin-bottom: 2.5em;
       margin-left: -4em;
       width: 140%;
-      @media (min-width: $iphone-med) {
+      @media (min-width: $handheld-med) {
         margin-top: -5em;
       }
-      @media (min-width: $iphone-large) {
+      @media (min-width: $handheld-large) {
         margin-top: -7em;
         margin-bottom: 2em;
+      }
+      @media (min-width: $tablet-small) {
+        margin-top: -13em;
+        margin-bottom: 2em;
+        margin-left: -5em;
       }
     }
   }
@@ -325,19 +384,28 @@ svg {
       margin-top: 5em;
       margin-left: -4em;
       width: 140%;
+      @media (min-width: $tablet-small) {
+        margin-top: 4em;
+        margin-left: -2em;
+        width: 100%;
+      }
     }
     .satellite {
       margin-top: -14em;
       margin-left: 1em;
       padding-bottom: 15.3em;
       width: 30%;
-      @media (min-width: $iphone-med) {
+      @media (min-width: $handheld-med) {
         margin-top: -16em;
         padding-bottom: 15.8em;
       }
-      @media (min-width: $iphone-large) {
+      @media (min-width: $handheld-large) {
         margin-top: -18em;
         padding-bottom: 17.2em;
+      }
+      @media (min-width: $tablet-small) {
+        margin-top: -15em;
+        padding-bottom: 14em;
       }
     }
   }
@@ -345,6 +413,9 @@ svg {
     .traffic {
       margin-top: 8em;
       margin-bottom: -1em;
+      @media (min-width: $tablet-small) {
+        margin-top: 4em;
+      }
     }
   }
 }
@@ -353,38 +424,52 @@ svg {
 #page03__panel01—01 {
   margin-top: 2em;
   margin-left: .5em;
+  @media (min-width: $tablet-small) {
+    margin-top: 1em;
+  }
 }
 #page03__panel01—02 {
   margin-top: .5em;
   margin-left: 6em;
-  @media (min-width: $iphone-med) {
+  @media (min-width: $handheld-med) {
     margin-left: 7em;
   }
-  @media (min-width: $iphone-large) {
+  @media (min-width: $handheld-large) {
     margin-left: 9em;
+  }
+  @media (min-width: $tablet-small) {
+    margin-top: 0em;
+    margin-left: 11em;
   }
 }
 #page03__panel01—03 {
   margin-top: 13.1em;
   margin-left: 4.1em;
-  @media (min-width: $iphone-med) {
+  @media (min-width: $handheld-med) {
     margin-top: 14.6em;
     margin-left: 7.1em;
   }
-  @media (min-width: $iphone-large) {
+  @media (min-width: $handheld-large) {
     margin-left: 9.2em;
+  }
+  @media (min-width: $tablet-small) {
+    margin-left: 14.3em;
   }
 }
 #page03__panel02—01 {
   margin-top: 1em;
   margin-left: 3em;
-  @media (min-width: $iphone-med) {
+  @media (min-width: $handheld-med) {
     margin-top: 2em;
     margin-left: 6em;
   }
-  @media (min-width: $iphone-large) {
+  @media (min-width: $handheld-large) {
     margin-top: 3em;
     margin-left: 8.1em;
+  }
+  @media (min-width: $tablet-small) {
+    margin-top: 1em;
+    margin-left: 13.2em;
   }
 }
 #page03__panel03—01 {
@@ -394,15 +479,23 @@ svg {
 #page03__panel03—02 {
   margin-top: 4em;
   margin-left: 3em;
+  @media (min-width: $tablet-small) {
+    margin-top: 9em;
+    margin-left: 2em;
+  }
 }
 #page03__panel03—03 {
   margin-top: 8em;
   margin-left: -8em;
-  @media (min-width: $iphone-med) {
+  @media (min-width: $handheld-med) {
     margin-left: -5em;
   }
-  @media (min-width: $iphone-large) {
+  @media (min-width: $handheld-large) {
     margin-left: -2em;
+  }
+  @media (min-width: $tablet-small) {
+    margin-top: 4em;
+    margin-left: 3em;
   }
 }
 
@@ -419,7 +512,7 @@ svg {
       margin-bottom: -.5em;
       margin-left: -2em;
       width: 125%;
-      @media (min-width: $iphone-med) {
+      @media (min-width: $handheld-med) {
         margin-top: 0em;
       }
     }
@@ -430,8 +523,11 @@ svg {
       margin-bottom: 2em;
       margin-left: -4em;
       width: 110%;
-      @media (min-width: $iphone-med) {
+      @media (min-width: $handheld-med) {
         margin-bottom: 3em;
+      }
+      @media (min-width: $tablet-small) {
+        margin-bottom: 5em;
       }
     }
   }
@@ -445,17 +541,24 @@ svg {
       margin-left: 1em;
       width: 80%;
     }
-    @media (min-width: $iphone-med) {
+    @media (min-width: $handheld-med) {
       margin-top: -14em;
     }
-    @media (min-width: $iphone-large) {
+    @media (min-width: $handheld-large) {
       margin-top: -15em;
+    }
+    @media (min-width: $tablet-small) {
+      margin-top: -18em;
     }
   }
   &__panel05 {
     .ray {
       margin-top: -4em;
       margin-bottom: -4em;
+      @media (min-width: $tablet-small) {
+        margin-top: -6em;
+        margin-bottom: -7em;
+      }
     }
   }
 }
@@ -464,17 +567,28 @@ svg {
 #page04__panel01—01 {
   margin-top: .5em;
   margin-left: 12em;
-  @media (min-width: $iphone-med) {
+  @media (min-width: $handheld-med) {
     margin-left: 16em;
+  }
+  @media (min-width: $tablet-small) {
+    margin-left: 23em;
   }
 }
 #page04__panel02—01 {
   margin-top: .5em;
   margin-left: .5em;
+  @media (min-width: $tablet-small) {
+    margin-top: 3em;
+    margin-left: 2em;
+  }
 }
 #page04__panel05—01 {
   margin-top: 1em;
   margin-left: 2em;
+  @media (min-width: $tablet-small) {
+    margin-top: 2em;
+    margin-left: 7em;
+  }
 }
 
 // PAGE 05 LAYOUTS
@@ -485,8 +599,12 @@ svg {
       margin-bottom: -1em;
       margin-left: -2.5em;
       width: 150%;
-      @media (min-width: $iphone-med) {
+      @media (min-width: $handheld-med) {
         margin-left: -3.5em;
+      }
+      @media (min-width: $tablet-small) {
+        margin-top: -1em;
+        margin-left: -5em;
       }
     }
   }
@@ -496,6 +614,12 @@ svg {
       margin-bottom: -1em;
       margin-left: -1em;
       width: 80%;
+      @media (min-width: $tablet-small) {
+        margin-top: 2em;
+        margin-bottom: -3em;
+        margin-left: -2em;
+        width: 100%;
+      }
     }
   }
   &__panel03 {
@@ -503,6 +627,9 @@ svg {
       margin-top: -3.5em;
       margin-bottom: -1em;
       margin-left: -.5em;
+      @media (min-width: $tablet-small) {
+        margin-top: -9em;
+      }
     }
   }
   &__panel04 {
@@ -521,7 +648,7 @@ svg {
 #page05__panel01—01 {
   margin-top: .5em;
   margin-left: .25em;
-  @media (min-width: $iphone-med) {
+  @media (min-width: $handheld-med) {
     margin-top: 1.5em;
     margin-left: .5em;
   }
@@ -529,34 +656,48 @@ svg {
 #page05__panel01—02 {
   margin-top: 1em;
   margin-left: 6em;
-  @media (min-width: $iphone-med) {
+  @media (min-width: $handheld-med) {
     margin-left: 10em;
   }
-  @media (min-width: $iphone-large) {
+  @media (min-width: $handheld-large) {
     margin-left: 12em;
+  }
+  @media (min-width: $tablet-small) {
+    margin-left: 9em;
   }
 }
 #page05__panel02—01 {
   margin-top: 1em;
   margin-left: 7em;
-  @media (min-width: $iphone-med) {
+  @media (min-width: $handheld-med) {
     margin-left: 10em;
+  }
+  @media (min-width: $tablet-small) {
+    margin-top: 2em;
+    margin-left: 15em;
   }
 }
 #page05__panel03—01 {
-  @media (min-width: $iphone-med) {
+  @media (min-width: $handheld-med) {
     margin-top: 1em;
     margin-left: 1em;
+  }
+  @media (min-width: $tablet-small) {
+    margin-top: 3em;
+    margin-left: 2em;
   }
 }
 #page05__panel05—01 {
   margin-top: -2em;
   margin-left: 4em;
-  @media (min-width: $iphone-med) {
+  @media (min-width: $handheld-med) {
     margin-left: 6em;
   }
-  @media (min-width: $iphone-large) {
+  @media (min-width: $handheld-large) {
     margin-left: 7em;
+  }
+  @media (min-width: $tablet-small) {
+    margin-left: 9em;
   }
 }
 
@@ -567,11 +708,14 @@ svg {
       margin-top: 3em;
       margin-bottom: -17.5em;
       width: 180%;
-      @media (min-width: $iphone-med) {
+      @media (min-width: $handheld-med) {
         margin-bottom: -22em;
       }
-      @media (min-width: $iphone-large) {
+      @media (min-width: $handheld-large) {
         margin-bottom: -26em;
+      }
+      @media (min-width: $tablet-small) {
+        margin-bottom: -35em;
       }
     }
   }
@@ -580,7 +724,7 @@ svg {
       margin-top: 1em;
       margin-bottom: 4em;
       margin-left: 1em;
-      @media (min-width: $iphone-large) {
+      @media (min-width: $handheld-large) {
         margin-bottom: 3em;
       }
     }
@@ -610,38 +754,52 @@ svg {
 #page06__panel01—02 {
   margin-top: 5em;
   margin-left: 11em;
-  @media (min-width: $iphone-med) {
+  @media (min-width: $handheld-med) {
     margin-left: 13em;
+  }
+  @media (min-width: $tablet-small) {
+    margin-left: 17em;
   }
 }
 #page06__panel01—03 {
   margin-top: 10em;
   margin-left: .25em;
-  @media (min-width: $iphone-med) {
+  @media (min-width: $handheld-med) {
     margin-top: 11em;
   }
-  @media (min-width: $iphone-large) {
+  @media (min-width: $handheld-large) {
     margin-top: 12em;
+  }
+  @media (min-width: $tablet-small) {
+    margin-top: 14em;
   }
 }
 #page06__panel01—04 {
   margin-top: 15em;
   margin-left: .25em;
-  @media (min-width: $iphone-med) {
+  @media (min-width: $handheld-med) {
     margin-top: 16em;
   }
-  @media (min-width: $iphone-large) {
+  @media (min-width: $handheld-large) {
     margin-top: 17em;
+  }
+  @media (min-width: $tablet-small) {
+    margin-top: 19em;
+    margin-left: 3em;
   }
 }
 #page06__panel01—05 {
   margin-top: 18em;
   margin-left: .25em;
-  @media (min-width: $iphone-med) {
+  @media (min-width: $handheld-med) {
     margin-top: 19em;
   }
-  @media (min-width: $iphone-large) {
+  @media (min-width: $handheld-large) {
     margin-top: 20em;
+  }
+  @media (min-width: $tablet-small) {
+    margin-top: 22em;
+    margin-left: 8em;
   }
 }
 #page06__panel02—01 {
@@ -651,18 +809,18 @@ svg {
 #page06__panel02—02 {
   margin-top: 1em;
   margin-left: 4.5em;
-  @media (min-width: $iphone-large) {
+  @media (min-width: $handheld-large) {
     margin-left: 6em;
   }
 }
 #page06__panel02—03 {
   margin-top: 8em;
   margin-left: 4em;
-  @media (min-width: $iphone-med) {
+  @media (min-width: $handheld-med) {
     margin-top: 9em;
     margin-left: 8em;
   }
-  @media (min-width: $iphone-large) {
+  @media (min-width: $handheld-large) {
     margin-left: 10em;
   }
 }
@@ -673,7 +831,7 @@ svg {
 #page06__panel03—02 {
   margin-top: 2em;
   margin-left: 7em;
-  @media (min-width: $iphone-large) {
+  @media (min-width: $handheld-large) {
     margin-left: 10em;
   }
 }
