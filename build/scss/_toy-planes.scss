@@ -363,6 +363,61 @@ svg {
   margin-left: 2em;
 }
 
+// PAGE 05 LAYOUTS
+#page05 {
+	&__panel01 {
+    .press {
+      margin-top: 1em;
+      margin-bottom: -1em;
+      margin-left: -2.5em;
+      width: 150%;
+    }
+  }
+  &__panel02 {
+    .ray {
+      margin-top: 3em;
+      margin-bottom: -1em;
+      margin-left: -1em;
+      width: 80%;
+    }
+  }
+  &__panel03 {
+    .scrum {
+      margin-top: -3.5em;
+      margin-bottom: -1em;
+      margin-left: -.5em;
+    }
+  }
+  &__panel04 {
+    .cockpit {
+      margin-bottom: -1em;
+    }
+  }
+  &__panel05 {
+    .bottle {
+      margin-bottom: -1em;
+    }
+  }
+}
+
+// PAGE 05 WORD BALLOONS
+#page05__panel01—01 {
+  margin-top: .5em;
+  margin-left: .25em;
+}
+#page05__panel01—02 {
+  margin-top: 1em;
+  margin-left: 6em;
+}
+#page05__panel02—01 {
+  margin-top: 1em;
+  margin-left: 7em;
+}
+#page05__panel05—01 {
+  margin-top: -2em;
+  margin-left: 4em;
+}
+
 // 5.0 style
 // -----------------------------------------------------------------------------
 // global colors, decorations like shadows, gradients, etc.,

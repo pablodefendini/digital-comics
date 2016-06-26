@@ -802,6 +802,41 @@ svg {
   margin-top: 1em;
   margin-left: 2em; }
 
+#page05__panel01 .press {
+  margin-top: 1em;
+  margin-bottom: -1em;
+  margin-left: -2.5em;
+  width: 150%; }
+#page05__panel02 .ray {
+  margin-top: 3em;
+  margin-bottom: -1em;
+  margin-left: -1em;
+  width: 80%; }
+#page05__panel03 .scrum {
+  margin-top: -3.5em;
+  margin-bottom: -1em;
+  margin-left: -.5em; }
+#page05__panel04 .cockpit {
+  margin-bottom: -1em; }
+#page05__panel05 .bottle {
+  margin-bottom: -1em; }
+
+#page05__panel01—01 {
+  margin-top: .5em;
+  margin-left: .25em; }
+
+#page05__panel01—02 {
+  margin-top: 1em;
+  margin-left: 6em; }
+
+#page05__panel02—01 {
+  margin-top: 1em;
+  margin-left: 7em; }
+
+#page05__panel05—01 {
+  margin-top: -2em;
+  margin-left: 4em; }
+
 .toy-planes {
   background-color: black; }
   .toy-planes .panel {
