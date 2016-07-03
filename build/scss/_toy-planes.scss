@@ -70,6 +70,7 @@ $desktop-large: 1920px;
    p {
      font-size: .8em;
      line-height: 1.8em;
+     padding-bottom: 20em;
    }
  }
 
@@ -82,6 +83,9 @@ $desktop-large: 1920px;
 	padding: 0em;
   margin: 0;
   min-width: 100%;
+  .comic-page__full {
+    max-width: 752px;
+  }
   .masthead {
     h2 {
       margin: .8em auto;
@@ -131,6 +135,10 @@ svg {
         margin-top: 7em;
         margin-bottom: -2em;
   		}
+      @media (min-width: $tablet-med) {
+        margin-top: 5em;
+        margin-bottom: -4em;
+  		}
     }
   }
   &__panel02 {
@@ -138,6 +146,9 @@ svg {
       margin-top: -1em;
       @media (min-width: $tablet-small) {
         margin-top: -2em;
+  		}
+      @media (min-width: $tablet-med) {
+        margin-top: 0em;
   		}
     }
     .figures {
@@ -152,6 +163,9 @@ svg {
   		}
       @media (min-width: $tablet-small) {
         margin-top: -36em;
+  		}
+      @media (min-width: $tablet-med) {
+        margin-top: -26em;
   		}
     }
   }
@@ -172,6 +186,9 @@ svg {
       margin-top: 2em;
       margin-bottom: -2em;
       margin-left: -2em;
+      @media (min-width: $tablet-med) {
+        margin-top: 1em;
+      }
     }
     .ray {
       margin-top: 4em;
@@ -181,9 +198,15 @@ svg {
         @media (min-width: $handheld-large) {
           max-width: 13em;
         }
+        @media (min-width: $tablet-med) {
+          max-width: 10em;
+        }
       }
       @media (min-width: $tablet-small) {
         margin-top: 2em;
+      }
+      @media (min-width: $tablet-med) {
+        margin-bottom: -1em;
       }
     }
 	}
@@ -192,6 +215,9 @@ svg {
 #page01__panel01—01 {
   margin-top: 1em;
   margin-left: 1em;
+  @media (min-width: $tablet-med) {
+    margin-left: 3em;
+  }
 }
 #page01__panel01—02 {
   margin-top: 7em;
@@ -204,10 +230,16 @@ svg {
     margin-top: 2em;
     margin-left: 16em;
   }
+  @media (min-width: $tablet-med) {
+    margin-left: 27em;
+  }
 }
 #page01__panel02—01 {
   margin-top: 1em;
   margin-left: .5em;
+  @media (min-width: $tablet-med) {
+    margin-top: .5em;
+  }
 }
 #page01__panel02—02 {
   margin-top: 2em;
@@ -218,6 +250,10 @@ svg {
   @media (min-width: $tablet-small) {
     margin-top: 9em;
     margin-left: 18em;
+  }
+  @media (min-width: $tablet-med) {
+    margin-top: 4em;
+    margin-left: 11.5em;
   }
 }
 #page01__panel03—01 {
@@ -237,6 +273,10 @@ svg {
     margin-top: 3em;
     margin-left: 15em;
   }
+  @media (min-width: $tablet-med) {
+    margin-top: 1em;
+    margin-left: 9em;
+  }
 }
 #page01__panel05—01 {
   margin-top: .5em;
@@ -251,16 +291,27 @@ svg {
     margin-top: 1em;
     margin-left: 12em;
   }
+  @media (min-width: $tablet-med) {
+    margin-top: 1em;
+    margin-left: 7em;
+  }
 }
 
 // PAGE 02 LAYOUTS
 #page02 {
+  &__row01 {
+    @include flex-direction(column);
+  }
 	&__panel01 {
     .background {
       margin-top: 7em;
       margin-left: -1.5em;
       @media (min-width: $tablet-small) {
         margin-top: 2em;
+      }
+      @media (min-width: $tablet-med) {
+        margin-top: .5em;
+        margin-left: -4em;
       }
     }
     .embrace {
@@ -273,18 +324,31 @@ svg {
         margin-left:6em;
         width: 75%;
       }
+      @media (min-width: $tablet-med) {
+        margin-top: -17em;
+        margin-left:16em;
+        margin-bottom: -3em;
+        width: 30%;
+      }
     }
   }
   &__panel02 {
     .switchback {
       margin-top:-1em;
       margin-bottom: -.5em;
+      @media (min-width: $tablet-med) {
+        margin-top:-8em;
+        margin-bottom: -.5em;
+      }
     }
   }
   &__panel03 {
     .hilltop {
       margin-top: .5em;
       margin-bottom: -.5em;
+      @media (min-width: $tablet-med) {
+        margin-top: -4em;
+      }
     }
   }
 }
@@ -301,6 +365,10 @@ svg {
     margin-top: 10em;
     margin-left: 2em;
   }
+  @media (min-width: $tablet-med) {
+    margin-top: 3em;
+    margin-left: 8em;
+  }
 }
 #page02__panel01—02 {
   margin-top: 3em;
@@ -315,6 +383,10 @@ svg {
   @media (min-width: $tablet-small) {
     margin-top: 1em;
     margin-left: 13em;
+  }
+  @media (min-width: $tablet-med) {
+    margin-top: 1em;
+    margin-left: 26em;
   }
 }
 #page02__panel01—03 {
@@ -332,6 +404,10 @@ svg {
     margin-top: 24em;
     margin-left: 17em;
   }
+  @media (min-width: $tablet-med) {
+    margin-top: 14.5em;
+    margin-left: 29em;
+  }
 }
 #page02__panel02—01 {
   margin-top: -.05em;
@@ -339,6 +415,9 @@ svg {
   @media (min-width: $tablet-small) {
     margin-top: 2em;
     margin-left: 2em;
+  }
+  @media (min-width: $tablet-med) {
+    margin-top: 1em;
   }
 }
 #page02__panel03—01 {
@@ -354,6 +433,10 @@ svg {
   @media (min-width: $tablet-small) {
     margin-top: 1.5em;
     margin-left: 14em;
+  }
+  @media (min-width: $tablet-med) {
+    margin-top: 2em;
+    margin-left: 2em;
   }
 }
 
@@ -377,6 +460,12 @@ svg {
         margin-bottom: 2em;
         margin-left: -5em;
       }
+      @media (min-width: $tablet-med) {
+        margin-top: -20em;
+        margin-bottom: -3.3em;
+        margin-left: -5em;
+        width: 120%;
+      }
     }
   }
   &__panel02 {
@@ -388,6 +477,9 @@ svg {
         margin-top: 4em;
         margin-left: -2em;
         width: 100%;
+      }
+      @media (min-width: $tablet-med) {
+        margin-top: 2em;
       }
     }
     .satellite {
@@ -407,6 +499,10 @@ svg {
         margin-top: -15em;
         padding-bottom: 14em;
       }
+      @media (min-width: $tablet-med) {
+        margin-top: -18em;
+        padding-bottom: 9.5em;
+      }
     }
   }
   &__panel03 {
@@ -415,6 +511,10 @@ svg {
       margin-bottom: -1em;
       @media (min-width: $tablet-small) {
         margin-top: 4em;
+      }
+      @media (min-width: $tablet-med) {
+        margin-top: 0em;
+        margin-bottom: -5em;
       }
     }
   }
@@ -426,6 +526,9 @@ svg {
   margin-left: .5em;
   @media (min-width: $tablet-small) {
     margin-top: 1em;
+  }
+  @media (min-width: $tablet-med) {
+    margin-left: 2em;
   }
 }
 #page03__panel01—02 {
@@ -441,6 +544,10 @@ svg {
     margin-top: 0em;
     margin-left: 11em;
   }
+  @media (min-width: $tablet-med) {
+    margin-top: -1em;
+    margin-left: 17em;
+  }
 }
 #page03__panel01—03 {
   margin-top: 13.1em;
@@ -454,6 +561,10 @@ svg {
   }
   @media (min-width: $tablet-small) {
     margin-left: 14.3em;
+  }
+  @media (min-width: $tablet-med) {
+    margin-top: 12em;
+    margin-left: 28.5em;
   }
 }
 #page03__panel02—01 {
@@ -471,6 +582,10 @@ svg {
     margin-top: 1em;
     margin-left: 13.2em;
   }
+  @media (min-width: $tablet-med) {
+    margin-top: .5em;
+    margin-left: 27.4em;
+  }
 }
 #page03__panel03—01 {
   margin-top: 1em;
@@ -482,6 +597,10 @@ svg {
   @media (min-width: $tablet-small) {
     margin-top: 9em;
     margin-left: 2em;
+  }
+  @media (min-width: $tablet-med) {
+    margin-top: 5em;
+    margin-left: 14em;
   }
 }
 #page03__panel03—03 {
@@ -497,6 +616,10 @@ svg {
     margin-top: 4em;
     margin-left: 3em;
   }
+  @media (min-width: $tablet-med) {
+    margin-top: .5em;
+    margin-left: 17em;
+  }
 }
 
 // PAGE 04 LAYOUTS
@@ -504,6 +627,10 @@ svg {
 	&__panel01 {
     .market {
       margin-bottom: -.5em;
+      @media (min-width: $tablet-med) {
+        margin-top: -3em;
+        margin-bottom: -1em;
+      }
     }
   }
   &__panel02 {
@@ -514,6 +641,11 @@ svg {
       width: 125%;
       @media (min-width: $handheld-med) {
         margin-top: 0em;
+      }
+      @media (min-width: $tablet-med) {
+        margin-top: -2em;
+        margin-bottom: -1em;
+        width: 100%;
       }
     }
   }
@@ -528,6 +660,13 @@ svg {
       }
       @media (min-width: $tablet-small) {
         margin-bottom: 5em;
+      }
+    }
+    @media (min-width: $tablet-med) {
+      width: 70%;
+      .beach {
+        margin-top: 3em;
+        margin-bottom: 0;
       }
     }
   }
@@ -550,6 +689,18 @@ svg {
     @media (min-width: $tablet-small) {
       margin-top: -18em;
     }
+    @media (min-width: $tablet-med) {
+      margin-top: 1em;
+      margin-left: -20em;
+      margin-bottom: 1em;
+      //float: none;
+      width: 20%;
+      border: .1em solid black;
+      .lil-ray {
+        margin-top: 1em;
+        max-width: 9em;
+      }
+    }
   }
   &__panel05 {
     .ray {
@@ -558,6 +709,15 @@ svg {
       @media (min-width: $tablet-small) {
         margin-top: -6em;
         margin-bottom: -7em;
+      }
+    }
+    @media (min-width: $tablet-med) {
+      float: none;
+      width: 20%;
+      .ray {
+        margin: 0;
+        margin-bottom: -2em;
+        width: 110%;
       }
     }
   }
@@ -573,6 +733,9 @@ svg {
   @media (min-width: $tablet-small) {
     margin-left: 23em;
   }
+  @media (min-width: $tablet-med) {
+    margin-left: 35em;
+  }
 }
 #page04__panel02—01 {
   margin-top: .5em;
@@ -581,6 +744,9 @@ svg {
     margin-top: 3em;
     margin-left: 2em;
   }
+  @media (min-width: $tablet-med) {
+    margin-top: 1em;
+  }
 }
 #page04__panel05—01 {
   margin-top: 1em;
@@ -588,6 +754,10 @@ svg {
   @media (min-width: $tablet-small) {
     margin-top: 2em;
     margin-left: 7em;
+  }
+  @media (min-width: $tablet-med) {
+    margin-top: 1em;
+    margin-left: 1em;
   }
 }
 
@@ -606,6 +776,11 @@ svg {
         margin-top: -1em;
         margin-left: -5em;
       }
+      @media (min-width: $tablet-med) {
+        margin-top: -6em;
+        margin-left: -9em;
+        margin-bottom: -3em;
+      }
     }
   }
   &__panel02 {
@@ -621,6 +796,12 @@ svg {
         width: 100%;
       }
     }
+    @media (min-width: $tablet-med) {
+      margin-top: 0em;
+      //margin-left: 0em;
+      margin-bottom: 0em;
+      width: 50%;
+    }
   }
   &__panel03 {
     .scrum {
@@ -630,16 +811,37 @@ svg {
       @media (min-width: $tablet-small) {
         margin-top: -9em;
       }
+      @media (min-width: $tablet-med) {
+        margin-top: -10em;
+        margin-left: -2em;
+        width: 110%;
+      }
+    }
+    @media (min-width: $tablet-med) {
+      margin-bottom: -1em;
+      width: 60%;
     }
   }
   &__panel04 {
     .cockpit {
       margin-bottom: -1em;
+      @media (min-width: $tablet-med) {
+        margin-bottom: -4em;
+      }
+    }
+    @media (min-width: $tablet-med) {
+      width: 60%;
     }
   }
   &__panel05 {
     .bottle {
       margin-bottom: -1em;
+      @media (min-width: $tablet-med) {
+        margin-bottom: -4em;
+      }
+    }
+    @media (min-width: $tablet-med) {
+      width: 40%;
     }
   }
 }
@@ -651,6 +853,9 @@ svg {
   @media (min-width: $handheld-med) {
     margin-top: 1.5em;
     margin-left: .5em;
+  }
+  @media (min-width: $tablet-med) {
+    margin-left: 2em;
   }
 }
 #page05__panel01—02 {
@@ -665,6 +870,9 @@ svg {
   @media (min-width: $tablet-small) {
     margin-left: 9em;
   }
+  @media (min-width: $tablet-med) {
+    margin-left: 12em;
+  }
 }
 #page05__panel02—01 {
   margin-top: 1em;
@@ -676,6 +884,9 @@ svg {
     margin-top: 2em;
     margin-left: 15em;
   }
+  @media (min-width: $tablet-med) {
+    margin-left: 9em;
+  }
 }
 #page05__panel03—01 {
   @media (min-width: $handheld-med) {
@@ -685,6 +896,10 @@ svg {
   @media (min-width: $tablet-small) {
     margin-top: 3em;
     margin-left: 2em;
+  }
+  @media (min-width: $tablet-med) {
+    margin-top: 1em;
+    margin-left: 0em;
   }
 }
 #page05__panel05—01 {
@@ -698,6 +913,10 @@ svg {
   }
   @media (min-width: $tablet-small) {
     margin-left: 9em;
+  }
+  @media (min-width: $tablet-med) {
+    margin-top: 2em;
+    margin-left: -4em;
   }
 }
 
@@ -717,6 +936,11 @@ svg {
       @media (min-width: $tablet-small) {
         margin-bottom: -35em;
       }
+      @media (min-width: $tablet-med) {
+        margin-top: 1em;
+        margin-bottom: -1em;
+        width: 100%;
+      }
     }
   }
   &__panel02 {
@@ -728,12 +952,27 @@ svg {
         margin-bottom: 3em;
       }
     }
+    @media (min-width: $tablet-med) {
+      margin-top: -36em;
+      height: 14em;
+      background-color: black;
+      border-color: white;
+      .platform {
+        margin-top: -3em;
+      }
+    }
   }
   &__panel03 {
     .spaceplane {
       margin-top: 1em;
       margin-bottom: 1em;
       width: 90%;
+    }
+    @media (min-width: $tablet-med) {
+      background-color: rgba(0,0,0,0);
+      border: 0px;
+      margin-top: -30em;
+      width: 50%;
     }
   }
   &__panel04 {
@@ -742,6 +981,11 @@ svg {
       margin-top: 8em;
       margin-bottom: -1em;
       width: 101%;
+    }
+    @media (min-width: $tablet-med) {
+      margin-top: -22em;
+      margin-bottom: 1em;
+      margin-right: 1em;
     }
   }
 }
@@ -760,6 +1004,10 @@ svg {
   @media (min-width: $tablet-small) {
     margin-left: 17em;
   }
+  @media (min-width: $tablet-med) {
+    margin-top: 3em;
+    margin-left: 14em;
+  }
 }
 #page06__panel01—03 {
   margin-top: 10em;
@@ -772,6 +1020,10 @@ svg {
   }
   @media (min-width: $tablet-small) {
     margin-top: 14em;
+  }
+  @media (min-width: $tablet-med) {
+    margin-top: 1em;
+    margin-left: 26em;
   }
 }
 #page06__panel01—04 {
@@ -787,6 +1039,10 @@ svg {
     margin-top: 19em;
     margin-left: 3em;
   }
+  @media (min-width: $tablet-med) {
+    margin-top: 6em;
+    margin-left: 24.55em;
+  }
 }
 #page06__panel01—05 {
   margin-top: 18em;
@@ -801,6 +1057,10 @@ svg {
     margin-top: 22em;
     margin-left: 8em;
   }
+  @media (min-width: $tablet-med) {
+    margin-top: 9em;
+    margin-left: 24.6em;
+  }
 }
 #page06__panel02—01 {
   margin-top: .5em;
@@ -811,6 +1071,10 @@ svg {
   margin-left: 4.5em;
   @media (min-width: $handheld-large) {
     margin-left: 6em;
+  }
+  @media (min-width: $tablet-med) {
+    margin-top: 3em;
+    margin-left: 24.6em;
   }
 }
 #page06__panel02—03 {
@@ -823,10 +1087,18 @@ svg {
   @media (min-width: $handheld-large) {
     margin-left: 10em;
   }
+  @media (min-width: $tablet-med) {
+    margin-top: 6em;
+    margin-left: 24.6em;
+  }
 }
 #page06__panel03—01 {
   margin-top: .5em;
   margin-left: .5em;
+  @media (min-width: $tablet-med) {
+    margin-top: 2em;
+    margin-left: 14em;
+  }
 }
 #page06__panel03—02 {
   margin-top: 2em;
@@ -834,10 +1106,18 @@ svg {
   @media (min-width: $handheld-large) {
     margin-left: 10em;
   }
+  @media (min-width: $tablet-med) {
+    margin-top: 9em;
+    margin-left: 18em;
+  }
 }
 #page06__panel04—01 {
   margin-top: 1em;
   margin-left: 1em;
+  @media (min-width: $tablet-med) {
+    margin-top: 1em;
+    margin-left: 4em;
+  }
 }
 
 // 5.0 style

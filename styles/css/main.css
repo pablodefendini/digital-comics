@@ -585,12 +585,15 @@ body {
 
 footer.toy-planes p {
   font-size: .8em;
-  line-height: 1.8em; }
+  line-height: 1.8em;
+  padding-bottom: 20em; }
 
 .toy-planes {
   padding: 0em;
   margin: 0;
   min-width: 100%; }
+  .toy-planes .comic-page__full {
+    max-width: 752px; }
   .toy-planes .masthead h2 {
     margin: .8em auto; }
   .toy-planes .masthead li {
@@ -625,11 +628,18 @@ svg {
     #page01__panel01 .background {
       margin-top: 7em;
       margin-bottom: -2em; } }
+  @media (min-width: 768px) {
+    #page01__panel01 .background {
+      margin-top: 5em;
+      margin-bottom: -4em; } }
 #page01__panel02 .background {
   margin-top: -1em; }
   @media (min-width: 507px) {
     #page01__panel02 .background {
       margin-top: -2em; } }
+  @media (min-width: 768px) {
+    #page01__panel02 .background {
+      margin-top: 0em; } }
 #page01__panel02 .figures {
   margin-top: -22em;
   margin-bottom: -6em;
@@ -643,6 +653,9 @@ svg {
   @media (min-width: 507px) {
     #page01__panel02 .figures {
       margin-top: -36em; } }
+  @media (min-width: 768px) {
+    #page01__panel02 .figures {
+      margin-top: -26em; } }
 @media (min-width: 700px) {
   #page01__row02, #page01__row03 {
     width: 50%; } }
@@ -658,6 +671,9 @@ svg {
     margin-top: 2em;
     margin-bottom: -2em;
     margin-left: -2em; }
+    @media (min-width: 768px) {
+      #page01__row03 .joanie {
+        margin-top: 1em; } }
   #page01__row03 .ray {
     margin-top: 4em;
     margin-bottom: -3.5em; }
@@ -666,13 +682,22 @@ svg {
       @media (min-width: 414px) {
         #page01__row03 .ray img {
           max-width: 13em; } }
+      @media (min-width: 768px) {
+        #page01__row03 .ray img {
+          max-width: 10em; } }
     @media (min-width: 507px) {
       #page01__row03 .ray {
         margin-top: 2em; } }
+    @media (min-width: 768px) {
+      #page01__row03 .ray {
+        margin-bottom: -1em; } }
 
 #page01__panel01—01 {
   margin-top: 1em;
   margin-left: 1em; }
+  @media (min-width: 768px) {
+    #page01__panel01—01 {
+      margin-left: 3em; } }
 
 #page01__panel01—02 {
   margin-top: 7em;
@@ -685,10 +710,16 @@ svg {
     #page01__panel01—02 {
       margin-top: 2em;
       margin-left: 16em; } }
+  @media (min-width: 768px) {
+    #page01__panel01—02 {
+      margin-left: 27em; } }
 
 #page01__panel02—01 {
   margin-top: 1em;
   margin-left: .5em; }
+  @media (min-width: 768px) {
+    #page01__panel02—01 {
+      margin-top: .5em; } }
 
 #page01__panel02—02 {
   margin-top: 2em;
@@ -700,6 +731,10 @@ svg {
     #page01__panel02—02 {
       margin-top: 9em;
       margin-left: 18em; } }
+  @media (min-width: 768px) {
+    #page01__panel02—02 {
+      margin-top: 4em;
+      margin-left: 11.5em; } }
 
 #page01__panel03—01 {
   margin-top: 0em;
@@ -718,6 +753,10 @@ svg {
     #page01__panel04—01 {
       margin-top: 3em;
       margin-left: 15em; } }
+  @media (min-width: 768px) {
+    #page01__panel04—01 {
+      margin-top: 1em;
+      margin-left: 9em; } }
 
 #page01__panel05—01 {
   margin-top: .5em;
@@ -732,13 +771,24 @@ svg {
     #page01__panel05—01 {
       margin-top: 1em;
       margin-left: 12em; } }
+  @media (min-width: 768px) {
+    #page01__panel05—01 {
+      margin-top: 1em;
+      margin-left: 7em; } }
 
+#page02__row01 {
+  -webkit-flex-direction: column;
+  flex-direction: column; }
 #page02__panel01 .background {
   margin-top: 7em;
   margin-left: -1.5em; }
   @media (min-width: 507px) {
     #page02__panel01 .background {
       margin-top: 2em; } }
+  @media (min-width: 768px) {
+    #page02__panel01 .background {
+      margin-top: .5em;
+      margin-left: -4em; } }
 #page02__panel01 .embrace {
   margin-top: -4em;
   margin-left: .5em;
@@ -749,12 +799,25 @@ svg {
       margin-bottom: -9em;
       margin-left: 6em;
       width: 75%; } }
+  @media (min-width: 768px) {
+    #page02__panel01 .embrace {
+      margin-top: -17em;
+      margin-left: 16em;
+      margin-bottom: -3em;
+      width: 30%; } }
 #page02__panel02 .switchback {
   margin-top: -1em;
   margin-bottom: -.5em; }
+  @media (min-width: 768px) {
+    #page02__panel02 .switchback {
+      margin-top: -8em;
+      margin-bottom: -.5em; } }
 #page02__panel03 .hilltop {
   margin-top: .5em;
   margin-bottom: -.5em; }
+  @media (min-width: 768px) {
+    #page02__panel03 .hilltop {
+      margin-top: -4em; } }
 
 #page02__panel01—01 {
   margin-top: .5em;
@@ -767,6 +830,10 @@ svg {
     #page02__panel01—01 {
       margin-top: 10em;
       margin-left: 2em; } }
+  @media (min-width: 768px) {
+    #page02__panel01—01 {
+      margin-top: 3em;
+      margin-left: 8em; } }
 
 #page02__panel01—02 {
   margin-top: 3em;
@@ -782,6 +849,10 @@ svg {
     #page02__panel01—02 {
       margin-top: 1em;
       margin-left: 13em; } }
+  @media (min-width: 768px) {
+    #page02__panel01—02 {
+      margin-top: 1em;
+      margin-left: 26em; } }
 
 #page02__panel01—03 {
   margin-top: 28.5em;
@@ -798,6 +869,10 @@ svg {
     #page02__panel01—03 {
       margin-top: 24em;
       margin-left: 17em; } }
+  @media (min-width: 768px) {
+    #page02__panel01—03 {
+      margin-top: 14.5em;
+      margin-left: 29em; } }
 
 #page02__panel02—01 {
   margin-top: -.05em;
@@ -806,6 +881,9 @@ svg {
     #page02__panel02—01 {
       margin-top: 2em;
       margin-left: 2em; } }
+  @media (min-width: 768px) {
+    #page02__panel02—01 {
+      margin-top: 1em; } }
 
 #page02__panel03—01 {
   margin-top: .5em;
@@ -821,6 +899,10 @@ svg {
     #page02__panel03—01 {
       margin-top: 1.5em;
       margin-left: 14em; } }
+  @media (min-width: 768px) {
+    #page02__panel03—01 {
+      margin-top: 2em;
+      margin-left: 2em; } }
 
 #page03__panel01 .driver {
   margin-top: -3em;
@@ -839,6 +921,12 @@ svg {
       margin-top: -13em;
       margin-bottom: 2em;
       margin-left: -5em; } }
+  @media (min-width: 768px) {
+    #page03__panel01 .driver {
+      margin-top: -20em;
+      margin-bottom: -3.3em;
+      margin-left: -5em;
+      width: 120%; } }
 #page03__panel02 .ray {
   margin-top: 5em;
   margin-left: -4em;
@@ -848,6 +936,9 @@ svg {
       margin-top: 4em;
       margin-left: -2em;
       width: 100%; } }
+  @media (min-width: 768px) {
+    #page03__panel02 .ray {
+      margin-top: 2em; } }
 #page03__panel02 .satellite {
   margin-top: -14em;
   margin-left: 1em;
@@ -865,12 +956,20 @@ svg {
     #page03__panel02 .satellite {
       margin-top: -15em;
       padding-bottom: 14em; } }
+  @media (min-width: 768px) {
+    #page03__panel02 .satellite {
+      margin-top: -18em;
+      padding-bottom: 9.5em; } }
 #page03__panel03 .traffic {
   margin-top: 8em;
   margin-bottom: -1em; }
   @media (min-width: 507px) {
     #page03__panel03 .traffic {
       margin-top: 4em; } }
+  @media (min-width: 768px) {
+    #page03__panel03 .traffic {
+      margin-top: 0em;
+      margin-bottom: -5em; } }
 
 #page03__panel01—01 {
   margin-top: 2em;
@@ -878,6 +977,9 @@ svg {
   @media (min-width: 507px) {
     #page03__panel01—01 {
       margin-top: 1em; } }
+  @media (min-width: 768px) {
+    #page03__panel01—01 {
+      margin-left: 2em; } }
 
 #page03__panel01—02 {
   margin-top: .5em;
@@ -892,6 +994,10 @@ svg {
     #page03__panel01—02 {
       margin-top: 0em;
       margin-left: 11em; } }
+  @media (min-width: 768px) {
+    #page03__panel01—02 {
+      margin-top: -1em;
+      margin-left: 17em; } }
 
 #page03__panel01—03 {
   margin-top: 13.1em;
@@ -906,6 +1012,10 @@ svg {
   @media (min-width: 507px) {
     #page03__panel01—03 {
       margin-left: 14.3em; } }
+  @media (min-width: 768px) {
+    #page03__panel01—03 {
+      margin-top: 12em;
+      margin-left: 28.5em; } }
 
 #page03__panel02—01 {
   margin-top: 1em;
@@ -922,6 +1032,10 @@ svg {
     #page03__panel02—01 {
       margin-top: 1em;
       margin-left: 13.2em; } }
+  @media (min-width: 768px) {
+    #page03__panel02—01 {
+      margin-top: .5em;
+      margin-left: 27.4em; } }
 
 #page03__panel03—01 {
   margin-top: 1em;
@@ -934,6 +1048,10 @@ svg {
     #page03__panel03—02 {
       margin-top: 9em;
       margin-left: 2em; } }
+  @media (min-width: 768px) {
+    #page03__panel03—02 {
+      margin-top: 5em;
+      margin-left: 14em; } }
 
 #page03__panel03—03 {
   margin-top: 8em;
@@ -948,9 +1066,17 @@ svg {
     #page03__panel03—03 {
       margin-top: 4em;
       margin-left: 3em; } }
+  @media (min-width: 768px) {
+    #page03__panel03—03 {
+      margin-top: .5em;
+      margin-left: 17em; } }
 
 #page04__panel01 .market {
   margin-bottom: -.5em; }
+  @media (min-width: 768px) {
+    #page04__panel01 .market {
+      margin-top: -3em;
+      margin-bottom: -1em; } }
 #page04__panel02 .stall {
   margin-top: 1em;
   margin-bottom: -.5em;
@@ -959,6 +1085,11 @@ svg {
   @media (min-width: 375px) {
     #page04__panel02 .stall {
       margin-top: 0em; } }
+  @media (min-width: 768px) {
+    #page04__panel02 .stall {
+      margin-top: -2em;
+      margin-bottom: -1em;
+      width: 100%; } }
 #page04__panel03 .beach {
   margin-top: 5em;
   margin-bottom: 2em;
@@ -970,6 +1101,12 @@ svg {
   @media (min-width: 507px) {
     #page04__panel03 .beach {
       margin-bottom: 5em; } }
+@media (min-width: 768px) {
+  #page04__panel03 {
+    width: 70%; }
+    #page04__panel03 .beach {
+      margin-top: 3em;
+      margin-bottom: 0; } }
 #page04__panel04 {
   margin-top: -12.3em;
   margin-right: 1em;
@@ -988,6 +1125,16 @@ svg {
   @media (min-width: 507px) {
     #page04__panel04 {
       margin-top: -18em; } }
+  @media (min-width: 768px) {
+    #page04__panel04 {
+      margin-top: 1em;
+      margin-left: -20em;
+      margin-bottom: 1em;
+      width: 20%;
+      border: .1em solid black; }
+      #page04__panel04 .lil-ray {
+        margin-top: 1em;
+        max-width: 9em; } }
 #page04__panel05 .ray {
   margin-top: -4em;
   margin-bottom: -4em; }
@@ -995,6 +1142,14 @@ svg {
     #page04__panel05 .ray {
       margin-top: -6em;
       margin-bottom: -7em; } }
+@media (min-width: 768px) {
+  #page04__panel05 {
+    float: none;
+    width: 20%; }
+    #page04__panel05 .ray {
+      margin: 0;
+      margin-bottom: -2em;
+      width: 110%; } }
 
 #page04__panel01—01 {
   margin-top: .5em;
@@ -1005,6 +1160,9 @@ svg {
   @media (min-width: 507px) {
     #page04__panel01—01 {
       margin-left: 23em; } }
+  @media (min-width: 768px) {
+    #page04__panel01—01 {
+      margin-left: 35em; } }
 
 #page04__panel02—01 {
   margin-top: .5em;
@@ -1013,6 +1171,9 @@ svg {
     #page04__panel02—01 {
       margin-top: 3em;
       margin-left: 2em; } }
+  @media (min-width: 768px) {
+    #page04__panel02—01 {
+      margin-top: 1em; } }
 
 #page04__panel05—01 {
   margin-top: 1em;
@@ -1021,6 +1182,10 @@ svg {
     #page04__panel05—01 {
       margin-top: 2em;
       margin-left: 7em; } }
+  @media (min-width: 768px) {
+    #page04__panel05—01 {
+      margin-top: 1em;
+      margin-left: 1em; } }
 
 #page05__panel01 .press {
   margin-top: 1em;
@@ -1034,6 +1199,11 @@ svg {
     #page05__panel01 .press {
       margin-top: -1em;
       margin-left: -5em; } }
+  @media (min-width: 768px) {
+    #page05__panel01 .press {
+      margin-top: -6em;
+      margin-left: -9em;
+      margin-bottom: -3em; } }
 #page05__panel02 .ray {
   margin-top: 3em;
   margin-bottom: -1em;
@@ -1045,6 +1215,11 @@ svg {
       margin-bottom: -3em;
       margin-left: -2em;
       width: 100%; } }
+@media (min-width: 768px) {
+  #page05__panel02 {
+    margin-top: 0em;
+    margin-bottom: 0em;
+    width: 50%; } }
 #page05__panel03 .scrum {
   margin-top: -3.5em;
   margin-bottom: -1em;
@@ -1052,10 +1227,31 @@ svg {
   @media (min-width: 507px) {
     #page05__panel03 .scrum {
       margin-top: -9em; } }
+  @media (min-width: 768px) {
+    #page05__panel03 .scrum {
+      margin-top: -10em;
+      margin-left: -2em;
+      width: 110%; } }
+@media (min-width: 768px) {
+  #page05__panel03 {
+    margin-bottom: -1em;
+    width: 60%; } }
 #page05__panel04 .cockpit {
   margin-bottom: -1em; }
+  @media (min-width: 768px) {
+    #page05__panel04 .cockpit {
+      margin-bottom: -4em; } }
+@media (min-width: 768px) {
+  #page05__panel04 {
+    width: 60%; } }
 #page05__panel05 .bottle {
   margin-bottom: -1em; }
+  @media (min-width: 768px) {
+    #page05__panel05 .bottle {
+      margin-bottom: -4em; } }
+@media (min-width: 768px) {
+  #page05__panel05 {
+    width: 40%; } }
 
 #page05__panel01—01 {
   margin-top: .5em;
@@ -1064,6 +1260,9 @@ svg {
     #page05__panel01—01 {
       margin-top: 1.5em;
       margin-left: .5em; } }
+  @media (min-width: 768px) {
+    #page05__panel01—01 {
+      margin-left: 2em; } }
 
 #page05__panel01—02 {
   margin-top: 1em;
@@ -1077,6 +1276,9 @@ svg {
   @media (min-width: 507px) {
     #page05__panel01—02 {
       margin-left: 9em; } }
+  @media (min-width: 768px) {
+    #page05__panel01—02 {
+      margin-left: 12em; } }
 
 #page05__panel02—01 {
   margin-top: 1em;
@@ -1088,6 +1290,9 @@ svg {
     #page05__panel02—01 {
       margin-top: 2em;
       margin-left: 15em; } }
+  @media (min-width: 768px) {
+    #page05__panel02—01 {
+      margin-left: 9em; } }
 
 @media (min-width: 375px) {
   #page05__panel03—01 {
@@ -1097,6 +1302,10 @@ svg {
   #page05__panel03—01 {
     margin-top: 3em;
     margin-left: 2em; } }
+@media (min-width: 768px) {
+  #page05__panel03—01 {
+    margin-top: 1em;
+    margin-left: 0em; } }
 
 #page05__panel05—01 {
   margin-top: -2em;
@@ -1110,6 +1319,10 @@ svg {
   @media (min-width: 507px) {
     #page05__panel05—01 {
       margin-left: 9em; } }
+  @media (min-width: 768px) {
+    #page05__panel05—01 {
+      margin-top: 2em;
+      margin-left: -4em; } }
 
 #page06__panel01 .background {
   margin-top: 3em;
@@ -1124,6 +1337,11 @@ svg {
   @media (min-width: 507px) {
     #page06__panel01 .background {
       margin-bottom: -35em; } }
+  @media (min-width: 768px) {
+    #page06__panel01 .background {
+      margin-top: 1em;
+      margin-bottom: -1em;
+      width: 100%; } }
 #page06__panel02 .platform {
   margin-top: 1em;
   margin-bottom: 4em;
@@ -1131,16 +1349,35 @@ svg {
   @media (min-width: 414px) {
     #page06__panel02 .platform {
       margin-bottom: 3em; } }
+@media (min-width: 768px) {
+  #page06__panel02 {
+    margin-top: -36em;
+    height: 14em;
+    background-color: black;
+    border-color: white; }
+    #page06__panel02 .platform {
+      margin-top: -3em; } }
 #page06__panel03 .spaceplane {
   margin-top: 1em;
   margin-bottom: 1em;
   width: 90%; }
+@media (min-width: 768px) {
+  #page06__panel03 {
+    background-color: transparent;
+    border: 0px;
+    margin-top: -30em;
+    width: 50%; } }
 #page06__panel04 {
   background-color: black; }
   #page06__panel04 .ray {
     margin-top: 8em;
     margin-bottom: -1em;
     width: 101%; }
+  @media (min-width: 768px) {
+    #page06__panel04 {
+      margin-top: -22em;
+      margin-bottom: 1em;
+      margin-right: 1em; } }
 
 #page06__panel01—01 {
   margin-top: 1em;
@@ -1155,6 +1392,10 @@ svg {
   @media (min-width: 507px) {
     #page06__panel01—02 {
       margin-left: 17em; } }
+  @media (min-width: 768px) {
+    #page06__panel01—02 {
+      margin-top: 3em;
+      margin-left: 14em; } }
 
 #page06__panel01—03 {
   margin-top: 10em;
@@ -1168,6 +1409,10 @@ svg {
   @media (min-width: 507px) {
     #page06__panel01—03 {
       margin-top: 14em; } }
+  @media (min-width: 768px) {
+    #page06__panel01—03 {
+      margin-top: 1em;
+      margin-left: 26em; } }
 
 #page06__panel01—04 {
   margin-top: 15em;
@@ -1182,6 +1427,10 @@ svg {
     #page06__panel01—04 {
       margin-top: 19em;
       margin-left: 3em; } }
+  @media (min-width: 768px) {
+    #page06__panel01—04 {
+      margin-top: 6em;
+      margin-left: 24.55em; } }
 
 #page06__panel01—05 {
   margin-top: 18em;
@@ -1196,6 +1445,10 @@ svg {
     #page06__panel01—05 {
       margin-top: 22em;
       margin-left: 8em; } }
+  @media (min-width: 768px) {
+    #page06__panel01—05 {
+      margin-top: 9em;
+      margin-left: 24.6em; } }
 
 #page06__panel02—01 {
   margin-top: .5em;
@@ -1207,6 +1460,10 @@ svg {
   @media (min-width: 414px) {
     #page06__panel02—02 {
       margin-left: 6em; } }
+  @media (min-width: 768px) {
+    #page06__panel02—02 {
+      margin-top: 3em;
+      margin-left: 24.6em; } }
 
 #page06__panel02—03 {
   margin-top: 8em;
@@ -1218,10 +1475,18 @@ svg {
   @media (min-width: 414px) {
     #page06__panel02—03 {
       margin-left: 10em; } }
+  @media (min-width: 768px) {
+    #page06__panel02—03 {
+      margin-top: 6em;
+      margin-left: 24.6em; } }
 
 #page06__panel03—01 {
   margin-top: .5em;
   margin-left: .5em; }
+  @media (min-width: 768px) {
+    #page06__panel03—01 {
+      margin-top: 2em;
+      margin-left: 14em; } }
 
 #page06__panel03—02 {
   margin-top: 2em;
@@ -1229,10 +1494,18 @@ svg {
   @media (min-width: 414px) {
     #page06__panel03—02 {
       margin-left: 10em; } }
+  @media (min-width: 768px) {
+    #page06__panel03—02 {
+      margin-top: 9em;
+      margin-left: 18em; } }
 
 #page06__panel04—01 {
   margin-top: 1em;
   margin-left: 1em; }
+  @media (min-width: 768px) {
+    #page06__panel04—01 {
+      margin-top: 1em;
+      margin-left: 4em; } }
 
 .toy-planes {
   background-color: black; }
