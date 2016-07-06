@@ -1635,6 +1635,13 @@ figure {
     padding: 0em 1.7em 0em 1.7em;
     margin: 1em auto; }
 
+#skiptocontent {
+  height: 1px;
+  width: 1px;
+  position: absolute;
+  overflow: hidden;
+  top: -10px; }
+
 .two-up {
   display: -webkit-flex;
   display: flex;
