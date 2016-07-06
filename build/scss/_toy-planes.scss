@@ -41,6 +41,17 @@ $desktop-large: 1920px;
 // -----------------------------------------------------------------------------
 // all typographic rules, including colors, text-transforms, and bottom margins
 // -----------------------------------------------------------------------------
+
+.a {
+  fill: #fefefe;
+  stroke: #000;
+  letter-spacing: -0.06em;
+}
+
+.b {
+  font-size: 12px;
+  font-family: CCSoliloquous-Regular, CCSoliloquous;
+}
  .toy-planes {
   .masthead {
     padding: .9em 0;

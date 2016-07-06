@@ -565,6 +565,15 @@ body {
 #live-text__panel-4 .caption {
   background-color: yellow; }
 
+.a {
+  fill: #fefefe;
+  stroke: #000;
+  letter-spacing: -0.06em; }
+
+.b {
+  font-size: 12px;
+  font-family: CCSoliloquous-Regular, CCSoliloquous; }
+
 .toy-planes .masthead {
   padding: .9em 0; }
   .toy-planes .masthead h1, .toy-planes .masthead h2 {
