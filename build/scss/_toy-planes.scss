@@ -80,12 +80,29 @@ $desktop-large: 1920px;
 // widths, heights, margins, padding, etc.
 // -----------------------------------------------------------------------------
 .toy-planes {
+  .comic-page__full {
+    @media (min-width: $handheld-small) {
+
+    }
+    @media (min-width: $handheld-med) {
+
+    }
+    @media (min-width: $handheld-large) {
+
+    }
+    @media (min-width: $tablet-small) {
+      max-width: 500px;
+    }
+    @media (min-width: $tablet-med) {
+      max-width: 752px;
+    }
+  }
+}
+
+.toy-planes {
 	padding: 0em;
   margin: 0;
   min-width: 100%;
-  .comic-page__full {
-    max-width: 752px;
-  }
   .masthead {
     h2 {
       margin: .8em auto;
@@ -129,8 +146,11 @@ svg {
 	}
   &__panel01 {
     .background {
-      margin-top: 14em;
+      margin-top: 15em;
       margin-bottom: -.5em;
+      img {
+        width: 100%;
+      }
       @media (min-width: $tablet-small) {
         margin-top: 7em;
         margin-bottom: -2em;

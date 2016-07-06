@@ -588,12 +588,17 @@ footer.toy-planes p {
   line-height: 1.8em;
   padding-bottom: 20em; }
 
+@media (min-width: 507px) {
+  .toy-planes .comic-page__full {
+    max-width: 500px; } }
+@media (min-width: 768px) {
+  .toy-planes .comic-page__full {
+    max-width: 752px; } }
+
 .toy-planes {
   padding: 0em;
   margin: 0;
   min-width: 100%; }
-  .toy-planes .comic-page__full {
-    max-width: 752px; }
   .toy-planes .masthead h2 {
     margin: .8em auto; }
   .toy-planes .masthead li {
@@ -622,8 +627,10 @@ svg {
   display: -webkit-flex;
   display: flex; }
 #page01__panel01 .background {
-  margin-top: 14em;
+  margin-top: 15em;
   margin-bottom: -.5em; }
+  #page01__panel01 .background img {
+    width: 100%; }
   @media (min-width: 507px) {
     #page01__panel01 .background {
       margin-top: 7em;
